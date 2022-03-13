@@ -10,8 +10,6 @@
 .. moduleauthor:: Cosmin Luță <q4break@gmail.com>
 
 """
-from __future__ import unicode_literals
-
 from ..exceptions import BGGError
 from ..utils import DictObject
 

@@ -1,3 +1,4 @@
+import html
 import logging
 
 from ..objects.games import BoardGame
@@ -28,7 +29,7 @@ def create_game_from_xml(xml_root, game_id):
             "designers": xml_subelement_attr_list(xml_root, "link[@type='boardgamedesigner']"),
             "artists": xml_subelement_attr_list(xml_root, "link[@type='boardgameartist']"),
             "publishers": xml_subelement_attr_list(xml_root, "link[@type='boardgamepublisher']"),
-            "description": xml_subelement_text(xml_root, "description", convert=html_unescape, quiet=True)}
+            "description": xml_subelement_text(xml_root, "description", convert=html.unescape, quiet=True)}
 
     expands = []        # list of items this game expands
     expansions = []     # list of expansions this game has

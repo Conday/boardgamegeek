@@ -10,35 +10,17 @@
 .. moduleauthor:: Cosmin Luță <q4break@gmail.com>
 
 """
-from __future__ import unicode_literals
-import sys
+import logging
+import threading
+import time
 import xml.etree.ElementTree as ET
 from enum import Enum
 from xml.etree.ElementTree import ParseError as ETParseError
+
 import requests
-import logging
-import time
-import threading
 from requests.adapters import HTTPAdapter
 
-
-try:
-    import urllib.parse as urlparse
-except:
-    import urlparse
-
-# Compatibility shim which gives us a working "unescape HTML" function on all Python versions
-try:
-    import html
-    html_unescape = html.unescape # Python 3.4+
-except AttributeError: # Python 3.0 - 3.3
-    import html.parser
-    html_unescape = html.parser.HTMLParser().unescape
-except ImportError: # Python 2
-    import HTMLParser
-    html_unescape = HTMLParser.HTMLParser().unescape
-
-from .exceptions import BGGApiError, BGGApiRetryError, BGGError, BGGApiTimeoutError, BGGItemNotFoundError
+from .exceptions import BGGApiError, BGGApiRetryError, BGGApiTimeoutError, BGGItemNotFoundError
 
 log = logging.getLogger("boardgamegeek.utils")
 
@@ -354,11 +336,7 @@ def request_and_parse_xml(requests_session, url, params=None, timeout=15, retrie
 
             xml = r.text
 
-            if sys.version_info >= (3,):
-                root_elem = ET.fromstring(xml)
-            else:
-                utf8_xml = xml.encode("utf-8")
-                root_elem = ET.fromstring(utf8_xml)
+            root_elem = ET.fromstring(xml)
 
             return root_elem
 

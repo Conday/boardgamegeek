@@ -3,7 +3,8 @@ import logging
 
 from ..objects.games import BoardGame
 from ..exceptions import BGGApiError
-from ..utils import xml_subelement_attr_list, xml_subelement_text, xml_subelement_attr, get_board_game_version_from_element, html_unescape
+from ..utils import xml_subelement_attr_list, xml_subelement_text, xml_subelement_attr
+from ..utils import get_board_game_version_from_element
 
 log = logging.getLogger("boardgamegeek.loaders.game")
 
@@ -48,7 +49,7 @@ def create_game_from_xml(xml_root, game_id):
     data["expansions"] = expansions
     data["expands"] = expands
 
-    # These XML elements have a numberic value, attempt to convert them to integers
+    # These XML elements have a numeric value, attempt to convert them to integers
     for i in ["yearpublished", "minplayers", "maxplayers", "playingtime", "minplaytime", "maxplaytime", "minage"]:
         data[i] = xml_subelement_attr(xml_root, i, convert=int, quiet=True)
 

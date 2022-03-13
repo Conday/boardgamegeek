@@ -14,24 +14,22 @@ objects.
 """
 import datetime
 import logging
-import sys
-import warnings
-
-from .objects.user import User
-from .objects.search import SearchResult
 from enum import Enum
 
-from .exceptions import BGGApiError, BGGError, BGGItemNotFoundError, BGGValueError
-from .utils import xml_subelement_attr, request_and_parse_xml
-from .utils import RateLimitingAdapter, DEFAULT_REQUESTS_PER_MINUTE
 from .cache import CacheBackendMemory, CacheBackendNone
-
-from .loaders import create_guild_from_xml, add_guild_members_from_xml
-from .loaders import create_plays_from_xml, add_plays_from_xml
-from .loaders import create_hot_items_from_xml, add_hot_items_from_xml
+from .exceptions import BGGApiError, BGGError, BGGItemNotFoundError, BGGValueError
 from .loaders import create_collection_from_xml, add_collection_items_from_xml
 from .loaders import create_game_from_xml, add_game_comments_from_xml
-
+from .loaders import create_guild_from_xml, add_guild_members_from_xml
+from .loaders import create_hot_items_from_xml, add_hot_items_from_xml
+from .loaders import create_plays_from_xml, add_plays_from_xml
+from .objects.collection import Collection
+from .objects.games import BoardGame
+from .objects.plays import UserPlays
+from .objects.search import SearchResult
+from .objects.user import User
+from .utils import RateLimitingAdapter, DEFAULT_REQUESTS_PER_MINUTE
+from .utils import xml_subelement_attr, request_and_parse_xml, BGGRestrictCollectionTo
 
 log = logging.getLogger("boardgamegeek.api")
 
@@ -126,7 +124,8 @@ class BGGCommon(object):
         :return: game's id
         :raises: :py:exc:`boardgamegeek.exceptions.BGGValueError` in case of invalid parameter(s)
         :raises: :py:exc:`boardgamegeek.exceptions.BGGItemNotFoundError` if the game hasn't been found
-        :raises: :py:exc:`boardgamegeek.exceptions.BGGApiRetryError` if this request should be retried after a short delay
+        :raises: :py:exc:`boardgamegeek.exceptions.BGGApiRetryError` if this request should be retried after
+         a short delay
         :raises: :py:exc:`boardgamegeek.exceptions.BGGApiError` if the API response was invalid or couldn't be parsed
         :raises: :py:exc:`boardgamegeek.exceptions.BGGApiTimeoutError` if there was a timeout
         """
@@ -156,13 +155,15 @@ class BGGCommon(object):
         Retrieves details about a guild
 
         :param integer guild_id: the id number of the guild
-        :param callable progress: an optional callable for reporting progress, taking two integers (``current``, ``total``) as arguments
+        :param callable progress: an optional callable for reporting progress, taking two integers
+         (``current``, ``total``) as arguments
         :param bool members: if ``True``, names of the guild members will be fetched
         :return: ``Guild`` object containing the data
         :return: ``None`` if the information couldn't be retrieved
         :rtype: :py:class:`boardgamegeek.guild.Guild`
         :raises: :py:exc:`BGGValueError` in case of an invalid parameter(s)
-        :raises: :py:exc:`boardgamegeek.exceptions.BGGApiRetryError` if this request should be retried after a short delay
+        :raises: :py:exc:`boardgamegeek.exceptions.BGGApiRetryError` if this request should be retried
+         after a short delay
         :raises: :py:exc:`boardgamegeek.exceptions.BGGApiError` if the response couldn't be parsed
         :raises: :py:exc:`boardgamegeek.exceptions.BGGApiTimeoutError` if there was a timeout
         """
@@ -216,7 +217,8 @@ class BGGCommon(object):
         return guild
 
     # TODO: refactor
-    def user(self, name, progress=None, buddies=True, guilds=True, hot=True, top=True, domain=BGGRestrictDomainTo.BOARD_GAME):
+    def user(self, name, progress=None, buddies=True, guilds=True, hot=True, top=True,
+             domain=BGGRestrictDomainTo.BOARD_GAME):
         """
         Retrieves details about an user
 
@@ -227,7 +229,8 @@ class BGGCommon(object):
         :param bool guilds: if ``True``, get the user's guilds
         :param bool hot: if ``True``, get the user's "hot" list
         :param bool top: if ``True``, get the user's "top" list
-        :param str domain: restrict items on the "hot" and "top" lists to ``domain``. One of the constants in :py:class:`boardgamegeek.BGGSelectDomain`
+        :param str domain: restrict items on the "hot" and "top" lists to ``domain``.
+        One of the constants in :py:class:`boardgamegeek.BGGSelectDomain`
         :return: ``User`` object
         :rtype: :py:class:`boardgamegeek.user.User`
         :return: ``None`` if the user couldn't be found
@@ -235,7 +238,8 @@ class BGGCommon(object):
         :raises: `ValueError` in case of invalid parameters
         :raises: :py:exc:`boardgamegeek.exceptions.BGGValueError` in case of invalid parameter(s)
         :raises: :py:exc:`boardgamegeek.exceptions.BGGItemNotFoundError` if the user wasn't found
-        :raises: :py:exc:`boardgamegeek.exceptions.BGGApiRetryError` if this request should be retried after a short delay
+        :raises: :py:exc:`boardgamegeek.exceptions.BGGApiRetryError` if this request should be retried
+         after a short delay
         :raises: :py:exc:`boardgamegeek.exceptions.BGGApiError` if the response couldn't be parsed
         :raises: :py:exc:`boardgamegeek.exceptions.BGGApiTimeoutError` if there was a timeout
         """
@@ -377,7 +381,8 @@ class BGGCommon(object):
         :rtype: :py:class:`boardgamegeek.plays.Plays`
         :return: ``None`` if the user/game couldn't be found
         :raises: :py:exc:`boardgamegeek.exceptions.BGGValueError` in case of invalid parameter(s)
-        :raises: :py:exc:`boardgamegeek.exceptions.BGGApiRetryError` if this request should be retried after a short delay
+        :raises: :py:exc:`boardgamegeek.exceptions.BGGApiRetryError` if this request should be retried
+        after a short delay
         :raises: :py:exc:`boardgamegeek.exceptions.BGGApiError` if the response couldn't be parsed
         :raises: :py:exc:`boardgamegeek.exceptions.BGGApiTimeoutError` if there was a timeout
 
@@ -525,7 +530,8 @@ class BGGCommon(object):
         :param double min_bgg_rating : return items rated on BGG with a minimum of ``min_bgg_rating``
         :param double bgg_rating: return items rated on BGG with a maximum of ``bgg_rating``
         :param int collection_id: restrict results to the collection specified by this id
-        :param str modified_since: restrict results to those whose status (own, want, etc.) has been changed/added since ``modified_since``. Format: ``YY-MM-DD`` or ``YY-MM-DD HH:MM:SS``
+        :param str modified_since: restrict results to those whose status (own, want, etc.) has been changed/added
+         since ``modified_since``. Format: ``YY-MM-DD`` or ``YY-MM-DD HH:MM:SS``
 
 
         :return: ``Collection`` object
@@ -533,7 +539,8 @@ class BGGCommon(object):
         :return: ``None`` if user not found
 
         :raises: :py:exc:`boardgamegeek.exceptions.BGGValueError` in case of invalid parameter(s)
-        :raises: :py:exc:`boardgamegeek.exceptions.BGGApiRetryError` if this request should be retried after a short delay
+        :raises: :py:exc:`boardgamegeek.exceptions.BGGApiRetryError` if this request should be retried
+         after a short delay
         :raises: :py:exc:`boardgamegeek.exceptions.BGGApiError` if the response couldn't be parsed
         :raises: :py:exc:`boardgamegeek.exceptions.BGGApiTimeoutError` if there was a timeout
         """
@@ -640,13 +647,15 @@ class BGGCommon(object):
         Search for a game
 
         :param str query: the string to search for
-        :param list search_type: list of :py:class:`boardgamegeek.api.BGGRestrictItemTypeTo`, indicating what to include in the search results.
+        :param list search_type: list of :py:class:`boardgamegeek.api.BGGRestrictItemTypeTo`, indicating what to include
+         in the search results.
         :param bool exact: if True, try to match the name exactly
         :return: list of ``SearchResult``
         :rtype: list of :py:class:`boardgamegeek.search.SearchResult`
 
         :raises: :py:exc:`boardgamegeek.exceptions.BGGValueError` in case of invalid parameter(s)
-        :raises: :py:exc:`boardgamegeek.exceptions.BGGApiRetryError` if this request should be retried after a short delay
+        :raises: :py:exc:`boardgamegeek.exceptions.BGGApiRetryError` if this request should be retried after
+         a short delay
         :raises: :py:exc:`boardgamegeek.exceptions.BGGApiError` if the API response was invalid or couldn't be parsed
         :raises: :py:exc:`boardgamegeek.exceptions.BGGApiTimeoutError` if there was a timeout
         """
@@ -702,7 +711,6 @@ class BGGClient(BGGCommon):
         :param float timeout: Timeout for network operations, in seconds
         :param int retries: Number of retries to perform in case the API returns HTTP 202 (retry) or in case of timeouts
         :param float retry_delay: Time to sleep, in seconds, between retries when the API returns HTTP 202 (retry)
-        :param disable_ssl: ignored, left for backwards compatibility
         :param requests_per_minute: how many requests per minute to allow to go out to BGG (throttle prevention)
 
         Example usage::
@@ -715,7 +723,9 @@ class BGGClient(BGGCommon):
             >>> bgg_sqlite_cache = BGGClient(cache=CacheBackendSqlite(path="/path/to/cache.db", ttl=3600))
 
     """
-    def __init__(self, cache=CacheBackendMemory(ttl=3600), timeout=15, retries=3, retry_delay=5, disable_ssl=False, requests_per_minute=DEFAULT_REQUESTS_PER_MINUTE):
+
+    def __init__(self, cache=CacheBackendMemory(ttl=3600), timeout=15, retries=3, retry_delay=5,
+                 requests_per_minute=DEFAULT_REQUESTS_PER_MINUTE):
 
         super(BGGClient, self).__init__(api_endpoint="https://www.boardgamegeek.com/xmlapi2",
                                         cache=cache,
@@ -729,19 +739,20 @@ class BGGClient(BGGCommon):
         Returns the BGG ID of a game, searching by name
 
         :param str name: The name of the game to search for
-        :param boardgamegeek.BGGChoose choose: method of selecting the game by name, when dealing with multiple results.
+        :param boardgamegeek2.BGGChoose choose: method of selecting the game by name, when dealing with
+         multiple results.
         :return: the game's id
         :rtype: integer
         :return: ``None`` if game wasn't found
         :raises: :py:exc:`boardgamegeek.exceptions.BGGError` in case of invalid name
-        :raises: :py:exc:`boardgamegeek.exceptions.BGGApiRetryError` if this request should be retried after a short delay
+        :raises: :py:exc:`boardgamegeek.exceptions.BGGApiRetryError` if this request should be retried
+         after a short delay
         :raises: :py:exc:`boardgamegeek.exceptions.BGGApiError` if the response couldn't be parsed
         :raises: :py:exc:`boardgamegeek.exceptions.BGGApiTimeoutError` if there was a timeout
         """
         return self._get_game_id(name, game_type=BGGRestrictSearchResultsTo.BOARD_GAME, choose=choose)
 
-    def game_list(self, game_id_list, versions=False,
-                  videos=False, historical=False, marketplace=False):
+    def game_list(self, game_id_list, versions=False, videos=False, historical=False, marketplace=False):
         """
         Get list of games by from a list of ids.
 
@@ -901,11 +912,13 @@ class BGGClient(BGGCommon):
 
         :param str name: the name of the game to search for
         :return: list of :py:class:`boardgamegeek.games.BoardGame`
-        :raises: :py:exc:`boardgamegeek.exceptions.BoardGameGeekAPIRetryError` if this request should be retried after a short delay
+        :raises: :py:exc:`boardgamegeek.exceptions.BoardGameGeekAPIRetryError` if this request should be retried after
+        a short delay
         :raises: :py:exc:`boardgamegeek.exceptions.BoardGameGeekAPIError` if the response couldn't be parsed
         :raises: :py:exc:`boardgamegeek.exceptions.BoardGameGeekTimeoutError` if there was a timeout
         """
         return [self.game(game_id=s.id)
                 for s in self.search(name,
-                                     search_type=[BGGRestrictSearchResultsTo.BOARD_GAME, BGGRestrictSearchResultsTo.BOARD_GAME_EXPANSION],
+                                     search_type=[BGGRestrictSearchResultsTo.BOARD_GAME,
+                                                  BGGRestrictSearchResultsTo.BOARD_GAME_EXPANSION],
                                      exact=True)]

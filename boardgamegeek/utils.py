@@ -102,7 +102,8 @@ class DictObject(object):
         return self._data
 
 
-def xml_subelement_attr_by_attr(xml_elem, subelement, filter_attr, filter_value, convert=None, attribute="value", default=None, quiet=False):
+def xml_subelement_attr_by_attr(xml_elem, subelement, filter_attr, filter_value, convert=None, attribute="value",
+                                default=None, quiet=False):
     """
     Search for a sub-element having an attribute ``filter_attr`` set to ``filter_value``
 

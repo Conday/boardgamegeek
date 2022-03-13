@@ -13,8 +13,8 @@
 from copy import copy
 import datetime
 
-from boardgamegeek.exceptions import BGGError
-from boardgamegeek.utils import DictObject
+from ..exceptions import BGGError
+from ..utils import DictObject
 
 
 class PlaysessionPlayer(DictObject):

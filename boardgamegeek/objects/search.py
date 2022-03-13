@@ -10,10 +10,9 @@
 .. moduleauthor:: Cosmin Luță <q4break@gmail.com>
 
 """
-
-from boardgamegeek.objects.things import Thing
-from boardgamegeek.exceptions import BGGError
-from boardgamegeek.utils import fix_unsigned_negative
+from ..objects.things import Thing
+from ..exceptions import BGGError
+from ..utils import fix_unsigned_negative
 
 
 class SearchResult(Thing):

@@ -2,8 +2,8 @@ import sys
 import argparse
 import logging
 
-from boardgamegeek import BGGClientLegacy
 from .api import BGGClient, HOT_ITEM_CHOICES, BGGChoose
+from .legacy_api import BGGClientLegacy
 
 log = logging.getLogger("boardgamegeek")
 log_fmt = "[%(levelname)s] %(message)s"
@@ -12,13 +12,14 @@ log_fmt = "[%(levelname)s] %(message)s"
 def brief_game_stats(game):
     try:
         desc = '''"{}",{},{}-{},{},{},{},{},"{}","{}"'''.format(game.name, game.year,
-               game.min_players, game.max_players,
-               game.playing_time,
-               game.rating_average, game.rating_average_weight, game.users_rated,
-               " / ".join(game.categories).lower(),
-               " / ".join(game.mechanics).lower())
+                                                                game.min_players, game.max_players,
+                                                                game.playing_time,
+                                                                game.rating_average, game.rating_average_weight,
+                                                                game.users_rated,
+                                                                " / ".join(game.categories).lower(),
+                                                                " / ".join(game.mechanics).lower())
 
-        print >>sys.stderr, "{}".format(desc)
+        print >> sys.stderr, "{}".format(desc)
         sys.stdout.flush()
     except Exception as e:
         pass
@@ -42,8 +43,10 @@ def main():
 
     p.add_argument("-u", "--user", help="Query by user name")
     p.add_argument("-g", "--game", help="Query by game name")
-    p.add_argument("--most-recent", help="get the most recent game when querying by name (default)", action="store_true")
-    p.add_argument("--most-popular", help="get the most popular (top ranked) game when querying by name", action="store_true")
+    p.add_argument("--most-recent", help="get the most recent game when querying by name (default)",
+                   action="store_true")
+    p.add_argument("--most-popular", help="get the most popular (top ranked) game when querying by name",
+                   action="store_true")
 
     p.add_argument("-i", "--id", help="Query by game id", type=int)
     p.add_argument("--game-stats", help="Return brief statistics about the game")
@@ -82,7 +85,7 @@ def main():
     log.addHandler(stdout)
 
     def progress_cb(items, total):
-        log.debug("fetching items: {}% complete".format(items*100/total))
+        log.debug("fetching items: {}% complete".format(items * 100 / total))
 
     if not any([args.user, args.game, args.id, args.guild, args.collection,
                 args.plays, args.plays_by_game, args.hot_items, args.search,

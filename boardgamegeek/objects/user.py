@@ -20,6 +20,7 @@ class User(Thing):
     """
     Information about an user.
     """
+
     def __init__(self, data):
         kw = copy(data)
         if "buddies" not in kw:
@@ -62,11 +63,9 @@ class User(Thing):
         :param dict data: buddy's data
         """
         self._buddies.append(Thing(data))
-        #self._data["buddies"].append(data)
 
     def add_guild(self, data):
         self._guilds.append(Thing(data))
-        #self._data["guilds"].append(data)
 
     def add_top_item(self, data):
         self._data["top"].append(data)

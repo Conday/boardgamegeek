@@ -26,7 +26,7 @@ class PlaysessionPlayer(DictObject):
     """
 
     def __init__(self, data):
-        self._data = data
+        super().__init__(data)
 
     @property
     def username(self):

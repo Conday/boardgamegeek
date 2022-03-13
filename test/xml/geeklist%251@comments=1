@@ -1,9 +1,9 @@
 <geeklist id="1" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
-<postdate>Sun, 27 Aug 2006 06:32:10 +0000</postdate>
-<postdate_timestamp>1156660330</postdate_timestamp>
+<postdate>Tue, 30 Nov 2021 05:04:50 +0000</postdate>
+<postdate_timestamp>1638248690</postdate_timestamp>
 <editdate>Sun, 27 Aug 2006 06:32:10 +0000</editdate>
 <editdate_timestamp>1156660330</editdate_timestamp>
-<thumbs>111</thumbs>
+<thumbs>251</thumbs>
 <numitems>10</numitems>
 
 <username>Aldie</username> 
@@ -12,81 +12,81 @@
 
 Sorry for not putting much in the way of descriptions.  This is pretty much a test list.</description>
 
-	<comment date="Thu, 07 Nov 2002 20:40:00 +0000" editdate="Thu, 07 Nov 2002 20:40:00 +0000" postdate="Thu, 07 Nov 2002 20:40:00 +0000" thumbs="0" username="derk">
-Of course, the reason for this bizarre start is because of the session report which started it all off, http://www.boardgamegeek.com/viewfullsession.php3?groupname=Metrogamers&amp;dateofsession=19990214 .  Ahh, back in the day.  When this database was still a glimmer in Aldie's eye.
+	<comment username="derk" date="Thu, 07 Nov 2002 20:40:00 +0000" postdate="Thu, 07 Nov 2002 20:40:00 +0000" editdate="Thu, 07 Nov 2002 20:40:00 +0000" thumbs="0">
+Of course, the reason for this bizarre start is because of the session report which started it all off, http://www.boardgamegeek.com/viewfullsession.php3?groupname=Metrogamers&amp;dateofsession=19990214 .  Ahh, back in the day.  When this database was still a glimmer in Aldie&#039;s eye.
 </comment>
-<comment date="Thu, 06 Nov 2003 21:21:51 +0000" editdate="Thu, 06 Nov 2003 21:21:51 +0000" postdate="Thu, 06 Nov 2003 21:21:51 +0000" thumbs="0" username="Aldie">
+<comment username="Aldie" date="Thu, 06 Nov 2003 21:21:51 +0000" postdate="Thu, 06 Nov 2003 21:21:51 +0000" editdate="Thu, 06 Nov 2003 21:21:51 +0000" thumbs="0">
 Ahhh, those were the days...
 </comment>
-<comment date="Fri, 07 Nov 2003 00:17:31 +0000" editdate="Fri, 07 Nov 2003 00:17:31 +0000" postdate="Fri, 07 Nov 2003 00:17:31 +0000" thumbs="6" username="Octavian">
+<comment username="Octavian" date="Fri, 07 Nov 2003 00:17:31 +0000" postdate="Fri, 07 Nov 2003 00:17:31 +0000" editdate="Fri, 07 Nov 2003 00:17:31 +0000" thumbs="7">
 You need more things to do, Aldie.  It took you less than a year to respond.  :)  
 
 -MMM
 </comment>
-<comment date="Wed, 07 Jul 2004 03:36:55 +0000" editdate="Wed, 07 Jul 2004 03:36:55 +0000" postdate="Wed, 07 Jul 2004 03:36:55 +0000" thumbs="0" username="MisterCranky">
-Let's speed up the comments on this list, shall we?
+<comment username="MisterCranky" date="Wed, 07 Jul 2004 03:36:55 +0000" postdate="Wed, 07 Jul 2004 03:36:55 +0000" editdate="Wed, 07 Jul 2004 03:36:55 +0000" thumbs="0">
+Let&#039;s speed up the comments on this list, shall we?
 </comment>
-<comment date="Mon, 26 Sep 2005 18:37:11 +0000" editdate="Mon, 26 Sep 2005 18:37:11 +0000" postdate="Mon, 26 Sep 2005 18:37:11 +0000" thumbs="0" username="houstonrules">
-     That doesn't appear to be happening. So much for Geeklist #1.
+<comment username="houstonrules" date="Mon, 26 Sep 2005 18:37:11 +0000" postdate="Mon, 26 Sep 2005 18:37:11 +0000" editdate="Mon, 26 Sep 2005 18:37:11 +0000" thumbs="0">
+     That doesn&#039;t appear to be happening. So much for Geeklist #1.
 </comment>
-<comment date="Fri, 21 Oct 2005 23:28:39 +0000" editdate="Fri, 21 Oct 2005 23:28:39 +0000" postdate="Fri, 21 Oct 2005 23:28:39 +0000" thumbs="0" username="apotheos">
+<comment username="apotheos" date="Fri, 21 Oct 2005 23:28:39 +0000" postdate="Fri, 21 Oct 2005 23:28:39 +0000" editdate="Fri, 21 Oct 2005 23:28:39 +0000" thumbs="0">
 So how come these games are numericly sequential in the database?
 
 Ponderous.
 
 </comment>
-<comment date="Mon, 23 Oct 2006 16:29:26 +0000" editdate="Mon, 23 Oct 2006 16:29:26 +0000" postdate="Mon, 23 Oct 2006 16:29:26 +0000" thumbs="0" username="JeffyJeff">
-Just noticed there are holes in the list, and about 1/2 way through the list, the list item numbers don't match the bgg game id... the following games are missing all together that have a game id &lt;= 10?  Or were 6 &amp; 8 actually added later?
+<comment username="JeffyJeff" date="Mon, 23 Oct 2006 16:29:26 +0000" postdate="Mon, 23 Oct 2006 16:29:26 +0000" editdate="Mon, 23 Oct 2006 16:29:26 +0000" thumbs="1">
+Just noticed there are holes in the list, and about 1/2 way through the list, the list item numbers don&#039;t match the bgg game id... the following games are missing all together that have a game id &lt;= 10?  Or were 6 &amp; 8 actually added later?
 
 Game id #6: [gameid=6]
 Game id #8: [gameid=8]
 </comment>
-<comment date="Wed, 18 Jul 2007 23:09:22 +0000" editdate="Wed, 18 Jul 2007 23:09:22 +0000" postdate="Wed, 18 Jul 2007 23:09:22 +0000" thumbs="3" username="Bail Organa">
-[q="MisterCranky"]Let's speed up the comments on this list, shall we?[/q]
+<comment username="Bail Organa" date="Wed, 18 Jul 2007 23:09:22 +0000" postdate="Wed, 18 Jul 2007 23:09:22 +0000" editdate="Wed, 18 Jul 2007 23:09:22 +0000" thumbs="3">
+[q=&quot;MisterCranky&quot;]Let&#039;s speed up the comments on this list, shall we?[/q]
 OK :p
 </comment>
-<comment date="Fri, 28 Mar 2008 03:46:57 +0000" editdate="Fri, 28 Mar 2008 03:46:57 +0000" postdate="Fri, 28 Mar 2008 03:46:57 +0000" thumbs="4" username="wifwendell">
-[q="Bail Organa"][q="MisterCranky"]Let's speed up the comments on this list, shall we?[/q]
+<comment username="wifwendell" date="Fri, 28 Mar 2008 03:46:57 +0000" postdate="Fri, 28 Mar 2008 03:46:57 +0000" editdate="Fri, 28 Mar 2008 03:46:57 +0000" thumbs="4">
+[q=&quot;Bail Organa&quot;][q=&quot;MisterCranky&quot;]Let&#039;s speed up the comments on this list, shall we?[/q]
 OK :p[/q]
 
 I had a good comment, but I got distracted.
 </comment>
-<comment date="Fri, 27 Jun 2008 00:41:07 +0000" editdate="Fri, 27 Jun 2008 00:41:07 +0000" postdate="Fri, 27 Jun 2008 00:41:07 +0000" thumbs="2" username="tiggers">
+<comment username="tiggers" date="Fri, 27 Jun 2008 00:41:07 +0000" postdate="Fri, 27 Jun 2008 00:41:07 +0000" editdate="Fri, 27 Jun 2008 00:41:07 +0000" thumbs="2">
 Getting... a... bit.... quicker.... only.... three... months..... between.... comments.....
 
 
 
 </comment>
-<comment date="Fri, 14 Nov 2008 16:50:50 +0000" editdate="Fri, 14 Nov 2008 16:50:50 +0000" postdate="Fri, 14 Nov 2008 16:50:50 +0000" thumbs="1" username="teabo">
-[q="tiggers"]Getting... a... bit.... quicker.... only.... three... months..... between.... comments.....[/q]
+<comment username="teabo" date="Fri, 14 Nov 2008 16:50:50 +0000" postdate="Fri, 14 Nov 2008 16:50:50 +0000" editdate="Fri, 14 Nov 2008 16:50:50 +0000" thumbs="1">
+[q=&quot;tiggers&quot;]Getting... a... bit.... quicker.... only.... three... months..... between.... comments.....[/q]
 
 Wait... what?
 </comment>
-<comment date="Tue, 18 Nov 2008 04:44:01 +0000" editdate="Tue, 18 Nov 2008 04:44:01 +0000" postdate="Tue, 18 Nov 2008 04:44:01 +0000" thumbs="1" username="Skotte">
-HeSaidWe'reGettingQuicker!
+<comment username="Skotte" date="Tue, 18 Nov 2008 04:44:01 +0000" postdate="Tue, 18 Nov 2008 04:44:01 +0000" editdate="Tue, 18 Nov 2008 04:44:01 +0000" thumbs="1">
+HeSaidWe&#039;reGettingQuicker!
 </comment>
-<comment date="Wed, 21 Jan 2009 20:10:29 +0000" editdate="Wed, 21 Jan 2009 20:10:29 +0000" postdate="Wed, 21 Jan 2009 20:10:29 +0000" thumbs="5" username="oldsin">
+<comment username="oldsin" date="Wed, 21 Jan 2009 20:10:29 +0000" postdate="Wed, 21 Jan 2009 20:10:29 +0000" editdate="Wed, 21 Jan 2009 20:10:29 +0000" thumbs="5">
 urge to comment fading... fading...
 </comment>
-<comment date="Wed, 21 Jan 2009 21:03:06 +0000" editdate="Wed, 21 Jan 2009 21:03:06 +0000" postdate="Wed, 21 Jan 2009 21:03:06 +0000" thumbs="2" username="Chachito">
+<comment username="Chachito" date="Wed, 21 Jan 2009 21:03:06 +0000" postdate="Wed, 21 Jan 2009 21:03:06 +0000" editdate="Wed, 21 Jan 2009 21:03:06 +0000" thumbs="2">
 I really want to comment, but I have nothing to say...  Except, boy are the dates on these things messed up, and many comments are invisible.  It says 2 comments, and only 1 appears, etc...
 </comment>
-<comment date="Wed, 16 Sep 2009 06:02:27 +0000" editdate="Wed, 16 Sep 2009 06:02:27 +0000" postdate="Wed, 16 Sep 2009 06:02:27 +0000" thumbs="0" username="facesnorth">
-Wanted to keep the comments rolling on this one.  Can't lose the progress we've made.
+<comment username="facesnorth" date="Wed, 16 Sep 2009 06:02:27 +0000" postdate="Wed, 16 Sep 2009 06:02:27 +0000" editdate="Wed, 16 Sep 2009 06:02:27 +0000" thumbs="0">
+Wanted to keep the comments rolling on this one.  Can&#039;t lose the progress we&#039;ve made.
 </comment>
-<comment date="Mon, 07 Dec 2009 22:16:17 +0000" editdate="Mon, 07 Dec 2009 22:16:17 +0000" postdate="Mon, 07 Dec 2009 22:16:17 +0000" thumbs="0" username="hend">
+<comment username="hend" date="Mon, 07 Dec 2009 22:16:17 +0000" postdate="Mon, 07 Dec 2009 22:16:17 +0000" editdate="Mon, 07 Dec 2009 22:16:17 +0000" thumbs="0">
 Down to just under three months for this comment!
 </comment>
-<comment date="Thu, 27 May 2010 15:13:06 +0000" editdate="Thu, 27 May 2010 15:13:06 +0000" postdate="Thu, 27 May 2010 15:13:06 +0000" thumbs="0" username="JDigman62">
+<comment username="JDigman62" date="Thu, 27 May 2010 15:13:06 +0000" postdate="Thu, 27 May 2010 15:13:06 +0000" editdate="Thu, 27 May 2010 15:13:06 +0000" thumbs="0">
 5 1/2 months between comments.  Slowing...down...again...
 </comment>
-<comment date="Sat, 29 May 2010 13:29:24 +0000" editdate="Sat, 29 May 2010 13:29:24 +0000" postdate="Sat, 29 May 2010 13:29:24 +0000" thumbs="0" username="Chris C">
-[q="JDigman62"]5 1/2 months between comments.  Slowing...down...again...[/q]
+<comment username="Chris C" date="Sat, 29 May 2010 13:29:24 +0000" postdate="Sat, 29 May 2010 13:29:24 +0000" editdate="Sat, 29 May 2010 13:29:24 +0000" thumbs="0">
+[q=&quot;JDigman62&quot;]5 1/2 months between comments.  Slowing...down...again...[/q]
 
 Really? (Does a question count as a comment? (Do two questions? ... ))
 </comment>
-<comment date="Mon, 17 Oct 2011 19:49:34 +0000" editdate="Mon, 17 Oct 2011 19:49:34 +0000" postdate="Mon, 17 Oct 2011 19:49:34 +0000" thumbs="0" username="TIM0THY">
-[q]Let's speed up the comments on this list, shall we?[/q]
+<comment username="TIM0THY" date="Mon, 17 Oct 2011 19:49:34 +0000" postdate="Mon, 17 Oct 2011 19:49:34 +0000" editdate="Mon, 17 Oct 2011 19:49:34 +0000" thumbs="0">
+[q]Let&#039;s speed up the comments on this list, shall we?[/q]
 
 
 Seems like a good idea guys!
@@ -94,181 +94,362 @@ Seems like a good idea guys!
 
 ...guys?
 </comment>
-<comment date="Fri, 02 Dec 2011 19:01:39 +0000" editdate="Fri, 02 Dec 2011 19:01:39 +0000" postdate="Fri, 02 Dec 2011 19:01:39 +0000" thumbs="0" username="BaSL">
+<comment username="BaSL" date="Fri, 02 Dec 2011 19:01:39 +0000" postdate="Fri, 02 Dec 2011 19:01:39 +0000" editdate="Fri, 02 Dec 2011 19:01:39 +0000" thumbs="0">
 Huh, what?
 </comment>
-<comment date="Fri, 02 Dec 2011 20:52:46 +0000" editdate="Fri, 02 Dec 2011 20:52:46 +0000" postdate="Fri, 02 Dec 2011 20:52:46 +0000" thumbs="2" username="tlmirkes">
+<comment username="tlmirkes" date="Fri, 02 Dec 2011 20:52:46 +0000" postdate="Fri, 02 Dec 2011 20:52:46 +0000" editdate="Fri, 02 Dec 2011 20:52:46 +0000" thumbs="3">
 Too soon?
 </comment>
-<comment date="Fri, 02 Dec 2011 21:00:44 +0000" editdate="Fri, 02 Dec 2011 21:00:44 +0000" postdate="Fri, 02 Dec 2011 21:00:44 +0000" thumbs="1" username="BaSL">
+<comment username="BaSL" date="Fri, 02 Dec 2011 21:00:44 +0000" postdate="Fri, 02 Dec 2011 21:00:44 +0000" editdate="Fri, 02 Dec 2011 21:00:44 +0000" thumbs="1">
 :D 
 </comment>
-<comment date="Fri, 12 Oct 2012 20:44:08 +0000" editdate="Fri, 12 Oct 2012 20:44:08 +0000" postdate="Fri, 12 Oct 2012 20:44:08 +0000" thumbs="3" username="happyjosiah">
-Doesn't have a comment yet this year so...
+<comment username="happyjosiah" date="Fri, 12 Oct 2012 20:44:08 +0000" postdate="Fri, 12 Oct 2012 20:44:08 +0000" editdate="Fri, 12 Oct 2012 20:44:08 +0000" thumbs="3">
+Doesn&#039;t have a comment yet this year so...
 </comment>
-<comment date="Thu, 07 Feb 2013 14:18:21 +0000" editdate="Thu, 07 Feb 2013 14:18:21 +0000" postdate="Thu, 07 Feb 2013 14:18:21 +0000" thumbs="2" username="alfredhw">
+<comment username="alfredhw" date="Thu, 07 Feb 2013 14:18:21 +0000" postdate="Thu, 07 Feb 2013 14:18:21 +0000" editdate="Thu, 07 Feb 2013 14:18:21 +0000" thumbs="2">
 Might as well get 2013 out of the way before we forget.
 </comment>
-<comment date="Wed, 23 Oct 2013 11:22:47 +0000" editdate="Wed, 23 Oct 2013 11:22:47 +0000" postdate="Wed, 23 Oct 2013 11:22:47 +0000" thumbs="1" username="Carmilla">
-It's been 8 months, I say it's time!
+<comment username="Carmilla" date="Wed, 23 Oct 2013 11:22:47 +0000" postdate="Wed, 23 Oct 2013 11:22:47 +0000" editdate="Wed, 23 Oct 2013 11:22:47 +0000" thumbs="1">
+It&#039;s been 8 months, I say it&#039;s time!
 </comment>
-<comment date="Tue, 29 Oct 2013 17:11:53 +0000" editdate="Tue, 29 Oct 2013 17:11:53 +0000" postdate="Tue, 29 Oct 2013 17:11:53 +0000" thumbs="2" username="jeffinberlin">
+<comment username="jeffinberlin" date="Tue, 29 Oct 2013 17:11:53 +0000" postdate="Tue, 29 Oct 2013 17:11:53 +0000" editdate="Tue, 29 Oct 2013 17:11:53 +0000" thumbs="3">
 ...just stumbled upon this...seems to be some sort of ritual.
 
-OK, I'm in. What do I win?
+OK, I&#039;m in. What do I win?
 </comment>
-<comment date="Wed, 22 Jan 2014 08:14:43 +0000" editdate="Wed, 22 Jan 2014 08:14:43 +0000" postdate="Wed, 22 Jan 2014 08:14:43 +0000" thumbs="6" username="Fran_Kubelik">
+<comment username="Fran_Kubelik" date="Wed, 22 Jan 2014 08:14:43 +0000" postdate="Wed, 22 Jan 2014 08:14:43 +0000" editdate="Wed, 22 Jan 2014 08:14:43 +0000" thumbs="7">
 2014 comment, reporting for duty!
 </comment>
-<comment date="Sun, 04 May 2014 02:24:35 +0000" editdate="Sun, 04 May 2014 02:24:35 +0000" postdate="Sun, 04 May 2014 02:24:35 +0000" thumbs="0" username="spasmodic">
+<comment username="spasmodic" date="Sun, 04 May 2014 02:24:35 +0000" postdate="Sun, 04 May 2014 02:24:35 +0000" editdate="Sun, 04 May 2014 02:24:35 +0000" thumbs="1">
 May the 4th be with you... after another ~4 months!
 </comment>
-<comment date="Sat, 03 Jan 2015 19:05:57 +0000" editdate="Sat, 03 Jan 2015 19:05:57 +0000" postdate="Sat, 03 Jan 2015 19:05:57 +0000" thumbs="8" username="akinfantryman">
+<comment username="akinfantryman" date="Sat, 03 Jan 2015 19:05:57 +0000" postdate="Sat, 03 Jan 2015 19:05:57 +0000" editdate="Sat, 03 Jan 2015 19:05:57 +0000" thumbs="11">
 First comment in 2015!!!!
 
 Just stumbled upon this by going [i]humm, I wonder what the first geeklist is?[/i]  
 
-Gotta say, the dates don't make any sense, and I'm assuming that a couple old-timer's comments got deleted when they deleted their accounts.
+Gotta say, the dates don&#039;t make any sense, and I&#039;m assuming that a couple old-timer&#039;s comments got deleted when they deleted their accounts.
 
-Why where the dates messed with?  And when was this thing actually created?  It says 2006....can't be right.
+Why where the dates messed with?  And when was this thing actually created?  It says 2006....can&#039;t be right.
 
 Idle curiosity.....this is history! :p
 </comment>
-<comment date="Fri, 01 Jan 2016 16:59:07 +0000" editdate="Fri, 01 Jan 2016 16:59:07 +0000" postdate="Fri, 01 Jan 2016 16:59:07 +0000" thumbs="4" username="happyjosiah">
+<comment username="happyjosiah" date="Fri, 01 Jan 2016 16:59:07 +0000" postdate="Fri, 01 Jan 2016 16:59:07 +0000" editdate="Fri, 01 Jan 2016 16:59:07 +0000" thumbs="6">
 Happy 2016!
 </comment>
-<comment date="Fri, 11 Nov 2016 00:06:08 +0000" editdate="Fri, 11 Nov 2016 00:06:08 +0000" postdate="Fri, 11 Nov 2016 00:06:08 +0000" thumbs="1" username="jurney85">
-[q="akinfantryman"]First comment in 2015!!!!
+<comment username="jurney85" date="Fri, 11 Nov 2016 00:06:08 +0000" postdate="Fri, 11 Nov 2016 00:06:08 +0000" editdate="Fri, 11 Nov 2016 00:06:08 +0000" thumbs="2">
+[q=&quot;akinfantryman&quot;]First comment in 2015!!!!
 
 Just stumbled upon this by going [i]humm, I wonder what the first geeklist is?[/i]  
 
-Gotta say, the dates don't make any sense, and I'm assuming that a couple old-timer's comments got deleted when they deleted their accounts.
+Gotta say, the dates don&#039;t make any sense, and I&#039;m assuming that a couple old-timer&#039;s comments got deleted when they deleted their accounts.
 
-Why where the dates messed with?  And when was this thing actually created?  It says 2006....can't be right.
+Why where the dates messed with?  And when was this thing actually created?  It says 2006....can&#039;t be right.
 
 Idle curiosity.....this is history! :p[/q]
 
 Well the first entry says it was added in 2001. Sorry for the late reply, been busy. 
 </comment>
-<comment date="Wed, 10 May 2017 13:36:03 +0000" editdate="Wed, 10 May 2017 13:36:03 +0000" postdate="Wed, 10 May 2017 13:36:03 +0000" thumbs="0" username="Werbaer">
-[q="jurney85"][q="akinfantryman"]Why where the dates messed with?  And when was this thing actually created?  It says 2006....can't be right.[/q]
+<comment username="Werbaer" date="Wed, 10 May 2017 13:36:03 +0000" postdate="Wed, 10 May 2017 13:36:03 +0000" editdate="Wed, 10 May 2017 13:36:03 +0000" thumbs="6">
+[q=&quot;jurney85&quot;][q=&quot;akinfantryman&quot;]Why where the dates messed with?  And when was this thing actually created?  It says 2006....can&#039;t be right.[/q]
 Well the first entry says it was added in 2001. Sorry for the late reply, been busy. [/q]
 Aldie created the first 5 entries in 2001.
 Then he needed a short break, and finished the list in 2006.
 </comment>
-<comment date="Mon, 22 Jan 2018 11:00:04 +0000" editdate="Mon, 22 Jan 2018 11:00:04 +0000" postdate="Mon, 22 Jan 2018 11:00:04 +0000" thumbs="1" username="anomander64">
-Happy 18th birthday BoardGameGeek - you're all grown-up now.
+<comment username="anomander64" date="Mon, 22 Jan 2018 11:00:04 +0000" postdate="Mon, 22 Jan 2018 11:00:04 +0000" editdate="Mon, 22 Jan 2018 11:00:04 +0000" thumbs="2">
+Happy 18th birthday BoardGameGeek - you&#039;re all grown-up now.
+</comment>
+<comment username="happyjosiah" date="Wed, 15 May 2019 12:58:24 +0000" postdate="Wed, 15 May 2019 12:58:24 +0000" editdate="Wed, 15 May 2019 12:58:24 +0000" thumbs="2">
+Well, it&#039;s May. You all had your chance. 2019 reporting for duty!
+</comment>
+<comment username="happyjosiah" date="Wed, 01 Apr 2020 18:27:08 +0000" postdate="Wed, 01 Apr 2020 18:27:08 +0000" editdate="Wed, 01 Apr 2020 18:27:08 +0000" thumbs="7">
+I don&#039;t know if this is still amusing to anyone but me, but I&#039;m not planning on stopping. Happy 2020!
+</comment>
+<comment username="paw" date="Fri, 26 Mar 2021 12:21:18 +0000" postdate="Fri, 26 Mar 2021 12:21:18 +0000" editdate="Fri, 26 Mar 2021 12:21:18 +0000" thumbs="7">
+Browsed history of BGG and found this gem! 2021 entry is here!
+</comment>
+<comment username="Syvanis" date="Tue, 30 Nov 2021 15:47:05 +0000" postdate="Tue, 30 Nov 2021 15:47:05 +0000" editdate="Tue, 30 Nov 2021 15:47:05 +0000" thumbs="0">
+Still banging in 2020
+</comment>
+<comment username="tempus42" date="Thu, 02 Dec 2021 15:42:59 +0000" postdate="Thu, 02 Dec 2021 15:42:59 +0000" editdate="Thu, 02 Dec 2021 15:42:59 +0000" thumbs="3">
+Here from The Geek Weekly link from today.  Wow, a piece of history.
+
+I still own 9 of these 10.  (Tal der Konige is the only one I never acquired.)  Several of these I probably got just because in the very early days I was scanning the games listed for something that looked interesting.  I wouldn&#039;t surprise me if I just started looking at game #1, but I had Dragonmaster and Cathedral from way before bgg.  Mare Mediterraneum seems for sure something I bought after seeing it here and being young and misdirected - I remember it being a pretty expensive purchase back in the day.  Beautiful game, but I never did play it and it still sits on a shelf taunting me.
+</comment>
+<comment username="Scott Rogers" date="Thu, 02 Dec 2021 16:06:05 +0000" postdate="Thu, 02 Dec 2021 16:06:05 +0000" editdate="Thu, 02 Dec 2021 16:06:05 +0000" thumbs="2">
+Thanks for posting this! I always appreciate knowing things like this. It&#039;s interesting to know the origins of the site.
+</comment>
+<comment username="icalvinist" date="Sun, 05 Dec 2021 13:11:49 +0000" postdate="Sun, 05 Dec 2021 13:11:49 +0000" editdate="Sun, 05 Dec 2021 13:11:49 +0000" thumbs="0">
+Thanks Aldie for doing this. This was a fun piece of bgg history.
+</comment>
+<comment username="autumnweave" date="Mon, 06 Dec 2021 03:50:18 +0000" postdate="Mon, 06 Dec 2021 03:50:18 +0000" editdate="Mon, 06 Dec 2021 03:50:18 +0000" thumbs="0">
+Wow, I have 8 of these.  I guess that makes me historical.
 </comment>
 
 
-	<item editdate="Mon, 01 Jan 2001 23:09:41 +0000" id="1" imageid="0" objectid="1" objectname="Die Macher" objecttype="thing" postdate="Mon, 01 Jan 2001 23:09:41 +0000" subtype="boardgame" thumbs="4" username="Aldie">
-	<body />
+	<item id="1" 
+			objecttype="thing"
+			subtype="boardgame" 
+			objectid="1" 			
+			objectname="Die Macher"
+			username="Aldie" 
+			postdate="Mon, 01 Jan 2001 23:09:41 +0000" 
+			editdate="Mon, 01 Jan 2001 23:09:41 +0000"
+			thumbs="20"
+						imageid="0">
+	<body></body>
 	
-			<comment date="Fri, 02 Mar 2007 23:09:11 +0000" editdate="Fri, 02 Mar 2007 23:09:11 +0000" postdate="Fri, 02 Mar 2007 23:09:11 +0000" thumbs="1" username="Guantanamo">
-When we talk to people about this game, it's not refered to as BGG's #9 or in the BGG Top 10, it's "it's game number one on BGG, the first game put in!"
-</comment>
-<comment date="Sat, 10 Nov 2007 01:46:08 +0000" editdate="Sat, 10 Nov 2007 01:46:08 +0000" postdate="Sat, 10 Nov 2007 01:46:08 +0000" thumbs="4" username="Crabro">
-I've just realised this is game #1 on geeklist #1.
+			<comment username="Crabro" date="Sat, 10 Nov 2007 01:46:08 +0000" postdate="Sat, 10 Nov 2007 01:46:08 +0000" editdate="Sat, 10 Nov 2007 01:46:08 +0000" thumbs="12">
+I&#039;ve just realised this is game #1 on geeklist #1.
 
 Cool.
 </comment>
 
 		</item>
-	<item editdate="Mon, 01 Jan 2001 23:09:41 +0000" id="2" imageid="0" objectid="2" objectname="Dragonmaster" objecttype="thing" postdate="Mon, 01 Jan 2001 23:09:41 +0000" subtype="boardgame" thumbs="5" username="Aldie">
-	<body />
+	<item id="2" 
+			objecttype="thing"
+			subtype="boardgame" 
+			objectid="2" 			
+			objectname="Dragonmaster"
+			username="Aldie" 
+			postdate="Mon, 01 Jan 2001 23:09:41 +0000" 
+			editdate="Mon, 01 Jan 2001 23:09:41 +0000"
+			thumbs="18"
+						imageid="0">
+	<body></body>
 	
-			
+			<comment username="niledesign" date="Tue, 30 Nov 2021 05:48:12 +0000" postdate="Tue, 30 Nov 2021 05:48:12 +0000" editdate="Tue, 30 Nov 2021 05:48:12 +0000" thumbs="0">
+A family favorite when I was growing up. Still in my collection.
+</comment>
+<comment username="mci1983" date="Thu, 02 Dec 2021 15:04:54 +0000" postdate="Thu, 02 Dec 2021 15:04:54 +0000" editdate="Thu, 02 Dec 2021 15:04:54 +0000" thumbs="0">
+I bought this when it came out.  Didn&#039;t know what to think of it, at the time, but grew to like it.  Still have it.  Need to play it again.
+</comment>
+<comment username="Stephen Glenn" date="Fri, 03 Dec 2021 20:59:52 +0000" postdate="Fri, 03 Dec 2021 20:59:52 +0000" editdate="Fri, 03 Dec 2021 20:59:52 +0000" thumbs="0">
+How the heck did *this* earn the #2 spot?
+</comment>
+<comment username="chamoxil" date="Sat, 04 Dec 2021 16:48:03 +0000" postdate="Sat, 04 Dec 2021 16:48:03 +0000" editdate="Sat, 04 Dec 2021 16:48:03 +0000" thumbs="3">
+Still has some of the best art in all boardgame history.
+</comment>
+<comment username="JadedGamer" date="Sat, 04 Dec 2021 18:26:43 +0000" postdate="Sat, 04 Dec 2021 18:26:43 +0000" editdate="Sat, 04 Dec 2021 18:26:43 +0000" thumbs="5">
+[q=&quot;Stephen Glenn&quot;]How the heck did *this* earn the #2 spot?[/q]
+Probably because that was the second game they entered into the database back in the day.
+</comment>
+
 		</item>
-	<item editdate="Mon, 01 Jan 2001 23:09:41 +0000" id="3" imageid="0" objectid="3" objectname="Samurai" objecttype="thing" postdate="Mon, 01 Jan 2001 23:09:41 +0000" subtype="boardgame" thumbs="4" username="Aldie">
-	<body />
+	<item id="3" 
+			objecttype="thing"
+			subtype="boardgame" 
+			objectid="3" 			
+			objectname="Samurai"
+			username="Aldie" 
+			postdate="Mon, 01 Jan 2001 23:09:41 +0000" 
+			editdate="Mon, 01 Jan 2001 23:09:41 +0000"
+			thumbs="16"
+						imageid="0">
+	<body></body>
 	
-			<comment date="Wed, 09 Nov 2005 06:33:55 +0000" editdate="Wed, 09 Nov 2005 06:33:55 +0000" postdate="Wed, 09 Nov 2005 06:33:55 +0000" thumbs="1" username="Excalabur">
+			<comment username="Excalabur" date="Wed, 09 Nov 2005 06:33:55 +0000" postdate="Wed, 09 Nov 2005 06:33:55 +0000" editdate="Wed, 09 Nov 2005 06:33:55 +0000" thumbs="1">
 They do sit flush with the table, if, and only if, you screw around with them for 5 or 10 minutes to make them do so. To a first approximation, if you make the middle part parallel to the parts two spaces either side, and then make the end bit parallel to the one next to the middle piece on that side, it should lie flush.
 
 However, easier said than done.
 </comment>
-<comment date="Thu, 23 Feb 2006 17:42:54 +0000" editdate="Thu, 23 Feb 2006 17:42:54 +0000" postdate="Thu, 23 Feb 2006 17:42:54 +0000" thumbs="7" username="Favre4MVP">
+<comment username="Favre4MVP" date="Thu, 23 Feb 2006 17:42:54 +0000" postdate="Thu, 23 Feb 2006 17:42:54 +0000" editdate="Thu, 23 Feb 2006 17:42:54 +0000" thumbs="10">
 My thoughts exactly.
 </comment>
+<comment username="snog" date="Thu, 02 Dec 2021 20:39:49 +0000" postdate="Thu, 02 Dec 2021 20:39:49 +0000" editdate="Thu, 02 Dec 2021 20:39:49 +0000" thumbs="7">
+There shall, in that time, be rumors of things going astray, erm, and there shall be a great confusion as to where things really are, and nobody will really know where lieth those little things wi-- with the sort of raffia work base that has an attachment. At this time, a friend shall lose his friend&#039;s hammer and the young shall not know where lieth the things possessed by their fathers that their fathers put there only just the night before, about eight o&#039;clock. Yea, it is written in the book of Cyril that, in that time, shall the third one...
+
+(Monty Python’s Life of Brian - 1979)
+</comment>
 
 		</item>
-	<item editdate="Mon, 01 Jan 2001 23:09:41 +0000" id="4" imageid="0" objectid="4" objectname="Tal der Könige" objecttype="thing" postdate="Mon, 01 Jan 2001 23:09:41 +0000" subtype="boardgame" thumbs="0" username="Aldie">
-	<body />
+	<item id="4" 
+			objecttype="thing"
+			subtype="boardgame" 
+			objectid="4" 			
+			objectname="Tal der Könige"
+			username="Aldie" 
+			postdate="Mon, 01 Jan 2001 23:09:41 +0000" 
+			editdate="Mon, 01 Jan 2001 23:09:41 +0000"
+			thumbs="0"
+						imageid="0">
+	<body></body>
 	
-			
+			<comment username="LHIM" date="Fri, 03 Dec 2021 04:38:43 +0000" postdate="Fri, 03 Dec 2021 04:38:43 +0000" editdate="Fri, 03 Dec 2021 04:38:43 +0000" thumbs="0">
+Sweet box! Did not know about its BGG origins tho&#039; 
+
+Unlike many actually played this a few times and it is still prominently displayed!
+</comment>
+
 		</item>
-	<item editdate="Mon, 01 Jan 2001 23:09:41 +0000" id="5" imageid="0" objectid="5" objectname="Acquire" objecttype="thing" postdate="Mon, 01 Jan 2001 23:09:41 +0000" subtype="boardgame" thumbs="5" username="Aldie">
-	<body />
+	<item id="5" 
+			objecttype="thing"
+			subtype="boardgame" 
+			objectid="5" 			
+			objectname="Acquire"
+			username="Aldie" 
+			postdate="Mon, 01 Jan 2001 23:09:41 +0000" 
+			editdate="Mon, 01 Jan 2001 23:09:41 +0000"
+			thumbs="31"
+						imageid="0">
+	<body></body>
 	
-			<comment date="Thu, 23 Feb 2006 13:51:04 +0000" editdate="Thu, 23 Feb 2006 13:51:04 +0000" postdate="Thu, 23 Feb 2006 13:51:04 +0000" thumbs="9" username="MisterCranky">
+			<comment username="MisterCranky" date="Thu, 23 Feb 2006 13:51:04 +0000" postdate="Thu, 23 Feb 2006 13:51:04 +0000" editdate="Thu, 23 Feb 2006 13:51:04 +0000" thumbs="15">
 A classic must-own game by Sid Sackson.
 </comment>
-<comment date="Fri, 24 Feb 2006 02:18:25 +0000" editdate="Fri, 24 Feb 2006 02:18:25 +0000" postdate="Fri, 24 Feb 2006 02:18:25 +0000" thumbs="0" username="BilboAtBagEnd">
+<comment username="BilboAtBagEnd" date="Fri, 24 Feb 2006 02:18:25 +0000" postdate="Fri, 24 Feb 2006 02:18:25 +0000" editdate="Fri, 24 Feb 2006 02:18:25 +0000" thumbs="0">
 :D
 </comment>
-<comment date="Mon, 14 Sep 2009 12:33:10 +0000" editdate="Mon, 14 Sep 2009 12:33:10 +0000" postdate="Mon, 14 Sep 2009 12:33:10 +0000" thumbs="4" username="Thommy8">
-[q="MisterCranky"]A classic must-own game by Sid Sackson.[/q]
+<comment username="TaliaIsabelle" date="Mon, 14 Sep 2009 12:33:10 +0000" postdate="Mon, 14 Sep 2009 12:33:10 +0000" editdate="Mon, 14 Sep 2009 12:33:10 +0000" thumbs="9">
+[q=&quot;MisterCranky&quot;]A classic must-own game by Sid Sackson.[/q]
 
-I always interpreted that to mean Can't Stop.  I guess must-own-ness is in the eye of the beholder.
+I always interpreted that to mean Can&#039;t Stop.  I guess must-own-ness is in the eye of the beholder.
+</comment>
+<comment username="mci1983" date="Thu, 02 Dec 2021 15:07:38 +0000" postdate="Thu, 02 Dec 2021 15:07:38 +0000" editdate="Thu, 02 Dec 2021 15:07:38 +0000" thumbs="6">
+[q=&quot;MisterCranky&quot;]A classic must-own game by Sid Sackson.[/q]
+
+I agree.  It was the game that got me into different gaming when I was a kid.  Before that, I played the more classic games of the day.  This was my first stock market game and my first bookcase game.  It led me into more strategic games.  It&#039;s still my favorite game.
+</comment>
+<comment username="deacondavid" date="Thu, 02 Dec 2021 15:22:50 +0000" postdate="Thu, 02 Dec 2021 15:22:50 +0000" editdate="Thu, 02 Dec 2021 15:22:50 +0000" thumbs="12">
+[q=&quot;mci1983&quot;][q=&quot;MisterCranky&quot;]A classic must-own game by Sid Sackson.[/q]
+
+I agree.  It was the game that got me into different gaming when I was a kid.  Before that, I played the more classic games of the day.  This was my first stock market game and my first bookcase game.  It led me into more strategic games.  It&#039;s still my favorite game.[/q]
+
+This game was also my first &quot;adult&quot; game and really set the way for a life of gaming. My parents first encountered it at a games night with the folks they normally played bridge with. It was the first of many 3M games that came into the house, it went on camping trips, and it survived the many different moves that came with being a military family. I purchased my own copy when I left for college and was delighted to get the family&#039;s original copy when my parents were forced to downsize things when they moved to a much smaller home.
+
+I&#039;ve read that Acquire inspired a lot of European designers, which kind of makes it the proto-Euro.
 </comment>
 
 		</item>
-	<item editdate="Fri, 02 Mar 2007 23:01:52 +0000" id="7" imageid="28424" objectid="6" objectname="Mare Mediterraneum" objecttype="thing" postdate="Sun, 27 Aug 2006 06:32:10 +0000" subtype="boardgame" thumbs="1" username="Aldie">
-	<body />
+	<item id="7" 
+			objecttype="thing"
+			subtype="boardgame" 
+			objectid="6" 			
+			objectname="Mare Mediterraneum"
+			username="Aldie" 
+			postdate="Sun, 27 Aug 2006 06:32:10 +0000" 
+			editdate="Fri, 02 Mar 2007 23:01:52 +0000"
+			thumbs="2"
+						imageid="28424">
+	<body></body>
 	
-			<comment date="Thu, 21 Oct 2004 09:08:40 +0000" editdate="Thu, 21 Oct 2004 09:08:40 +0000" postdate="Thu, 21 Oct 2004 09:08:40 +0000" thumbs="0" username="LuZa">
+			<comment username="LuZa" date="Thu, 21 Oct 2004 09:08:40 +0000" postdate="Thu, 21 Oct 2004 09:08:40 +0000" editdate="Thu, 21 Oct 2004 09:08:40 +0000" thumbs="0">
 Ah, how true.
-I bought the game exactly for the same reasons, and I'm aching on the rulebook (living rules) to get a gripe on it.
-Probably I'll never play it... :(
+I bought the game exactly for the same reasons, and I&#039;m aching on the rulebook (living rules) to get a gripe on it.
+Probably I&#039;ll never play it... :(
 </comment>
-<comment date="Mon, 14 Sep 2009 16:33:22 +0000" editdate="Mon, 14 Sep 2009 16:33:22 +0000" postdate="Mon, 14 Sep 2009 16:33:22 +0000" thumbs="0" username="toreengeland">
-[q="LuZa"]Ah, how true.
-I bought the game exactly for the same reasons, and I'm aching on the rulebook (living rules) to get a gripe on it.
-Probably I'll never play it... :([/q]
+<comment username="toreengeland" date="Mon, 14 Sep 2009 16:33:22 +0000" postdate="Mon, 14 Sep 2009 16:33:22 +0000" editdate="Mon, 14 Sep 2009 16:33:22 +0000" thumbs="0">
+[q=&quot;LuZa&quot;]Ah, how true.
+I bought the game exactly for the same reasons, and I&#039;m aching on the rulebook (living rules) to get a gripe on it.
+Probably I&#039;ll never play it... :([/q]
 
-What does the phrase "living rules" mean?
+What does the phrase &quot;living rules&quot; mean?
 Enlighten me!
 
 </comment>
-<comment date="Mon, 14 Sep 2009 19:23:04 +0000" editdate="Mon, 14 Sep 2009 19:23:04 +0000" postdate="Mon, 14 Sep 2009 19:23:04 +0000" thumbs="1" username="Infomanohio">
-"Living rules" refers to the idea of continuously rewriting an original (or older) document to reflect modern ideas and rules.  There are a lot of people who would like to do the same to the United States Constitution.
+<comment username="Infomanohio" date="Mon, 14 Sep 2009 19:23:04 +0000" postdate="Mon, 14 Sep 2009 19:23:04 +0000" editdate="Mon, 14 Sep 2009 19:23:04 +0000" thumbs="3">
+&quot;Living rules&quot; refers to the idea of continuously rewriting an original (or older) document to reflect modern ideas and rules.  There are a lot of people who would like to do the same to the United States Constitution.
 
-In other words, the rules for this game are constantly being updated to reflect new ideas and rules that were written for other games (or later for this game) but can be used to "fix" this game.
+In other words, the rules for this game are constantly being updated to reflect new ideas and rules that were written for other games (or later for this game) but can be used to &quot;fix&quot; this game.
 </comment>
-<comment date="Fri, 06 Feb 2015 19:15:14 +0000" editdate="Fri, 06 Feb 2015 19:15:14 +0000" postdate="Fri, 06 Feb 2015 19:15:14 +0000" thumbs="0" username="gamesbook">
-[q="Infomanohio"]"Living rules" refers to the idea of continuously rewriting an original (or older) document to reflect modern ideas and rules.[/q]
-No, thats not it at all. "Living rules" is a term from the wargaming community.  It means - bearing in mind the complexity of those games - to fix errors and "patch" in new/modified rules to take care of obscure situations that have arisen in play.
+<comment username="gamesbook" date="Fri, 06 Feb 2015 19:15:14 +0000" postdate="Fri, 06 Feb 2015 19:15:14 +0000" editdate="Fri, 06 Feb 2015 19:15:14 +0000" thumbs="16">
+[q=&quot;Infomanohio&quot;]&quot;Living rules&quot; refers to the idea of continuously rewriting an original (or older) document to reflect modern ideas and rules.[/q]
+No, thats not it at all. &quot;Living rules&quot; is a term from the wargaming community.  It means - bearing in mind the complexity of those games - to fix errors and &quot;patch&quot; in new/modified rules to take care of obscure situations that have arisen in play.
+</comment>
+<comment username="Wolfram" date="Thu, 02 Dec 2021 15:49:40 +0000" postdate="Thu, 02 Dec 2021 15:49:40 +0000" editdate="Thu, 02 Dec 2021 15:49:40 +0000" thumbs="0">
+My Grail game.
 </comment>
 
 		</item>
-	<item editdate="Fri, 02 Mar 2007 22:57:11 +0000" id="9" imageid="37580" objectid="7" objectname="Cathedral" objecttype="thing" postdate="Sun, 27 Aug 2006 06:32:10 +0000" subtype="boardgame" thumbs="1" username="Aldie">
-	<body />
+	<item id="9" 
+			objecttype="thing"
+			subtype="boardgame" 
+			objectid="7" 			
+			objectname="Cathedral"
+			username="Aldie" 
+			postdate="Sun, 27 Aug 2006 06:32:10 +0000" 
+			editdate="Fri, 02 Mar 2007 22:57:11 +0000"
+			thumbs="13"
+						imageid="37580">
+	<body></body>
 	
-			
+			<comment username="Thosw" date="Thu, 02 Dec 2021 15:47:34 +0000" postdate="Thu, 02 Dec 2021 15:47:34 +0000" editdate="Thu, 02 Dec 2021 15:47:34 +0000" thumbs="6">
+I keep a copy of this set up next to my desk at work. One day, someone will ask about it and I’ll have them hooked.
+</comment>
+<comment username="LHIM" date="Fri, 03 Dec 2021 04:43:28 +0000" postdate="Fri, 03 Dec 2021 04:43:28 +0000" editdate="Fri, 03 Dec 2021 04:43:28 +0000" thumbs="2">
+Note my old, dusty and pretty bad Avatar...
+
+My copy is made of wood and was sold as a Christmas item by I wan to say Land&#039;s End...
+</comment>
+
 		</item>
-	<item editdate="Fri, 02 Mar 2007 22:56:56 +0000" id="100071" imageid="222" objectid="9" objectname="El Caballero" objecttype="thing" postdate="Sun, 27 Aug 2006 06:32:10 +0000" subtype="boardgame" thumbs="3" username="Aldie">
-	<body />
+	<item id="100071" 
+			objecttype="thing"
+			subtype="boardgame" 
+			objectid="9" 			
+			objectname="El Caballero"
+			username="Aldie" 
+			postdate="Sun, 27 Aug 2006 06:32:10 +0000" 
+			editdate="Fri, 02 Mar 2007 22:56:56 +0000"
+			thumbs="5"
+						imageid="222">
+	<body></body>
 	
-			<comment date="Tue, 19 Jul 2011 20:12:25 +0000" editdate="Tue, 19 Jul 2011 20:12:25 +0000" postdate="Tue, 19 Jul 2011 20:12:25 +0000" thumbs="1" username="RichardMNixon">
+			<comment username="RichardMNixon" date="Tue, 19 Jul 2011 20:12:25 +0000" postdate="Tue, 19 Jul 2011 20:12:25 +0000" editdate="Tue, 19 Jul 2011 20:12:25 +0000" thumbs="2">
 Funny how this made it on so much earlier than El Grande.
 </comment>
+<comment username="JeffyJeff" date="Sat, 05 Sep 2020 21:33:40 +0000" postdate="Sat, 05 Sep 2020 21:33:40 +0000" editdate="Sat, 05 Sep 2020 21:34:56 +0000" thumbs="0">
+I think you may have missed one... here #8 in GL, is game id #9...
+
+#8 gameid is....
+
+[gameid=8]
+
+[-]or was 8 skipped and then that id given to that game?[/-]
+ah I see... [gameid=8] (gameid #8) is #10 in the GL so just out of order from what I expected :)
+</comment>
+<comment username="JimPAX" date="Sat, 04 Dec 2021 17:59:37 +0000" postdate="Sat, 04 Dec 2021 17:59:37 +0000" editdate="Sat, 04 Dec 2021 17:59:37 +0000" thumbs="0">
+Fascinating that this game was such an early addition to the database.  I have been championing this game as one of the most underappreciated games from that era.  It&#039;s what Carcassone for heavy gamers looks like.
+</comment>
 
 		</item>
-	<item editdate="Fri, 02 Mar 2007 23:02:23 +0000" id="100072" imageid="168036" objectid="10" objectname="Elfenland" objecttype="thing" postdate="Sun, 27 Aug 2006 06:32:10 +0000" subtype="boardgame" thumbs="2" username="Aldie">
-	<body />
+	<item id="100072" 
+			objecttype="thing"
+			subtype="boardgame" 
+			objectid="10" 			
+			objectname="Elfenland"
+			username="Aldie" 
+			postdate="Sun, 27 Aug 2006 06:32:10 +0000" 
+			editdate="Fri, 02 Mar 2007 23:02:23 +0000"
+			thumbs="11"
+						imageid="168036">
+	<body></body>
 	
-			<comment date="Thu, 23 Feb 2006 23:11:25 +0000" editdate="Thu, 23 Feb 2006 23:11:25 +0000" postdate="Thu, 23 Feb 2006 23:11:25 +0000" thumbs="1" username="cambridgegames">
+			<comment username="cambridgegames" date="Thu, 23 Feb 2006 23:11:25 +0000" postdate="Thu, 23 Feb 2006 23:11:25 +0000" editdate="Thu, 23 Feb 2006 23:11:25 +0000" thumbs="2">
 What happened to the date?  
 
-Is this a past shadow of a future projection in order to test the database structure (kind of like reading "1984" in 2006) or are we actually looking at a cheap reproduction of the original posting of RA to this GeekList?
+Is this a past shadow of a future projection in order to test the database structure (kind of like reading &quot;1984&quot; in 2006) or are we actually looking at a cheap reproduction of the original posting of RA to this GeekList?
 
 Either way this is deeply suspicious--I recommend forming a committee to investigate!
 </comment>
 
 		</item>
-	<item editdate="Fri, 02 Mar 2007 23:02:08 +0000" id="10" imageid="171501" objectid="8" objectname="Lords of Creation" objecttype="thing" postdate="Sun, 27 Aug 2006 06:32:10 +0000" subtype="boardgame" thumbs="1" username="Aldie">
-	<body />
+	<item id="10" 
+			objecttype="thing"
+			subtype="boardgame" 
+			objectid="8" 			
+			objectname="Lords of Creation"
+			username="Aldie" 
+			postdate="Sun, 27 Aug 2006 06:32:10 +0000" 
+			editdate="Fri, 02 Mar 2007 23:02:08 +0000"
+			thumbs="2"
+						imageid="171501">
+	<body></body>
 	
-			
+			<comment username="drmark64" date="Thu, 02 Dec 2021 17:47:43 +0000" postdate="Thu, 02 Dec 2021 17:47:43 +0000" editdate="Thu, 02 Dec 2021 17:47:43 +0000" thumbs="2">
+I saw this and this is what I thought of first.
+https://rpggeek.com/rpgitem/44593/lords-creation
+</comment>
+
 		</item>
 </geeklist>

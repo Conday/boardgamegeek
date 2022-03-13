@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><guild id="1229" name="Geek Tools" created="Sun, 22 Jan 2012 09:53:47 +0000" termsofuse="http://boardgamegeek.com/xmlapi/termsofuse">
+<?xml version="1.0" encoding="utf-8"?><guild id="1229" name="Geek Tools" created="Sun, 22 Jan 2012 09:53:47 +0000" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
 	<category>hobby</category>
 	<website></website>
 	<manager>Jester</manager>
-	<description>This guild is set aside for the developer community building apps or tools for BGG and its sister sites, using the XML API or other data from BGG. It also welcomes developers building tools to augment the BGG community experience. &lt;br/&gt;&lt;br/&gt;Questions about BGG API capabilities or design discussions are welcome here. General discussions of technologies that can be brought to bear on BGG-specific solutions are welcome. General purpose coding questions are probably better suited for other venues on the web.</description>
+	<description>This guild is set aside for the developer community building apps or tools for BGG and its sister sites, using the XML API or other data from BGG. It also welcomes developers building tools to augment the BGG community experience. &lt;br/&gt;&lt;br/&gt;Questions about BGG API capabilities or design discussions are welcome here. General discussions of technologies that can be brought to bear on BGG-specific solutions are welcome. General purpose coding questions are probably better suited for other venues on the web.</description>
 	<location>
 		<addr1></addr1>
 		<addr2></addr2>
@@ -11,14 +11,31 @@
 		<postalcode></postalcode>
 		<country></country>
 	</location>
-		<members count="483" page="20">
-					<member name="yosz" date="Sun, 22 Jan 2012 10:14:31 +0000" />
-					<member name="yzemaze" date="Thu, 02 Feb 2012 09:27:48 +0000" />
-					<member name="zefquaavius" date="Mon, 23 Jan 2012 14:19:15 +0000" />
-					<member name="zenodotus" date="Fri, 11 Dec 2015 17:34:17 +0000" />
-					<member name="zetaceti" date="Tue, 25 Feb 2014 21:21:10 +0000" />
-					<member name="zodiak" date="Fri, 20 Sep 2013 07:12:51 +0000" />
-					<member name="ZombieCooKiE" date="Mon, 31 Oct 2016 03:10:11 +0000" />
-					<member name="Zwaloo" date="Tue, 09 Aug 2016 18:36:43 +0000" />
+		<members count="762" page="20">
+					<member name="nagelfar" date="Sat, 16 Jan 2016 00:50:56 +0000" />
+					<member name="nategraf" date="Tue, 23 Oct 2018 14:59:16 +0000" />
+					<member name="natepelzel" date="Sat, 23 Jan 2016 06:38:32 +0000" />
+					<member name="nboster" date="Fri, 14 Aug 2020 18:29:23 +0000" />
+					<member name="nclavio" date="Wed, 25 Feb 2015 16:20:11 +0000" />
+					<member name="nearx" date="Fri, 29 Apr 2016 15:06:47 +0000" />
+					<member name="Netrunner" date="Sat, 03 Oct 2020 04:19:58 +0000" />
+					<member name="netzhuffle" date="Tue, 17 Jun 2014 15:15:19 +0000" />
+					<member name="ngcx6611" date="Sat, 23 Feb 2019 13:07:45 +0000" />
+					<member name="nicholaskillin" date="Fri, 20 Sep 2019 18:32:47 +0000" />
+					<member name="NickB" date="Tue, 20 Jun 2017 14:24:12 +0000" />
+					<member name="nicklalone" date="Wed, 12 Sep 2018 14:48:21 +0000" />
+					<member name="nikdoof" date="Sun, 31 Mar 2019 12:34:01 +0000" />
+					<member name="nimdil" date="Thu, 27 Nov 2014 13:37:20 +0000" />
+					<member name="Nojitsu" date="Thu, 19 Dec 2019 22:03:41 +0000" />
+					<member name="NoodlePDX" date="Wed, 28 Oct 2015 17:01:53 +0000" />
+					<member name="Northburns" date="Fri, 03 Feb 2012 15:52:26 +0000" />
+					<member name="notacceptable406" date="Wed, 13 Oct 2021 13:49:57 +0000" />
+					<member name="notclive" date="Thu, 30 Mar 2017 23:11:37 +0000" />
+					<member name="NowOrNever88" date="Tue, 18 Nov 2014 02:29:45 +0000" />
+					<member name="nukeu666" date="Thu, 25 Jun 2015 18:03:04 +0000" />
+					<member name="nusul" date="Sat, 02 Jun 2018 08:28:32 +0000" />
+					<member name="n_and" date="Sun, 22 Jan 2012 11:47:37 +0000" />
+					<member name="Odin_Knight" date="Thu, 29 Mar 2012 13:31:29 +0000" />
+					<member name="oiencp" date="Thu, 12 Oct 2017 20:53:38 +0000" />
 			</members>
 	</guild>

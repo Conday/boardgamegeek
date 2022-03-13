@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><items termsofuse="http://boardgamegeek.com/xmlapi/termsofuse"><item type="boardgame" id="2088">
-         <thumbnail>https://cf.geekdo-images.com/images/pic312636_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic312636.jpg</image>
+<?xml version="1.0" encoding="utf-8"?><items termsofuse="https://boardgamegeek.com/xmlapi/termsofuse"><item type="boardgame" id="2088">
+         <thumbnail>https://cf.geekdo-images.com/n2Cgwd3Zlsdm-E8xLXoYjQ__thumb/img/ProBQHoe1CIe455aQyYLY1wEoCM=/fit-in/200x150/filters:strip_icc()/pic312636.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/n2Cgwd3Zlsdm-E8xLXoYjQ__original/img/hRDDfV3Hl0-Mu_zeFahNtKXeblg=/0x0/filters:format(jpeg)/pic312636.jpg</image>
                                      				
 				<name type="primary" sortindex="1" value="Coup" />
 			
@@ -13,60 +13,78 @@
 										      	               				<yearpublished value="1975" />
 						               				<minplayers value="2" />
 						               				<maxplayers value="6" />
-						      			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="1">
+						      			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="3">
 			
 		<results numplayers="1">		
 					<result value="Best" numvotes="0" />
 					<result value="Recommended" numvotes="0" />
-					<result value="Not Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="1" />
 				</results>					
 			
 		<results numplayers="2">		
 					<result value="Best" numvotes="0" />
-					<result value="Recommended" numvotes="0" />
-					<result value="Not Recommended" numvotes="0" />
+					<result value="Recommended" numvotes="1" />
+					<result value="Not Recommended" numvotes="1" />
 				</results>					
 			
 		<results numplayers="3">		
-					<result value="Best" numvotes="1" />
+					<result value="Best" numvotes="3" />
 					<result value="Recommended" numvotes="0" />
 					<result value="Not Recommended" numvotes="0" />
 				</results>					
 			
 		<results numplayers="4">		
-					<result value="Best" numvotes="0" />
-					<result value="Recommended" numvotes="1" />
+					<result value="Best" numvotes="1" />
+					<result value="Recommended" numvotes="2" />
 					<result value="Not Recommended" numvotes="0" />
 				</results>					
 			
 		<results numplayers="5">		
 					<result value="Best" numvotes="0" />
-					<result value="Recommended" numvotes="0" />
+					<result value="Recommended" numvotes="2" />
 					<result value="Not Recommended" numvotes="0" />
 				</results>					
 			
 		<results numplayers="6">		
 					<result value="Best" numvotes="0" />
-					<result value="Recommended" numvotes="0" />
+					<result value="Recommended" numvotes="2" />
 					<result value="Not Recommended" numvotes="0" />
 				</results>					
 			
 		<results numplayers="6+">		
 					<result value="Best" numvotes="0" />
 					<result value="Recommended" numvotes="0" />
-					<result value="Not Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="1" />
 				</results>					
-	</poll> 
-			               				<playingtime value="90" />
+	</poll> 			               				<playingtime value="90" />
 						               				<minplaytime value="90" />
 						               				<maxplaytime value="90" />
 						               				<minage value="10" />
-						      			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
-	</poll> 
-			      			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
-	</poll> 
-			      			 
-			      				
+						      			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="1">
+			<results>		
+					<result value="2" numvotes="0" />
+					<result value="3" numvotes="0" />
+					<result value="4" numvotes="0" />
+					<result value="5" numvotes="0" />
+					<result value="6" numvotes="0" />
+					<result value="8" numvotes="0" />
+					<result value="10" numvotes="1" />
+					<result value="12" numvotes="0" />
+					<result value="14" numvotes="0" />
+					<result value="16" numvotes="0" />
+					<result value="18" numvotes="0" />
+					<result value="21 and up" numvotes="0" />
+				</results>					
+	</poll> 			      			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+			
+		<results>		
+					<result level="1" value="No necessary in-game text" numvotes="0" />
+					<result level="2" value="Some necessary text - easily memorized or small crib sheet" numvotes="0" />
+					<result level="3" value="Moderate in-game text - needs crib sheet or paste ups" numvotes="0" />
+					<result level="4" value="Extensive use of text - massive conversion needed to be playable" numvotes="0" />
+					<result level="5" value="Unplayable in another language" numvotes="0" />
+				</results>					
+	</poll> 			      			 			      				
 		 			
 
 			
@@ -115,7 +133,7 @@
 
 			
 		
-					<link type="boardgamefamily" id="37878" value="Krone Spiele für Erwachsene" />
+					<link type="boardgamefamily" id="37878" value="Series: Krone Spiele für Erwachsene (Ass / Schmidt-Spiele)" />
 		
 									
 			
@@ -190,25 +208,25 @@
 	
    		<statistics page="1">
 								<ratings >
-			<usersrated value="130" />
-			<average value="6.27231" />
-			<bayesaverage value="5.58631" />
+			<usersrated value="145" />
+			<average value="6.25034" />
+			<bayesaverage value="5.55759" />
 
 			<ranks>
-															<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="6326" bayesaverage="5.58631" />
-																				<rank type="family" id="5497" name="strategygames" friendlyname="Strategy Game Rank" value="1526" bayesaverage="5.61923" />
-											<rank type="family" id="5499" name="familygames" friendlyname="Family Game Rank" value="1235" bayesaverage="5.62212" />
+															<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="9842" bayesaverage="5.55759" />
+																				<rank type="family" id="5497" name="strategygames" friendlyname="Strategy Game Rank" value="2149" bayesaverage="5.5797" />
+											<rank type="family" id="5499" name="familygames" friendlyname="Family Game Rank" value="1826" bayesaverage="5.5821" />
 												</ranks>
 
-			<stddev value="1.29705" />
+			<stddev value="1.41714" />
 			<median value="0" />
-			<owned value="238" />
-			<trading value="16" />
-			<wanting value="9" />
-			<wishing value="16" />
-			<numcomments value="44" />
-			<numweights value="16" />
-			<averageweight value="1.8125" />
+			<owned value="285" />
+			<trading value="18" />
+			<wanting value="5" />
+			<wishing value="19" />
+			<numcomments value="50" />
+			<numweights value="17" />
+			<averageweight value="1.8235" />
 			</ratings>
 								</statistics>
      

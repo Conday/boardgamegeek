@@ -1,13 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><items total="49" termsofuse="http://boardgamegeek.com/xmlapi/termsofuse">			<item type="boardgame" id="31260">
+<?xml version="1.0" encoding="utf-8"?><items total="64" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">			<item type="boardgame" id="31260">
 			<name type="primary" value="Agricola"/>			
 							<yearpublished value="2007" />
 					</item>
-			<item type="boardgame" id="197633">
-			<name type="primary" value="Agricola"/>			
-							<yearpublished value="2017" />
-					</item>
 			<item type="boardgame" id="200680">
-			<name type="primary" value="Agricola (revised edition)"/>			
+			<name type="primary" value="Agricola (Revised Edition)"/>			
 							<yearpublished value="2016" />
 					</item>
 			<item type="boardgame" id="59158">
@@ -29,6 +25,14 @@
 			<item type="boardgame" id="45020">
 			<name type="primary" value="Agricola Express"/>			
 							<yearpublished value="2009" />
+					</item>
+			<item type="boardgame" id="216651">
+			<name type="primary" value="Agricola Game Expansion: Blue"/>			
+							<yearpublished value="2017" />
+					</item>
+			<item type="boardgame" id="216650">
+			<name type="primary" value="Agricola Game Expansion: Green"/>			
+							<yearpublished value="2017" />
 					</item>
 			<item type="boardgame" id="216652">
 			<name type="primary" value="Agricola Game Expansion: Purple"/>			
@@ -70,6 +74,10 @@
 			<name type="primary" value="Agricola, Master of Britain"/>			
 							<yearpublished value="2016" />
 					</item>
+			<item type="boardgame" id="292850">
+			<name type="primary" value="Agricola: Agricola Meets Newdale"/>			
+							<yearpublished value="2019" />
+					</item>
 			<item type="boardgame" id="119890">
 			<name type="primary" value="Agricola: All Creatures Big and Small"/>			
 							<yearpublished value="2012" />
@@ -81,6 +89,14 @@
 			<item type="boardgame" id="130752">
 			<name type="primary" value="Agricola: All Creatures Big and Small – More Buildings Big and Small"/>			
 							<yearpublished value="2012" />
+					</item>
+			<item type="boardgame" id="255262">
+			<name type="primary" value="Agricola: All Creatures Big and Small – The Big Box"/>			
+							<yearpublished value="2018" />
+					</item>
+			<item type="boardgame" id="242392">
+			<name type="primary" value="Agricola: Animal trainer"/>			
+							<yearpublished value="2008" />
 					</item>
 			<item type="boardgame" id="234218">
 			<name type="primary" value="Agricola: Artifex Deck"/>			
@@ -98,21 +114,41 @@
 			<name type="primary" value="Agricola: Biogas Plant Promo Card"/>			
 							<yearpublished value="2011" />
 					</item>
-			<item type="boardgame" id="216651">
-			<name type="primary" value="Agricola: Blue Expansion"/>			
-							<yearpublished value="2017" />
-					</item>
 			<item type="boardgame" id="132592">
 			<name type="primary" value="Agricola: Brakelhühner Promo Card"/>			
 							<yearpublished value="2012" />
+					</item>
+			<item type="boardgame" id="247720">
+			<name type="primary" value="Agricola: Bubulcus Deck"/>			
+							<yearpublished value="2018" />
+					</item>
+			<item type="boardgame" id="263965">
+			<name type="primary" value="Agricola: Changelings"/>			
+							<yearpublished value="2018" />
 					</item>
 			<item type="boardgame" id="173558">
 			<name type="primary" value="Agricola: Chłopi i ich zwierzyniec – Jeszcze więcej budynków do zwierzyńca"/>			
 							<yearpublished value="2014" />
 					</item>
+			<item type="boardgame" id="242391">
+			<name type="primary" value="Agricola: Clay deposit"/>			
+							<yearpublished value="2008" />
+					</item>
+			<item type="boardgame" id="329847">
+			<name type="primary" value="Agricola: Consul Dirigens Deck"/>			
+							<yearpublished value="2022" />
+					</item>
+			<item type="boardgame" id="271144">
+			<name type="primary" value="Agricola: Corbarius Deck"/>			
+							<yearpublished value="2019" />
+					</item>
 			<item type="boardgame" id="109012">
 			<name type="primary" value="Agricola: De Lage Landen"/>			
 							<yearpublished value="2012" />
+					</item>
+			<item type="boardgame" id="311545">
+			<name type="primary" value="Agricola: Dulcinaria Deck"/>			
+							<yearpublished value="2020" />
 					</item>
 			<item type="boardgame" id="210625">
 			<name type="primary" value="Agricola: Expansion for 5 and 6 Players"/>			
@@ -126,6 +162,14 @@
 			<name type="primary" value="Agricola: Farmers of the Moor"/>			
 							<yearpublished value="2009" />
 					</item>
+			<item type="boardgame" id="257344">
+			<name type="primary" value="Agricola: Farmers of the Moor"/>			
+							<yearpublished value="2018" />
+					</item>
+			<item type="boardgame" id="242390">
+			<name type="primary" value="Agricola: Feed pellets"/>			
+							<yearpublished value="2008" />
+					</item>
 			<item type="boardgame" id="166463">
 			<name type="primary" value="Agricola: France Deck"/>			
 							<yearpublished value="2014" />
@@ -138,9 +182,9 @@
 			<name type="primary" value="Agricola: Glon­na­cker"/>			
 							<yearpublished value="2015" />
 					</item>
-			<item type="boardgame" id="216650">
-			<name type="primary" value="Agricola: Green Expansion"/>			
-							<yearpublished value="2017" />
+			<item type="boardgame" id="242388">
+			<name type="primary" value="Agricola: Guildmaster"/>			
+							<yearpublished value="2008" />
 					</item>
 			<item type="boardgame" id="39090">
 			<name type="primary" value="Agricola: L-Deck"/>			
@@ -150,9 +194,21 @@
 			<name type="primary" value="Agricola: NL-Deck"/>			
 							<yearpublished value="2011" />
 					</item>
+			<item type="boardgame" id="242389">
+			<name type="primary" value="Agricola: Pelts"/>			
+							<yearpublished value="2008" />
+					</item>
 			<item type="boardgame" id="130847">
 			<name type="primary" value="Agricola: Pi-Deck"/>			
 							<yearpublished value="2012" />
+					</item>
+			<item type="boardgame" id="242350">
+			<name type="primary" value="Agricola: Rancher"/>			
+							<yearpublished value="2008" />
+					</item>
+			<item type="boardgame" id="197633">
+			<name type="primary" value="Agricola: Roman Campaign in Britain, AD 82-84"/>			
+							<yearpublished value="2017" />
 					</item>
 			<item type="boardgame" id="240737">
 			<name type="primary" value="Agricola: Rozšíření"/>			
@@ -177,6 +233,10 @@
 			<item type="boardgame" id="38641">
 			<name type="primary" value="Agricola: Through the Seasons"/>			
 							<yearpublished value="2008" />
+					</item>
+			<item type="boardgame" id="279703">
+			<name type="primary" value="Agricola: Times they are a-changing"/>			
+							<yearpublished value="2015" />
 					</item>
 			<item type="boardgame" id="103183">
 			<name type="primary" value="Agricola: World Championship Deck – 2011"/>			

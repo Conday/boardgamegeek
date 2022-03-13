@@ -111,7 +111,7 @@ def create_game_from_xml(xml_root, game_id):
         for rank in ranks:
             try:
                 rank_value = int(rank.attrib.get("value"))
-            except:
+            except (ValueError, TypeError):
                 rank_value = None
             sd["ranks"].append({"id": rank.attrib["id"],
                                 "name": rank.attrib["name"],

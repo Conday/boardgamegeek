@@ -25,7 +25,7 @@ class Thing(DictObject):
 
         try:
             self._id = int(data["id"])
-        except:
+        except (ValueError, OverflowError, TypeError):
             raise BGGError("id ({}) is not an int when trying to create a Thing".format(data["id"]))
 
         self._name = data["name"]

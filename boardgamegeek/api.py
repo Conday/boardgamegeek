@@ -104,7 +104,7 @@ class BGGCommon(object):
             self._timeout = float(timeout)
             self._retries = int(retries)
             self._retry_delay = float(retry_delay)
-        except:
+        except (ValueError, OverflowError):
             raise BGGValueError
 
         if cache is None:
@@ -169,7 +169,7 @@ class BGGCommon(object):
 
         try:
             guild_id = int(guild_id)
-        except:
+        except (TypeError, ValueError, OverflowError):
             raise BGGValueError("invalid guild id")
 
         xml_root = request_and_parse_xml(self.requests_session,

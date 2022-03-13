@@ -68,7 +68,7 @@ class BoardGameStats(DictObject):
             if rank.get("name") == "boardgame":
                 try:
                     self._bgg_rank = int(rank["value"])
-                except (KeyError, TypeError):
+                except (KeyError, TypeError, ValueError):
                     self._bgg_rank = None
             self._ranks.append(BoardGameRank(rank))
 

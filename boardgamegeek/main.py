@@ -3,8 +3,8 @@ import sys
 import argparse
 import logging
 
-from boardgamegeek.api import BGGClient, HOT_ITEM_CHOICES
 from boardgamegeek import BGGClientLegacy
+from .api import BGGClient, HOT_ITEM_CHOICES, BGGChoose
 
 log = logging.getLogger("boardgamegeek")
 log_fmt = "[%(levelname)s] %(message)s"
@@ -106,10 +106,10 @@ def main():
     if args.game:
         # fetch the most popular
         if args.most_popular:
-            game = bgg.game(args.game, choose="best-rank", comments=True)
+            game = bgg.game(args.game, choose=BGGChoose.BEST_RANK, comments=True)
         else:
-        # fetch the most recent one
-            game = bgg.game(args.game, choose="recent", comments=True)
+            # fetch the most recent one
+            game = bgg.game(args.game, choose=BGGChoose.RECENT, comments=True)
         game._format(log)
 
     if args.game_stats:

@@ -1,13 +1,13 @@
 # coding: utf-8
 import datetime
-import mock
+# import mock
 import requests
 import pytest
 import sys
 import time
 
 from _common import *
-from boardgamegeek import BGGError, BGGItemNotFoundError, BGGValueError
+from boardgamegeek import BGGError, BGGItemNotFoundError, BGGValueError, BGGChoose
 from boardgamegeek.objects.games import BoardGameVideo, BoardGameVersion, BoardGameRank
 from boardgamegeek.objects.games import PlayerSuggestion
 
@@ -195,10 +195,10 @@ def test_get_game_id_by_name(bgg, mocker):
     # Use the game "Eclipse" to test the game choosing methods
     all_eclipse_games = bgg.games("eclipse")
 
-    game_id = bgg.get_game_id("eclipse", choose="first")
+    game_id = bgg.get_game_id("eclipse", choose=BGGChoose.FIRST)
     assert game_id == all_eclipse_games[0].id
 
-    game_id = bgg.get_game_id("eclipse", choose="recent")
+    game_id = bgg.get_game_id("eclipse", choose=BGGChoose.RECENT)
     recent_year = -100000
     recent_id = None
     for g in all_eclipse_games:
@@ -207,7 +207,7 @@ def test_get_game_id_by_name(bgg, mocker):
             recent_year = g.year
     assert game_id == recent_id
 
-    game_id = bgg.get_game_id("eclipse", choose="best-rank")
+    game_id = bgg.get_game_id("eclipse", choose=BGGChoose.BEST_RANK)
     best_rank = 1000000000
     best_id = None
     for g in all_eclipse_games:

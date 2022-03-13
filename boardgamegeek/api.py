@@ -21,6 +21,7 @@ import warnings
 
 from .objects.user import User
 from .objects.search import SearchResult
+from enum import Enum
 
 from .exceptions import BGGApiError, BGGError, BGGItemNotFoundError, BGGValueError
 from .utils import xml_subelement_attr, request_and_parse_xml
@@ -42,7 +43,7 @@ HOT_ITEM_CHOICES = ["boardgame", "rpg", "videogame", "boardgameperson", "rpgpers
 COLLECTION_SUBTYPES = ["boardgame", "boardgameexpansion", "boardgameaccessory", "rpgitem", "rpgissue", "videogame"]
 
 
-class BGGChoose(object):
+class BGGChoose(Enum):
     """
     Constants indicating how a game should be chosen when performing a search by name
     """

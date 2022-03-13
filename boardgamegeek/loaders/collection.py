@@ -1,6 +1,6 @@
 from ..objects.collection import Collection
 from ..exceptions import BGGApiError, BGGItemNotFoundError
-from ..utils import get_board_game_version_from_element
+from ..utils import get_board_game_version_from_element, BGGRestrictCollectionTo
 from ..utils import xml_subelement_text, xml_subelement_attr
 
 
@@ -20,7 +20,7 @@ def add_collection_items_from_xml(collection, xml_root, subtype):
 
     added_items = False
 
-    for item in xml_root.findall("item[@subtype='{}']".format(subtype)):
+    for item in xml_root.findall("item[@subtype='{}']".format(subtype.value)):
 
         # initial data for this collection item
         data = {"name": xml_subelement_text(item, "name"),

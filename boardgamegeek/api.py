@@ -78,15 +78,6 @@ class BGGRestrictPlaysTo(object):
     VIDEO_GAME = "videogame"
 
 
-class BGGRestrictCollectionTo(object):
-    BOARD_GAME = "boardgame"
-    BOARD_GAME_EXTENSION = "boardgameexpansion"
-    BOARD_GAME_ACCESSORY = "boardgameaccessory"
-    RPG = "rpgitem"
-    RPG_ISSUE = "rpgissue"
-    VIDEO_GAME = "videogame"
-
-
 def call_progress_cb(progress_cb, current, total):
     if progress_cb is not None:
         progress_cb(current, total)
@@ -508,8 +499,9 @@ class BGGCommon(object):
         Returns an user's game collection
 
         :param str user_name: user name to retrieve the collection for
-        :param str subtype: what type of items to return. One of the constants in :py:class:`boardgamegeek.api.BGGRestrictCollectionTo`
         :param str exclude_subtype: if not ``None`` (default), exclude the specified subtype. Else, one of the constants in :py:class:`boardgamegeek.api.BGGRestrictCollectionTo`
+        :param BGGRestrictCollectionTo subtype: what type of items to return.
+         One of the constants in :py:class:`boardgamegeek.api.BGGRestrictCollectionTo`
         :param list ids: if not ``None`` (default), limit the results to the specified ids.
         :param bool versions: *DEPRECATED* use `version` instead
         :param bool version: include item version information
@@ -552,12 +544,12 @@ class BGGCommon(object):
         if not user_name:
             raise BGGValueError("no user name specified")
 
-        if subtype not in COLLECTION_SUBTYPES:
+        if subtype.value not in COLLECTION_SUBTYPES:
             raise BGGValueError("invalid 'subtype'")
 
-        params={"username": user_name,
-                "subtype": subtype,
-                "stats": 1}
+        params = {"username": user_name,
+                  "subtype": subtype.value,
+                  "stats": 1}
 
         if exclude_subtype is not None:
             if exclude_subtype not in COLLECTION_SUBTYPES:

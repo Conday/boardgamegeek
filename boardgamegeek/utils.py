@@ -13,6 +13,7 @@
 from __future__ import unicode_literals
 import sys
 import xml.etree.ElementTree as ET
+from enum import Enum
 from xml.etree.ElementTree import ParseError as ETParseError
 import requests
 import logging
@@ -424,3 +425,12 @@ def get_board_game_version_from_element(xml_elem):
         data[item] = xml_subelement_attr(xml_elem, item, convert=float, quiet=True, default=0.0)
 
     return data
+
+
+class BGGRestrictCollectionTo(Enum):
+    BOARD_GAME = "boardgame"
+    BOARD_GAME_EXTENSION = "boardgameexpansion"
+    BOARD_GAME_ACCESSORY = "boardgameaccessory"
+    RPG = "rpgitem"
+    RPG_ISSUE = "rpgissue"
+    VIDEO_GAME = "videogame"

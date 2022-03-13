@@ -189,6 +189,15 @@ class User(Thing):
         return self._data.get("avatarlink")
 
     @property
+    def yearregistered(self):
+        """
+        :return: year of registration
+        :rtype: str
+        :return: ``None`` if n/a
+        """
+        return self._data.get("yearregistered")
+
+    @property
     def last_login(self):
         return self._data.get("lastlogin")
 
@@ -213,8 +222,12 @@ class User(Thing):
         return self._data.get("wiiaccount")
 
     @property
+    def battlenet_account(self):
+        return self._data.get("battlenetaccount")
+
+    @property
     def steam_account(self):
-        return self._data.get("steam_account")
+        return self._data.get("steamaccount")
 
     @property
     def psn_account(self):
@@ -222,4 +235,8 @@ class User(Thing):
 
     @property
     def trade_rating(self):
-        return self._data.get("trade_rating")
+        return self._data.get("traderating")
+
+    @property
+    def market_rating(self):
+        return self._data.get("marketrating")

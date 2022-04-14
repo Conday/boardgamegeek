@@ -1,5 +1,5 @@
 import requests
-import requests_cache
+from requests_cache import CachedSession
 
 from .exceptions import BGGValueError
 
@@ -15,12 +15,13 @@ class CacheBackendNone(CacheBackend):
 
 class CacheBackendMemory(CacheBackend):
     """ Cache HTTP requests in memory """
+
     def __init__(self, ttl):
         try:
             int(ttl)
         except ValueError:
             raise BGGValueError
-        self.cache = requests_cache.core.CachedSession(backend="memory", expire_after=ttl, allowable_codes=(200,))
+        self.cache = CachedSession(backend="memory", expire_after=ttl, allowable_codes=(200,))
 
 
 class CacheBackendSqlite(CacheBackend):
@@ -30,9 +31,5 @@ class CacheBackendSqlite(CacheBackend):
         except ValueError:
             raise BGGValueError
 
-        self.cache = requests_cache.core.CachedSession(cache_name=path,
-                                                       backend="sqlite",
-                                                       expire_after=ttl,
-                                                       extension="",
-                                                       fast_save=fast_save,
-                                                       allowable_codes=(200,))
+        self.cache = CachedSession(cache_name=path, backend="sqlite", expire_after=ttl, extension="",
+                                   fast_save=fast_save, allowable_codes=(200,))

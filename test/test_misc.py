@@ -1,7 +1,4 @@
-import os
 import tempfile
-import time
-import pytest
 
 from _common import *
 from boardgamegeek import BGGValueError, CacheBackendNone, CacheBackendSqlite
@@ -42,15 +39,14 @@ def test_sqlite_caching(mocker):
         BGGClient(cache=CacheBackendSqlite(name, ttl="blabla", fast_save=False))
 
     bgg = BGGClient(cache=CacheBackendSqlite(name, ttl=1000))
-
     user = bgg.user(TEST_VALID_USER)
+
     assert user is not None
     assert user.name == TEST_VALID_USER
-
     assert os.path.isfile(name)
 
     # clean up..
-    os.unlink(name)
+    # os.unlink(name)
 
 
 def test_invalid_parameter_values_for_bggclient():

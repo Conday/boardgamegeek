@@ -20,7 +20,6 @@ import time
 import threading
 from requests.adapters import HTTPAdapter
 
-
 try:
     import urllib.parse as urlparse
 except:
@@ -29,12 +28,15 @@ except:
 # Compatibility shim which gives us a working "unescape HTML" function on all Python versions
 try:
     import html
-    html_unescape = html.unescape # Python 3.4+
-except AttributeError: # Python 3.0 - 3.3
+
+    html_unescape = html.unescape  # Python 3.4+
+except AttributeError:  # Python 3.0 - 3.3
     import html.parser
+
     html_unescape = html.parser.HTMLParser().unescape
-except ImportError: # Python 2
+except ImportError:  # Python 2
     import HTMLParser
+
     html_unescape = HTMLParser.HTMLParser().unescape
 
 from .exceptions import BGGApiError, BGGApiRetryError, BGGError, BGGApiTimeoutError, BGGItemNotFoundError
@@ -50,9 +52,9 @@ class RateLimitingAdapter(HTTPAdapter):
     so that we don't get throttled
     """
 
-    __last_request_timestamp = None     # time when the last request was made
-    __time_between_requests = 0         # interval to wait between requests in order to match the expected number of
-                                        # requests per second
+    __last_request_timestamp = None  # time when the last request was made
+    __time_between_requests = 0  # interval to wait between requests in order to match the expected number of
+    # requests per second
 
     __rate_limit_lock = threading.Lock()
 
@@ -75,8 +77,9 @@ class RateLimitingAdapter(HTTPAdapter):
         log.debug("acquiring rate limiting lock")
         with RateLimitingAdapter.__rate_limit_lock:
 
-            log.debug("time between requests:{}, last request timestamp: {}".format(RateLimitingAdapter.__time_between_requests,
-                                                                                    RateLimitingAdapter.__last_request_timestamp))
+            log.debug("time between requests:{}, last request timestamp: {}".format(
+                RateLimitingAdapter.__time_between_requests,
+                RateLimitingAdapter.__last_request_timestamp))
 
             # determine if we need to sleep in order to enforce the maximum requested amount of requests per minute
             if RateLimitingAdapter.__last_request_timestamp is not None:
@@ -119,7 +122,33 @@ class DictObject(object):
         return self._data
 
 
-def xml_subelement_attr_by_attr(xml_elem, subelement, filter_attr, filter_value, convert=None, attribute="value", default=None, quiet=False):
+def xml_attr(xml_elem, attribute, convert=None, default=None, quiet=False):
+    """
+    Get a (possibly missing) attribute from an element, optionally converting it.
+    :param xml_elem: element to get the attribute from
+    :param attribute: name of the attribute to get
+    :param convert: if not ``None``, a callable to perform the conversion of this attribute to a certain object type
+    :param default: default value if the subelement or attribute is not found
+    :param quiet: if ``True``, don't raise exception from conversions; return default instead
+    :return: value of the attribute or ``None`` in error cases
+    """
+    if xml_elem is None or not attribute:
+        return None
+
+    value = xml_elem.attrib.get(attribute, default)
+    if value != default and convert:
+        try:
+            value = convert(value)
+        except:
+            if quiet:
+                value = default
+            else:
+                raise
+    return value
+
+
+def xml_subelement_attr_by_attr(xml_elem, subelement, filter_attr, filter_value, convert=None, attribute="value",
+                                default=None, quiet=False):
     """
     Search for a sub-element having an attribute ``filter_attr`` set to ``filter_value``
 
@@ -149,18 +178,7 @@ def xml_subelement_attr_by_attr(xml_elem, subelement, filter_attr, filter_value,
         return None
 
     for subel in xml_elem.findall('.//{}[@{}="{}"]'.format(subelement, filter_attr, filter_value)):
-        value = subel.attrib.get(attribute)
-        if value is None:
-            value = default
-        elif convert:
-            try:
-                value = convert(value)
-            except:
-                if quiet:
-                    value = default
-                else:
-                    raise
-        return value
+        return xml_attr(subel, attribute, convert=convert, default=default, quiet=quiet)
     return default
 
 
@@ -195,17 +213,7 @@ def xml_subelement_attr(xml_elem, subelement, convert=None, attribute="value", d
     if subel is None:
         value = default
     else:
-        value = subel.attrib.get(attribute)
-        if value is None:
-            value = default
-        elif convert:
-            try:
-                value = convert(value)
-            except:
-                if quiet:
-                    value = default
-                else:
-                    raise
+        value = xml_attr(subel, attribute, convert=convert, default=default, quiet=quiet)
     return value
 
 
@@ -237,17 +245,7 @@ def xml_subelement_attr_list(xml_elem, subelement, convert=None, attribute="valu
     subel = xml_elem.findall(subelement)
     res = []
     for e in subel:
-        value = e.attrib.get(attribute)
-        if value is None:
-            value = default
-        elif convert:
-            try:
-                value = convert(value)
-            except:
-                if quiet:
-                    value = default
-                else:
-                    raise
+        value = xml_attr(e, attribute, convert=convert, default=default, quiet=quiet)
         res.append(value)
 
     return res
@@ -407,13 +405,12 @@ def fix_unsigned_negative(value):
 
 def get_board_game_version_from_element(xml_elem):
     data = {"id": int(xml_elem.attrib["id"]),
-            "yearpublished": fix_unsigned_negative(xml_subelement_attr(xml_elem,
-                                                                       "yearpublished",
-                                                                       convert=int,
-                                                                       default=0,
-                                                                       quiet=True)),
+            "yearpublished": fix_unsigned_negative(
+                xml_subelement_attr(xml_elem, "yearpublished", convert=int, default=0, quiet=True)),
             "language": xml_subelement_attr_by_attr(xml_elem, "link", "type", "language"),
+            "languages": xml_subelement_attr_list(xml_elem, "link[@type='language']"),
             "publisher": xml_subelement_attr_by_attr(xml_elem, "link", "type", "boardgamepublisher"),
+            "publishers": xml_subelement_attr_list(xml_elem, "link[@type='boardgamepublisher']"),
             "artist": xml_subelement_attr_by_attr(xml_elem, "link", "type", "boardgameartist"),
             "thumbnail": xml_subelement_text(xml_elem, "thumbnail"),
             "image": xml_subelement_text(xml_elem, "image"),

@@ -2,7 +2,8 @@ import logging
 
 from ..objects.games import BoardGame
 from ..exceptions import BGGApiError
-from ..utils import xml_subelement_attr_list, xml_subelement_text, xml_subelement_attr, get_board_game_version_from_element, html_unescape
+from ..utils import xml_attr, xml_subelement_attr_list, xml_subelement_text, xml_subelement_attr,\
+    get_board_game_version_from_element, html_unescape
 
 log = logging.getLogger("boardgamegeek.loaders.game")
 
@@ -14,21 +15,23 @@ def create_game_from_xml(xml_root, game_id):
         log.debug("unsupported type {} for item id {}".format(game_type, game_id))
         raise BGGApiError("item has an unsupported type")
 
-    data = {"id": game_id,
-            "name": xml_subelement_attr(xml_root, "name[@type='primary']"),
-            "alternative_names": xml_subelement_attr_list(xml_root, "name[@type='alternate']"),
-            "thumbnail": xml_subelement_text(xml_root, "thumbnail"),
-            "image": xml_subelement_text(xml_root, "image"),
-            "expansion": game_type == "boardgameexpansion",       # is this game an expansion?
-            "accessory": game_type == "boardgameaccessory",       # is this game an accessory?
-            "families": xml_subelement_attr_list(xml_root, "link[@type='boardgamefamily']"),
-            "categories": xml_subelement_attr_list(xml_root, "link[@type='boardgamecategory']"),
-            "implementations": xml_subelement_attr_list(xml_root, "link[@type='boardgameimplementation']"),
-            "mechanics": xml_subelement_attr_list(xml_root, "link[@type='boardgamemechanic']"),
-            "designers": xml_subelement_attr_list(xml_root, "link[@type='boardgamedesigner']"),
-            "artists": xml_subelement_attr_list(xml_root, "link[@type='boardgameartist']"),
-            "publishers": xml_subelement_attr_list(xml_root, "link[@type='boardgamepublisher']"),
-            "description": xml_subelement_text(xml_root, "description", convert=html_unescape, quiet=True)}
+    data = {
+        "id": xml_attr(xml_root, "id", convert=int),
+        "name": xml_subelement_attr(xml_root, "name[@type='primary']"),
+        "alternative_names": xml_subelement_attr_list(xml_root, "name[@type='alternate']"),
+        "thumbnail": xml_subelement_text(xml_root, "thumbnail"),
+        "image": xml_subelement_text(xml_root, "image"),
+        "expansion": game_type == "boardgameexpansion",       # is this game an expansion?
+        "accessory": game_type == "boardgameaccessory",       # is this game an accessory?
+        "families": xml_subelement_attr_list(xml_root, "link[@type='boardgamefamily']"),
+        "categories": xml_subelement_attr_list(xml_root, "link[@type='boardgamecategory']"),
+        "implementations": xml_subelement_attr_list(xml_root, "link[@type='boardgameimplementation']"),
+        "mechanics": xml_subelement_attr_list(xml_root, "link[@type='boardgamemechanic']"),
+        "designers": xml_subelement_attr_list(xml_root, "link[@type='boardgamedesigner']"),
+        "artists": xml_subelement_attr_list(xml_root, "link[@type='boardgameartist']"),
+        "publishers": xml_subelement_attr_list(xml_root, "link[@type='boardgamepublisher']"),
+        "description": xml_subelement_text(xml_root, "description", convert=html_unescape, quiet=True)
+    }
 
     expands = []        # list of items this game expands
     expansions = []     # list of expansions this game has

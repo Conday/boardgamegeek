@@ -1,7 +1,7 @@
 from ..objects.collection import Collection
 from ..exceptions import BGGApiError, BGGItemNotFoundError
 from ..utils import get_board_game_version_from_element
-from ..utils import xml_subelement_text, xml_subelement_attr
+from ..utils import xml_attr, xml_subelement_text, xml_subelement_attr
 
 
 def create_collection_from_xml(xml_root, user_name):
@@ -27,13 +27,24 @@ def add_collection_items_from_xml(collection, xml_root, subtype):
                 "id": int(item.attrib["objectid"]),
                 "image": xml_subelement_text(item, "image"),
                 "thumbnail": xml_subelement_text(item, "thumbnail"),
-                "yearpublished": xml_subelement_attr(item,
-                                                     "yearpublished",
-                                                     default=0,
-                                                     convert=int,
-                                                     quiet=True),
+                "yearpublished": xml_subelement_text(item, "yearpublished", default=0, convert=int, quiet=True),
                 "numplays": xml_subelement_text(item, "numplays", convert=int, default=0),
                 "comment": xml_subelement_text(item, "comment", default='')}
+
+        # Add private game info
+        private = item.find("privateinfo")
+        if private:
+            data["private"] = {
+                "paid": xml_attr(private, "pricepaid", convert=float, quiet=True),
+                "currency": xml_attr(private, "pp_currency"),
+                "cv_currency": xml_attr(private, "cv_currency"),
+                "currvalue": xml_attr(private, "currvalue", convert=float, quiet=True),
+                "quantity": xml_attr(private, "quantity", convert=int, quiet=True),
+                "acquired_on": xml_attr(private, "acquisitiondate"),
+                "acquired_from": xml_attr(private, "acquiredfrom"),
+                "location": xml_attr(private, "inventorylocation"),
+                "comment": xml_subelement_text(private, "privatecomment"),
+            }
 
         # Add item statistics
         stats = item.find("stats")

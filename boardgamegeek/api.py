@@ -16,8 +16,7 @@ from __future__ import unicode_literals
 
 import datetime
 import logging
-import sys
-import warnings
+import urllib.parse
 
 from .objects.user import User
 from .objects.search import SearchResult
@@ -110,6 +109,7 @@ class BGGCommon(object):
         self._plays_api_url = api_endpoint + "/plays"
         self._hot_api_url = api_endpoint + "/hot"
         self._collection_api_url = api_endpoint + "/collection"
+        self._login_url = urllib.parse.urljoin(api_endpoint, "/login/api/v1")
         try:
             self._timeout = float(timeout)
             self._retries = int(retries)
@@ -224,6 +224,35 @@ class BGGCommon(object):
                 break
 
         return guild
+
+    def log_in(self, user_name, password):
+        """
+        Logs in to site.
+        :param str user_name: user name to log-in as
+        :param str password: secret password for user
+        :retval str: error message if log-in failed.
+        :retval None: if log-in successful.
+        """
+        body = {'credentials': {'username': user_name, 'password': password}}
+        # will set authentication cookies on self.requests_session
+        response = self.requests_session.post(self._login_url, json=body)
+        if response.status_code >= 400:
+            if 'application/json' == response.headers['Content-Type']:
+                response.cooked = response.json()
+                response.error = response.cooked['errors']['message']
+            else:
+                response.error = response.text
+            if response.status_code >= 500:
+                # server error
+                pass
+            else:
+                # client error; likely invalid credentials
+                pass
+            return response.error
+        else:
+            return None
+
+    sign_in = log_in
 
     # TODO: refactor
     def user(self, name, progress=None, buddies=True, guilds=True, hot=True, top=True, domain=BGGRestrictDomainTo.BOARD_GAME):
@@ -499,11 +528,12 @@ class BGGCommon(object):
 
         return hot_items
 
-    def collection(self, user_name, subtype=BGGRestrictCollectionTo.BOARD_GAME, exclude_subtype=None, ids=None, versions=None,
-                   version=None, own=None, rated=None, played=None, commented=None, trade=None, want=None, wishlist=None,
-                   wishlist_prio=None, preordered=None, want_to_play=None, want_to_buy=None, prev_owned=None,
-                   has_parts=None, want_parts=None, min_rating=None, rating=None, min_bgg_rating=None, bgg_rating=None,
-                   min_plays=None, max_plays=None, collection_id=None, modified_since=None):
+    def collection(self, user_name, subtype=BGGRestrictCollectionTo.BOARD_GAME, exclude_subtype=None, ids=None,
+                   versions=None, version=None, own=None, rated=None, played=None, commented=None, trade=None,
+                   want=None, wishlist=None, wishlist_prio=None, preordered=None, want_to_play=None, want_to_buy=None,
+                   prev_owned=None, has_parts=None, want_parts=None, min_rating=None, rating=None, min_bgg_rating=None,
+                   bgg_rating=None, min_plays=None, max_plays=None, private=None, collection_id=None,
+                   modified_since=None):
         """
         Returns an user's game collection
 
@@ -533,6 +563,7 @@ class BGGCommon(object):
         :param double rating: return items rated by the user with a maximum of ``rating``
         :param double min_bgg_rating : return items rated on BGG with a minimum of ``min_bgg_rating``
         :param double bgg_rating: return items rated on BGG with a maximum of ``bgg_rating``
+        :param bool private: include private game info in results. Only works when viewing your own collection and you are logged in.
         :param int collection_id: restrict results to the collection specified by this id
         :param str modified_since: restrict results to those whose status (own, want, etc.) has been changed/added since ``modified_since``. Format: ``YY-MM-DD`` or ``YY-MM-DD HH:MM:SS``
 
@@ -625,6 +656,9 @@ class BGGCommon(object):
                 params["bggrating"] = bgg_rating
             else:
                 raise BGGValueError("invalid 'bgg_rating'")
+
+        if private is not None and private:
+            params["showprivate"] = 1
 
         if collection_id is not None:
             params["collid"] = collection_id
@@ -749,8 +783,7 @@ class BGGClient(BGGCommon):
         """
         return self._get_game_id(name, game_type=BGGRestrictSearchResultsTo.BOARD_GAME, choose=choose)
 
-    def game_list(self, game_id_list, versions=False,
-                  videos=False, historical=False, marketplace=False):
+    def game_list(self, game_id_list, versions=False, videos=False, historical=False, marketplace=False):
         """
         Get list of games by from a list of ids.
 
@@ -796,8 +829,7 @@ class BGGClient(BGGCommon):
 
         game_list = []
         for i, game_root in enumerate(xml_root):
-            game = create_game_from_xml(game_root,
-                                        game_id=game_id_list[i])
+            game = create_game_from_xml(game_root, game_id=game_id_list[i])
             game_list.append(game)
 
         return game_list
@@ -861,8 +893,7 @@ class BGGClient(BGGCommon):
             msg = "invalid data for game id: {}{}".format(game_id, "" if name is None else " ({})".format(name))
             raise BGGApiError(msg)
 
-        game = create_game_from_xml(xml_root,
-                                    game_id=game_id)
+        game = create_game_from_xml(xml_root, game_id=game_id)
 
         if not (comments or rating_comments):
             return game

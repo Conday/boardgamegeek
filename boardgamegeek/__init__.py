@@ -7,7 +7,8 @@
 .. moduleauthor:: Cosmin Luță <q4break@gmail.com>
 """
 
-from .api import BGGClient, BGGChoose, BGGRestrictDomainTo, BGGRestrictPlaysTo, BGGRestrictSearchResultsTo, BGGRestrictCollectionTo
+from .api import BGGClient, BGGChoose, BGGRestrictDomainTo, BGGRestrictPlaysTo, BGGRestrictSearchResultsTo,\
+    BGGRestrictCollectionTo
 from .legacy_api import BGGClientLegacy
 from .exceptions import BGGError, BGGApiRetryError, BGGApiError, BGGApiTimeoutError, BGGValueError, BGGItemNotFoundError
 from .cache import CacheBackendNone, CacheBackendMemory, CacheBackendSqlite

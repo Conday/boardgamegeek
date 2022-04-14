@@ -1,12 +1,9 @@
 from __future__ import unicode_literals
 
-import pytest
-
 from _common import *
 from boardgamegeek import BGGError, BGGValueError, BGGItemNotFoundError
 from boardgamegeek.objects.collection import CollectionBoardGame, Collection
-from boardgamegeek.objects.games import BoardGameVersion
-import time
+from boardgamegeek.objects.games import BoardGameVersion, BoardGamePrivate
 
 
 def test_get_collection_with_invalid_parameters(bgg):
@@ -63,28 +60,46 @@ def test_creating_collection_out_of_raw_data():
         Collection({"items": [{"id": 102}]})
 
     # test that items are added to the collection from the constructor
-    c = Collection({"owner": "me",
-                    "items": [{"id": 100,
-                               "name": "foobar",
-                               "image": "",
-                               "thumbnail": "",
-                               "yearpublished": 1900,
-                               "numplays": 32,
-                               "comment": "This game is great!",
-                               "minplayers": 1,
-                               "maxplayers": 5,
-                               "minplaytime": 60,
-                               "maxplaytime": 120,
-                               "playingtime": 100,
-                               "stats": {
-                                    "usersrated": 123,
-                                    "ranks": [{
-                                        "id": "1", "type": "subtype", "name": "boardgame", "friendlyname": "friendly",
-                                        "value": "10", "bayesaverage": "0.51"
-                                    }]
-                                }
-
-                               }]})
+    data = {
+        "owner": "me",
+        "items": [{
+            "id": 100,
+            "name": "foobar",
+            "image": "",
+            "thumbnail": "",
+            "yearpublished": 1900,
+            "numplays": 32,
+            "comment": "This game is great!",
+            "minplayers": 1,
+            "maxplayers": 5,
+            "minplaytime": 60,
+            "maxplaytime": 120,
+            "playingtime": 100,
+            "stats": {
+                "usersrated": 123,
+                "ranks": [{
+                    "id": "1",
+                    "type": "subtype",
+                    "name": "boardgame",
+                    "friendlyname": "friendly",
+                    "value": "10",
+                    "bayesaverage": "0.51"
+                }]
+            },
+            "private": {
+                "comment": "private comment",
+                "paid": 42.0,
+                "currency": "USD",
+                "currvalue": 23.0,
+                "cv_currency": "EUR",
+                "quantity": "1",
+                "acquired_on": "2000-01-01",
+                "acquired_from": "store",
+                "location": "home",
+            },
+        }]
+    }
+    c = Collection(data)
 
     assert len(c) == 1
     assert c.owner == "me"
@@ -105,7 +120,42 @@ def test_creating_collection_out_of_raw_data():
     assert ci.bgg_rank == 10
     assert ci.users_rated == 123
     assert ci.rating_bayes_average is None
+    assert ci.private is not None
+    assert ci.private_comment == "private comment"
+    assert ci.paid == 42.0
+    assert ci.currency == "USD"
+    assert ci.currvalue == 23.0
+    assert ci.cv_currency == "EUR"
+    assert ci.quantity == "1"
+    assert ci.acquired_on == "2000-01-01"
+    assert ci.acquired_from == "store"
+    assert ci.location == "home"
 
     with pytest.raises(BGGError):
         # raises exception on invalid game data
         c.add_game({"bla": "bla"})
+
+
+def test_creating_private_out_of_raw_data():
+    private_data = {
+        "comment": "private comment",
+        "paid": 42.0,
+        "currency": "USD",
+        "currvalue": 23.0,
+        "cv_currency": "EUR",
+        "quantity": "1",
+        "acquired_on": "2000-01-01",
+        "acquired_from": "store",
+        "location": "home"
+    }
+    private = BoardGamePrivate(private_data)
+
+    assert private.paid == private_data['paid']
+    assert private.currency == private_data['currency']
+    assert private.comment == private_data['comment']
+    assert private.quantity == private_data['quantity']
+    assert private.currvalue == private_data["currvalue"]
+    assert private.cv_currency == private_data["cv_currency"]
+    assert private.acquired_on == private_data["acquired_on"]
+    assert private.acquired_from == private_data["acquired_from"]
+    assert private.location == private_data["location"]

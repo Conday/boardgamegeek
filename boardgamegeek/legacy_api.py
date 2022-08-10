@@ -7,14 +7,16 @@ from .api import CacheBackendMemory
 from .api import DEFAULT_REQUESTS_PER_MINUTE
 from .api import BGGValueError
 from .api import request_and_parse_xml
-from .loaders import create_geeklist_from_xml, add_geeklist_items_from_xml
+from .loaders.geeklist import create_geeklist_from_xml, add_geeklist_items_from_xml
 
 log = logging.getLogger("boardgamegeek.legacy_api")
 
-API_ENDPOINT='http://www.boardgamegeek.com/xmlapi'
+API_ENDPOINT = 'http://www.boardgamegeek.com/xmlapi'
+
 
 class BGGClientLegacy(BGGCommon):
-    def __init__(self, cache=CacheBackendMemory(ttl=3600), timeout=15, retries=3, retry_delay=5, disable_ssl=False, requests_per_minute=DEFAULT_REQUESTS_PER_MINUTE):
+    def __init__(self, cache=CacheBackendMemory(ttl=3600), timeout=15, retries=3, retry_delay=5,
+                 requests_per_minute=DEFAULT_REQUESTS_PER_MINUTE):
 
         super(BGGClientLegacy, self).__init__(api_endpoint=API_ENDPOINT,
                                               cache=cache,
@@ -31,7 +33,6 @@ class BGGClientLegacy(BGGCommon):
         self._collection_api_url = None
         self._geeklist_api_url = API_ENDPOINT + "/geeklist"
 
-
     def geeklist(self, listid, comments=False):
         # Parameter validation
         if not listid:
@@ -39,7 +40,8 @@ class BGGClientLegacy(BGGCommon):
         log.debug("retrieving list {}".format(listid))
 
         params = {}
-        if comments: params["comments"]= 1
+        if comments:
+            params["comments"] = 1
         url = "{}/{}".format(self._geeklist_api_url, listid)
         xml_root = request_and_parse_xml(self.requests_session,
                                          url,

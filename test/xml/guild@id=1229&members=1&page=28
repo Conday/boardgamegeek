@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><guild id="1229" name="Geek Tools" created="Sun, 22 Jan 2012 09:53:47 +0000" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
+	<category>hobby</category>
+	<website></website>
+	<manager>Jester</manager>
+	<description>This guild is set aside for the developer community building apps or tools for BGG and its sister sites, using the XML API or other data from BGG. It also welcomes developers building tools to augment the BGG community experience. &lt;br/&gt;&lt;br/&gt;Questions about BGG API capabilities or design discussions are welcome here. General discussions of technologies that can be brought to bear on BGG-specific solutions are welcome. General purpose coding questions are probably better suited for other venues on the web.</description>
+	<location>
+		<addr1></addr1>
+		<addr2></addr2>
+		<city></city>
+		<stateorprovince></stateorprovince>
+		<postalcode></postalcode>
+		<country></country>
+	</location>
+		<members count="762" page="28">
+					<member name="ThisIsMichael" date="Tue, 15 Mar 2016 11:33:27 +0000" />
+					<member name="ThompsonWolfa" date="Sun, 23 Nov 2014 20:36:26 +0000" />
+					<member name="Threnody" date="Fri, 07 May 2021 04:19:08 +0000" />
+					<member name="tiger" date="Sun, 12 Aug 2018 01:53:06 +0000" />
+					<member name="tiigrikutzu" date="Mon, 06 Nov 2017 09:25:32 +0000" />
+					<member name="timdine" date="Thu, 01 Jan 2015 07:04:16 +0000" />
+					<member name="timou77" date="Mon, 02 Nov 2015 14:33:53 +0000" />
+					<member name="Tinimini" date="Tue, 01 Apr 2014 04:05:49 +0000" />
+					<member name="tinymachine" date="Wed, 14 Mar 2012 18:49:48 +0000" />
+					<member name="tivowatcher" date="Thu, 12 Jun 2014 21:16:34 +0000" />
+					<member name="tms2" date="Wed, 12 Jun 2013 02:24:07 +0000" />
+					<member name="toadsoup" date="Fri, 02 May 2014 03:30:22 +0000" />
+					<member name="tomgazpacho" date="Sun, 29 Jul 2018 04:10:27 +0000" />
+					<member name="tomstock1337" date="Sun, 17 Mar 2019 19:45:20 +0000" />
+					<member name="torontoraptors" date="Sun, 26 Oct 2014 12:52:47 +0000" />
+					<member name="tOverney" date="Tue, 09 Jan 2018 13:01:10 +0000" />
+					<member name="tphilip" date="Mon, 14 May 2012 20:21:41 +0000" />
+					<member name="travistdale" date="Sun, 22 Jan 2012 19:59:47 +0000" />
+					<member name="trechriron" date="Thu, 03 Mar 2016 20:57:26 +0000" />
+					<member name="Trnolds" date="Thu, 23 Jul 2020 18:05:07 +0000" />
+					<member name="troller69" date="Tue, 21 Jul 2020 18:56:16 +0000" />
+					<member name="tsangal" date="Fri, 06 Nov 2015 01:58:16 +0000" />
+					<member name="TuftyMcTavish" date="Sat, 14 Apr 2012 15:38:16 +0000" />
+					<member name="twagner" date="Thu, 14 May 2020 22:49:54 +0000" />
+					<member name="tylrprtr" date="Thu, 30 Dec 2021 20:05:05 +0000" />
+			</members>
+	</guild>

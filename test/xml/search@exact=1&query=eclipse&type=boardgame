@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><items total="5" termsofuse="http://boardgamegeek.com/xmlapi/termsofuse">			<item type="boardgame" id="11542">
+<?xml version="1.0" encoding="utf-8"?><items total="5" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">			<item type="boardgame" id="11542">
 			<name type="primary" value="Eclipse"/>			
 							<yearpublished value="1999" />
 					</item>
@@ -17,4 +17,4 @@
 			<name type="alternate" value="Eclipse"/>			
 							<yearpublished value="1972" />
 					</item>
-		</items>
+	</items>

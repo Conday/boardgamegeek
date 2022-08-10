@@ -1,8 +1,9 @@
+import html
 import logging
 
 from ..objects.guild import Guild
 from ..exceptions import BGGItemNotFoundError
-from ..utils import xml_subelement_text, html_unescape
+from ..utils import xml_subelement_text
 
 
 log = logging.getLogger("boardgamegeek.loaders.guild")
@@ -20,7 +21,7 @@ def create_guild_from_xml(xml_root):
             "category": xml_subelement_text(xml_root, "category"),
             "website": xml_subelement_text(xml_root, "website"),
             "manager": xml_subelement_text(xml_root, "manager"),
-            "description": xml_subelement_text(xml_root, "description", convert=html_unescape, quiet=True)}
+            "description": xml_subelement_text(xml_root, "description", convert=html.unescape, quiet=True)}
 
     # Grab location info
     location = xml_root.find("location")

@@ -10,12 +10,11 @@
 .. moduleauthor:: Cosmin Luță <q4break@gmail.com>
 
 """
-from __future__ import unicode_literals
 from copy import copy
 import datetime
 
-from boardgamegeek.exceptions import BGGError
-from boardgamegeek.utils import DictObject
+from ..exceptions import BGGError
+from ..utils import DictObject
 
 
 class PlaysessionPlayer(DictObject):
@@ -27,7 +26,7 @@ class PlaysessionPlayer(DictObject):
     """
 
     def __init__(self, data):
-        self._data = data
+        super().__init__(data)
 
     @property
     def username(self):

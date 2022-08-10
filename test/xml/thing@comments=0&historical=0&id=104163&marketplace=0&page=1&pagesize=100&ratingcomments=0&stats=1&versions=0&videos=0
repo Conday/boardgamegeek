@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><items termsofuse="http://boardgamegeek.com/xmlapi/termsofuse"><item type="boardgameaccessory" id="104163">
-         <thumbnail>https://cf.geekdo-images.com/images/pic1180639_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic1180639.jpg</image>
+<?xml version="1.0" encoding="utf-8"?><items termsofuse="https://boardgamegeek.com/xmlapi/termsofuse"><item type="boardgameaccessory" id="104163">
+         <thumbnail>https://cf.geekdo-images.com/b76ARFWpgsIDea_qF9m9JQ__thumb/img/tCwJEaSJvBW3L3bF3BghMCF-4q8=/fit-in/200x150/filters:strip_icc()/pic1180639.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/b76ARFWpgsIDea_qF9m9JQ__original/img/NdPu8OTru75MvSjZBlIEM9WZbXw=/0x0/filters:format(jpeg)/pic1180639.jpg</image>
                                      				
-				<name type="primary" sortindex="1" value="Descent: Journeys in the Dark (second edition) – Conversion Kit" />
+				<name type="primary" sortindex="1" value="Descent: Journeys in the Dark (Second Edition) – Conversion Kit" />
 			
 						                               				
 				<name type="alternate" sortindex="1" value="Descent: Die Reise ins Dunkel – Zweite Edition Upgrade-Kit" />
@@ -99,23 +99,23 @@
 	
    		<statistics page="1">
 								<ratings >
-			<usersrated value="318" />
-			<average value="8.11775" />
-			<bayesaverage value="7.70162" />
+			<usersrated value="317" />
+			<average value="8.12917" />
+			<bayesaverage value="7.60941" />
 
 			<ranks>
-															<rank type="subtype" id="62" name="boardgameaccessory" friendlyname="Accessory Rank" value="6" bayesaverage="7.70162" />
+															<rank type="subtype" id="62" name="boardgameaccessory" friendlyname="Accessory Rank" value="16" bayesaverage="7.60941" />
 												</ranks>
 
-			<stddev value="1.25799" />
+			<stddev value="1.24849" />
 			<median value="0" />
-			<owned value="2441" />
-			<trading value="43" />
-			<wanting value="46" />
-			<wishing value="258" />
-			<numcomments value="105" />
-			<numweights value="10" />
-			<averageweight value="3.3" />
+			<owned value="2424" />
+			<trading value="42" />
+			<wanting value="38" />
+			<wishing value="238" />
+			<numcomments value="106" />
+			<numweights value="9" />
+			<averageweight value="3.3333" />
 			</ratings>
 								</statistics>
      

@@ -1,13 +1,13 @@
 # coding: utf-8
 import datetime
-import mock
+# import mock
 import requests
 import pytest
 import sys
 import time
 
 from _common import *
-from boardgamegeek import BGGError, BGGItemNotFoundError, BGGValueError
+from boardgamegeek import BGGError, BGGItemNotFoundError, BGGValueError, BGGChoose
 from boardgamegeek.objects.games import BoardGameVideo, BoardGameVersion, BoardGameRank
 from boardgamegeek.objects.games import PlayerSuggestion
 
@@ -41,49 +41,52 @@ def check_game(game):
     assert game.name == TEST_GAME_NAME
     assert game.id == TEST_GAME_ID
     assert game.year == 2007
-    assert game.mechanics == ['Area Enclosure', 'Card Drafting',
-                              'Hand Management', 'Variable Player Powers',
-                              'Worker Placement']
+    assert game.mechanics == ['Advantage Token', 'Automatic Resource Growth', 'Closed Drafting',
+                              'Enclosure', 'Hand Management', 'Increase Value of Unchosen Resources',
+                              'Solo / Solitaire Game', 'Turn Order: Claim Action',
+                              'Variable Player Powers', 'Worker Placement']
     assert game.min_players == 1
     assert game.max_players == 5
-    assert game.thumbnail == "https://cf.geekdo-images.com/images/pic259085_t.jpg"
-    assert game.image == "https://cf.geekdo-images.com/images/pic259085.jpg"
+    assert game.thumbnail == 'https://cf.geekdo-images.com/dDDo2Hexl80ucK1IlqTk-g__thumb/img/GHGdnCfeysoP_34gLnofJcNivW8=/fit-in/200x150/filters:strip_icc()/pic831744.jpg'
+    assert game.image == 'https://cf.geekdo-images.com/dDDo2Hexl80ucK1IlqTk-g__original/img/toobKoejPiHpfpHk4SYd1UAJafw=/0x0/filters:format(jpeg)/pic831744.jpg'
     assert game.playing_time > 100
     assert game.min_age == 12
 
     assert "Economic" in game.categories
     assert "Farming" in game.categories
 
-    assert game.families == ['Agricola', 'Animals: Cattle', 'Animals: Horses',
-                             'Animals: Pigs', 'Animals: Sheep', 'Harvest Series',
-                             'Solitaire Games', 'Tableau Building']
+    assert game.families == ['Animals: Cattle / Cows', 'Animals: Horses', 'Animals: Pigs', 'Animals: Sheep',
+                             'Components: Meeples (Animal) / Animeeples', 'Components: Wooden pieces & boards',
+                             'Digital Implementations: Boiteajeux', 'Game: Agricola', 'Mechanism: Tableau Building',
+                             'Occupation: Farmer', 'Players: Games with Solitaire Rules',
+                             'Series: Harvest (Uwe Rosenberg)', 'Theme: Food / Cooking']
     assert game.designers == ["Uwe Rosenberg"]
     assert game.artists == ["Klemens Franz"]
 
     assert "Lookout Games" in game.publishers
-    assert u"Compaya.hu - Gamer Café Kft." in game.publishers
+    assert 'Compaya.hu: Gamer Café Kft.' in game.publishers
 
-    assert u"Агрикола" in game.alternative_names
-    assert u"아그리콜라" in game.alternative_names
+    assert 'Агрикола' in game.alternative_names
+    assert '아그리콜라' in game.alternative_names
 
-    assert len(game.description) == 1985
+    assert len(game.description) == 1987
 
-    assert game.users_rated == 51439
-    assert game.rating_average == 8.0345
-    assert game.rating_bayes_average == 7.93694
-    assert game.rating_stddev == 1.56465
+    assert game.users_rated == 66820
+    assert game.rating_average == 7.92008
+    assert game.rating_bayes_average == 7.80245
+    assert game.rating_stddev == 1.553
     assert game.rating_median == 0.0
-    assert game.rating_num_weights == 5540
-    assert game.rating_average_weight == 3.6319
-    assert game.boardgame_rank == 15
+    assert game.rating_num_weights == 6122
+    assert game.rating_average_weight == 3.6395
+    assert game.boardgame_rank == 39
 
-    assert game.users_owned == 62141
-    assert game.users_trading == 1121
-    assert game.users_wanting == 1120
-    assert game.users_wishing == 8407
-    assert game.users_commented == 11034
+    assert game.users_owned == 79306
+    assert game.users_trading == 1307
+    assert game.users_wanting == 1145
+    assert game.users_wishing == 11253
+    assert game.users_commented == 13062
 
-    assert len(game.expansions) == 23
+    assert len(game.expansions) == 32
     assert 43018 in [g.id for g in game.expansions]
 
     # check for videos
@@ -195,10 +198,10 @@ def test_get_game_id_by_name(bgg, mocker):
     # Use the game "Eclipse" to test the game choosing methods
     all_eclipse_games = bgg.games("eclipse")
 
-    game_id = bgg.get_game_id("eclipse", choose="first")
+    game_id = bgg.get_game_id("eclipse", choose=BGGChoose.FIRST)
     assert game_id == all_eclipse_games[0].id
 
-    game_id = bgg.get_game_id("eclipse", choose="recent")
+    game_id = bgg.get_game_id("eclipse", choose=BGGChoose.RECENT)
     recent_year = -100000
     recent_id = None
     for g in all_eclipse_games:
@@ -207,7 +210,7 @@ def test_get_game_id_by_name(bgg, mocker):
             recent_year = g.year
     assert game_id == recent_id
 
-    game_id = bgg.get_game_id("eclipse", choose="best-rank")
+    game_id = bgg.get_game_id("eclipse", choose=BGGChoose.BEST_RANK)
     best_rank = 1000000000
     best_id = None
     for g in all_eclipse_games:

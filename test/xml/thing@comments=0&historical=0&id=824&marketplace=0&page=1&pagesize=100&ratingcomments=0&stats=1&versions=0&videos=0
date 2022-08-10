@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><items termsofuse="http://boardgamegeek.com/xmlapi/termsofuse"><item type="boardgame" id="824">
-         <thumbnail>https://cf.geekdo-images.com/images/pic84788_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic84788.jpg</image>
+<?xml version="1.0" encoding="utf-8"?><items termsofuse="https://boardgamegeek.com/xmlapi/termsofuse"><item type="boardgame" id="824">
+         <thumbnail>https://cf.geekdo-images.com/U35QL6Y_bthE_7JeSwr7ag__thumb/img/2JSwP8z-x3Ibkn1zydBGdAQgHiA=/fit-in/200x150/filters:strip_icc()/pic84788.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/U35QL6Y_bthE_7JeSwr7ag__original/img/KrkZb6D3dzosRx2paPF3UnqEAvI=/0x0/filters:format(jpeg)/pic84788.jpg</image>
                                      				
 				<name type="primary" sortindex="1" value="Hijara" />
 			
 						                               				
 				<name type="alternate" sortindex="1" value="Eclipse" />
 			
-						               													<description>Hijara ... 2-player abstract strategy board game of concentration &amp;ndash; using placement of small stones, strategy and points accumulation.&amp;#10;&amp;#10;The original game was named Excel and published by American Airlines, Inc. in their in flight magazine American Way on December 24th 1985 and July 22nd 1986 &amp;ndash; U.S.A.&amp;#10;&amp;#10;Excel was later published as Eclipse by Games Above Board in 1994 and included in Games Magazine 1995 Buyers Guide To Games &amp;ndash; U.S.A.&amp;#10; Excel/Eclipse, renamed Hijara (Arabic for small stones), was published by Great American Trading Company in 1995 and has been in Games Magazine Top 100 since 1996.&amp;#10;&amp;#10;The game was then published as Hijara by Sunnywood, Sterling Games in 2004 &amp;ndash; Hong Kong.&amp;#10;&amp;#10;Also published as Hijara in February 2012 by Ducosim &amp;ndash; The Netherlands.&amp;#10;&amp;#10;The game has been knocked off 4 times &amp;hellip; electronic flash versions (Russia &amp;amp; U.S.A.) + Android (Belgium) and iPhone (India) apps.&amp;#10;&amp;#10;Game play: start with an empty board, end with a full board and the player who accrues the most points is the winner.&amp;#10;&amp;#10;The three ways to score points:&amp;#10;4 numbers of a kind in a row - horizontally, vertically, diagonally scores 10 points.&amp;#10;4 numbers in sequence in a row - horizontally, vertically, diagonally scores 15 points.&amp;#10;4 numbers in a square scores 20 points.&amp;#10;&amp;#10;Two additional optional ways to score points:&amp;#10;4 numbers of a kind in the 4 corner squares scores 10 points.&amp;#10;4 numbers in sequence in the 4 corner squares scores 15 points.&amp;#10;&amp;#10;You snooze, you lose - as overlooked points are forfeited.&amp;#10;&amp;#10;A singular game for two with only one rule - i.e. numbered squares may be filled in any order however, stones must be placed on the square [being filled] in numerical sequence of that square.&amp;#10;&amp;#10;FYI &amp;ndash; contrary to ValJor's opinion and as proved to him (by playing a game), as the game is played for points, the second player cannot break Hijara.&amp;#10;&amp;#10;</description>
+						               													<description>Hijara ... 2-player abstract strategy board game of concentration &amp;ndash; using placement of small stones, strategy and points accumulation.&amp;#10;&amp;#10;The original game was named Excel and published by American Airlines, Inc. in their in flight magazine American Way on December 24th 1985 and July 22nd 1986 &amp;ndash; U.S.A.&amp;#10;&amp;#10;Excel was later published as Eclipse by Games Above Board in 1994 and included in Games Magazine 1995 Buyers Guide To Games &amp;ndash; U.S.A.&amp;#10; Excel/Eclipse, renamed Hijara (Arabic for small stones), was published by Great American Trading Company in 1995 and has been in Games Magazine Top 100 since 1996.&amp;#10;&amp;#10;The game was then published as Hijara by Sunnywood, Sterling Games in 2004 &amp;ndash; Hong Kong.&amp;#10;&amp;#10;Also published as Hijara in February 2012 by Ducosim &amp;ndash; The Netherlands.&amp;#10;&amp;#10;The game has been knocked off 4 times &amp;hellip; electronic flash versions (Russia &amp;amp; U.S.A.) + Android (Belgium) and iPhone (India) apps.&amp;#10;&amp;#10;Game play: start with an empty board, end with a full board and the player who accrues the most points is the winner.&amp;#10;&amp;#10;The three ways to score points:&amp;#10;4 numbers of a kind in a row - horizontally, vertically, diagonally scores 10 points.&amp;#10;4 numbers in sequence in a row - horizontally, vertically, diagonally scores 15 points.&amp;#10;4 numbers in a square scores 20 points.&amp;#10;&amp;#10;Two additional optional ways to score points:&amp;#10;4 numbers of a kind in the 4 corner squares scores 10 points.&amp;#10;4 numbers in sequence in the 4 corner squares scores 15 points.&amp;#10;&amp;#10;You snooze, you lose - as overlooked points are forfeited.&amp;#10;&amp;#10;A singular game for two with only one rule - i.e. numbered squares may be filled in any order however, stones must be placed on the square [being filled] in numerical sequence of that square.&amp;#10;&amp;#10;</description>
 										      	               				<yearpublished value="1995" />
 						               				<minplayers value="2" />
 						               				<maxplayers value="2" />
@@ -30,17 +30,35 @@
 					<result value="Recommended" numvotes="0" />
 					<result value="Not Recommended" numvotes="0" />
 				</results>					
-	</poll> 
-			               				<playingtime value="40" />
+	</poll> 			               				<playingtime value="40" />
 						               				<minplaytime value="40" />
 						               				<maxplaytime value="40" />
 						               				<minage value="10" />
 						      			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
-	</poll> 
-			      			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
-	</poll> 
-			      			 
-			      				
+			<results>		
+					<result value="2" numvotes="0" />
+					<result value="3" numvotes="0" />
+					<result value="4" numvotes="0" />
+					<result value="5" numvotes="0" />
+					<result value="6" numvotes="0" />
+					<result value="8" numvotes="0" />
+					<result value="10" numvotes="0" />
+					<result value="12" numvotes="0" />
+					<result value="14" numvotes="0" />
+					<result value="16" numvotes="0" />
+					<result value="18" numvotes="0" />
+					<result value="21 and up" numvotes="0" />
+				</results>					
+	</poll> 			      			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+			
+		<results>		
+					<result level="1" value="No necessary in-game text" numvotes="0" />
+					<result level="2" value="Some necessary text - easily memorized or small crib sheet" numvotes="0" />
+					<result level="3" value="Moderate in-game text - needs crib sheet or paste ups" numvotes="0" />
+					<result level="4" value="Extensive use of text - massive conversion needed to be playable" numvotes="0" />
+					<result level="5" value="Unplayable in another language" numvotes="0" />
+				</results>					
+	</poll> 			      			 			      				
 		 			
 
 			
@@ -73,32 +91,40 @@
 
 			
 		
-					<link type="boardgamefamily" id="6363" value="Tube Games" />
+					<link type="boardgamefamily" id="4220" value="Category: n in a row" />
 		
 									
-			
-
-			      			
-
-			      			
-
-			      			
-
-			      			
-
-			      			
-
-			      			
-
-			      				
+				
 		 			
 
 			
 		
-					<link type="boardgameimplementation" id="3656" value="Score Four" inbound="true"/>
+					<link type="boardgamefamily" id="6363" value="Containers: Tubes" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="61979" value="Players: Two Player Only Games" />
 		
 									
 			
+
+			      			
+
+			      			
+
+			      			
+
+			      			
+
+			      			
+
+			      			
+
+			      			
 
 			      	      	      				
 		 			
@@ -125,6 +151,14 @@
 
 			
 		
+					<link type="boardgamepublisher" id="4" value="(Self-Published)" />
+		
+									
+				
+		 			
+
+			
+		
 					<link type="boardgamepublisher" id="12092" value="Ducosim" />
 		
 									
@@ -134,14 +168,6 @@
 			
 		
 					<link type="boardgamepublisher" id="1394" value="Games Above Board" />
-		
-									
-				
-		 			
-
-			
-		
-					<link type="boardgamepublisher" id="4826" value="Giseh Verlag" />
 		
 									
 				
@@ -172,22 +198,22 @@
 	
    		<statistics page="1">
 								<ratings >
-			<usersrated value="41" />
-			<average value="5.77749" />
-			<bayesaverage value="5.50228" />
+			<usersrated value="46" />
+			<average value="5.77993" />
+			<bayesaverage value="5.5011" />
 
 			<ranks>
-															<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="11898" bayesaverage="5.50228" />
-																				<rank type="family" id="4666" name="abstracts" friendlyname="Abstract Game Rank" value="689" bayesaverage="5.50555" />
+															<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="18119" bayesaverage="5.5011" />
+																				<rank type="family" id="4666" name="abstracts" friendlyname="Abstract Game Rank" value="917" bayesaverage="5.49578" />
 												</ranks>
 
-			<stddev value="1.48457" />
+			<stddev value="1.63298" />
 			<median value="0" />
-			<owned value="91" />
-			<trading value="7" />
+			<owned value="111" />
+			<trading value="9" />
 			<wanting value="1" />
-			<wishing value="9" />
-			<numcomments value="24" />
+			<wishing value="12" />
+			<numcomments value="32" />
 			<numweights value="4" />
 			<averageweight value="1.5" />
 			</ratings>

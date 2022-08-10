@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><guild id="1229" name="Geek Tools" created="Sun, 22 Jan 2012 09:53:47 +0000" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
+	<category>hobby</category>
+	<website></website>
+	<manager>Jester</manager>
+	<description>This guild is set aside for the developer community building apps or tools for BGG and its sister sites, using the XML API or other data from BGG. It also welcomes developers building tools to augment the BGG community experience. &lt;br/&gt;&lt;br/&gt;Questions about BGG API capabilities or design discussions are welcome here. General discussions of technologies that can be brought to bear on BGG-specific solutions are welcome. General purpose coding questions are probably better suited for other venues on the web.</description>
+	<location>
+		<addr1></addr1>
+		<addr2></addr2>
+		<city></city>
+		<stateorprovince></stateorprovince>
+		<postalcode></postalcode>
+		<country></country>
+	</location>
+		<members count="762" page="21">
+					<member name="OldManJim" date="Sun, 22 Jan 2012 11:46:21 +0000" />
+					<member name="ollybh" date="Sat, 16 Aug 2014 22:53:05 +0000" />
+					<member name="Omertron" date="Sun, 14 Aug 2016 16:03:02 +0000" />
+					<member name="onefewercar" date="Tue, 19 Nov 2019 00:25:13 +0000" />
+					<member name="otteydw" date="Fri, 05 Jul 2019 18:35:30 +0000" />
+					<member name="oudknoei" date="Sun, 22 Jan 2012 13:13:28 +0000" />
+					<member name="OuttaCards" date="Mon, 08 Feb 2021 08:00:34 +0000" />
+					<member name="Oxyligen" date="Fri, 19 Oct 2018 08:57:56 +0000" />
+					<member name="oynk" date="Fri, 09 Apr 2021 00:43:23 +0000" />
+					<member name="pacemaker67" date="Sun, 15 Dec 2019 17:53:42 +0000" />
+					<member name="paigew" date="Wed, 10 Oct 2012 05:03:28 +0000" />
+					<member name="pak21" date="Sat, 24 Aug 2013 21:11:30 +0000" />
+					<member name="Paladin82Y" date="Fri, 25 Oct 2019 13:43:51 +0000" />
+					<member name="paracelso_dra" date="Mon, 13 Apr 2020 12:38:41 +0000" />
+					<member name="paradox23" date="Tue, 03 Dec 2019 19:50:34 +0000" />
+					<member name="Pard" date="Thu, 20 Jun 2019 09:39:17 +0000" />
+					<member name="parkrrrr" date="Tue, 10 Apr 2012 13:41:45 +0000" />
+					<member name="paschott" date="Sun, 19 Nov 2017 03:39:22 +0000" />
+					<member name="pastej" date="Mon, 10 Feb 2014 19:52:33 +0000" />
+					<member name="patzer" date="Sun, 05 Apr 2020 01:57:54 +0000" />
+					<member name="pcstam" date="Sat, 10 Aug 2019 22:16:23 +0000" />
+					<member name="peakhope" date="Fri, 24 Jan 2014 05:54:58 +0000" />
+					<member name="Petwag" date="Thu, 20 Aug 2020 11:08:46 +0000" />
+					<member name="Peukon" date="Mon, 21 Aug 2017 08:02:11 +0000" />
+					<member name="Phadrus00" date="Sat, 06 Sep 2014 15:45:07 +0000" />
+			</members>
+	</guild>

@@ -1,3 +1,4 @@
+import html
 import pickle
 import threading
 import time
@@ -172,6 +173,6 @@ def test_rate_limiting_for_requests():
 def test_html_unescape_function():
     escaped = "&lt;tag&gt;"
 
-    unescaped = bggutil.html_unescape(escaped)
+    unescaped = html.unescape(escaped)
 
     assert unescaped == "<tag>"

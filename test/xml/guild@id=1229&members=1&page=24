@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><guild id="1229" name="Geek Tools" created="Sun, 22 Jan 2012 09:53:47 +0000" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
+	<category>hobby</category>
+	<website></website>
+	<manager>Jester</manager>
+	<description>This guild is set aside for the developer community building apps or tools for BGG and its sister sites, using the XML API or other data from BGG. It also welcomes developers building tools to augment the BGG community experience. &lt;br/&gt;&lt;br/&gt;Questions about BGG API capabilities or design discussions are welcome here. General discussions of technologies that can be brought to bear on BGG-specific solutions are welcome. General purpose coding questions are probably better suited for other venues on the web.</description>
+	<location>
+		<addr1></addr1>
+		<addr2></addr2>
+		<city></city>
+		<stateorprovince></stateorprovince>
+		<postalcode></postalcode>
+		<country></country>
+	</location>
+		<members count="762" page="24">
+					<member name="robinz" date="Thu, 29 Jun 2017 19:38:38 +0000" />
+					<member name="RobRoy" date="Sat, 12 Mar 2022 02:26:14 +0000" />
+					<member name="RodgeRabbit" date="Fri, 09 Aug 2019 18:53:00 +0000" />
+					<member name="RodimusPrime" date="Thu, 29 Aug 2019 16:52:48 +0000" />
+					<member name="rodneys" date="Fri, 30 Nov 2012 17:59:33 +0000" />
+					<member name="rodriago" date="Wed, 06 May 2020 22:40:08 +0000" />
+					<member name="Rokusho" date="Tue, 02 Jul 2013 21:33:43 +0000" />
+					<member name="roll2tv" date="Thu, 04 Feb 2016 12:34:44 +0000" />
+					<member name="rosborn" date="Wed, 18 Jun 2014 17:47:24 +0000" />
+					<member name="roshne" date="Thu, 13 Aug 2015 21:43:37 +0000" />
+					<member name="rouie_a" date="Sun, 29 Oct 2017 06:42:33 +0000" />
+					<member name="rrayburn" date="Mon, 03 Sep 2012 15:06:11 +0000" />
+					<member name="rshipley" date="Sat, 22 Jan 2022 16:10:13 +0000" />
+					<member name="Rune" date="Sun, 29 May 2016 20:40:10 +0000" />
+					<member name="rvinyard" date="Wed, 23 Dec 2015 19:26:26 +0000" />
+					<member name="ryanrgarcia" date="Sun, 13 Dec 2020 00:38:21 +0000" />
+					<member name="Sam N" date="Thu, 02 Apr 2015 23:23:35 +0000" />
+					<member name="Samort7" date="Mon, 06 Feb 2017 19:29:45 +0000" />
+					<member name="Sandman1973" date="Fri, 15 Nov 2013 17:38:39 +0000" />
+					<member name="sandrian" date="Mon, 13 May 2019 01:51:43 +0000" />
+					<member name="Sarge85" date="Tue, 04 Feb 2020 18:13:09 +0000" />
+					<member name="sarquin" date="Thu, 09 Feb 2012 14:44:26 +0000" />
+					<member name="satxbeaver" date="Fri, 11 May 2012 16:17:16 +0000" />
+					<member name="saunderl" date="Mon, 10 Apr 2017 17:26:39 +0000" />
+					<member name="sbauer9" date="Wed, 23 Oct 2013 20:28:20 +0000" />
+			</members>
+	</guild>

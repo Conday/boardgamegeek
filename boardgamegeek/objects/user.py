@@ -10,7 +10,6 @@
 .. moduleauthor:: Cosmin Luță <q4break@gmail.com>
 
 """
-from __future__ import unicode_literals
 
 from copy import copy
 
@@ -21,6 +20,7 @@ class User(Thing):
     """
     Information about an user.
     """
+
     def __init__(self, data):
         kw = copy(data)
         if "buddies" not in kw:
@@ -63,11 +63,9 @@ class User(Thing):
         :param dict data: buddy's data
         """
         self._buddies.append(Thing(data))
-        #self._data["buddies"].append(data)
 
     def add_guild(self, data):
         self._guilds.append(Thing(data))
-        #self._data["guilds"].append(data)
 
     def add_top_item(self, data):
         self._data["top"].append(data)
@@ -190,6 +188,15 @@ class User(Thing):
         return self._data.get("avatarlink")
 
     @property
+    def yearregistered(self):
+        """
+        :return: year of registration
+        :rtype: str
+        :return: ``None`` if n/a
+        """
+        return self._data.get("yearregistered")
+
+    @property
     def last_login(self):
         return self._data.get("lastlogin")
 
@@ -214,8 +221,12 @@ class User(Thing):
         return self._data.get("wiiaccount")
 
     @property
+    def battlenet_account(self):
+        return self._data.get("battlenetaccount")
+
+    @property
     def steam_account(self):
-        return self._data.get("steam_account")
+        return self._data.get("steamaccount")
 
     @property
     def psn_account(self):
@@ -223,4 +234,8 @@ class User(Thing):
 
     @property
     def trade_rating(self):
-        return self._data.get("trade_rating")
+        return self._data.get("traderating")
+
+    @property
+    def market_rating(self):
+        return self._data.get("marketrating")

@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><items termsofuse="http://boardgamegeek.com/xmlapi/termsofuse"><item type="boardgame" id="11542">
-         <thumbnail>https://cf.geekdo-images.com/images/pic1316296_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic1316296.jpg</image>
+<?xml version="1.0" encoding="utf-8"?><items termsofuse="https://boardgamegeek.com/xmlapi/termsofuse"><item type="boardgame" id="11542">
+         <thumbnail>https://cf.geekdo-images.com/kHwlk5ro6EH8tSg6DvdJRg__thumb/img/_9P79r0b-Wp7HGdgex4BfIpBmQc=/fit-in/200x150/filters:strip_icc()/pic1316296.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/kHwlk5ro6EH8tSg6DvdJRg__original/img/ul0rAKhY38HdrzsgE5KN4Z_6Hc4=/0x0/filters:format(jpeg)/pic1316296.jpg</image>
                                      				
 				<name type="primary" sortindex="1" value="Eclipse" />
 			
@@ -30,8 +30,7 @@
 					<result value="Recommended" numvotes="0" />
 					<result value="Not Recommended" numvotes="3" />
 				</results>					
-	</poll> 
-			               				<playingtime value="15" />
+	</poll> 			               				<playingtime value="15" />
 						               				<minplaytime value="15" />
 						               				<maxplaytime value="15" />
 						               				<minage value="8" />
@@ -50,8 +49,7 @@
 					<result value="18" numvotes="0" />
 					<result value="21 and up" numvotes="0" />
 				</results>					
-	</poll> 
-			      			<poll name="language_dependence" title="Language Dependence" totalvotes="2">
+	</poll> 			      			<poll name="language_dependence" title="Language Dependence" totalvotes="2">
 			
 		<results>		
 					<result level="1" value="No necessary in-game text" numvotes="2" />
@@ -60,9 +58,7 @@
 					<result level="4" value="Extensive use of text - massive conversion needed to be playable" numvotes="0" />
 					<result level="5" value="Unplayable in another language" numvotes="0" />
 				</results>					
-	</poll> 
-			      			 
-			      				
+	</poll> 			      			 			      				
 		 			
 
 			
@@ -79,7 +75,7 @@
 
 			
 		
-					<link type="boardgamefamily" id="26432" value="Combinatorial" />
+					<link type="boardgamefamily" id="26432" value="Category: Combinatorial" />
 		
 									
 				
@@ -87,7 +83,23 @@
 
 			
 		
-					<link type="boardgamefamily" id="19100" value="Gigamic Classic" />
+					<link type="boardgamefamily" id="68769" value="Components: Wooden pieces &amp; boards" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="61979" value="Players: Two Player Only Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="19100" value="Series: Classic (Gigamic)" />
 		
 									
 			
@@ -154,22 +166,22 @@
 	
    		<statistics page="1">
 								<ratings >
-			<usersrated value="140" />
-			<average value="6.24107" />
-			<bayesaverage value="5.58389" />
+			<usersrated value="165" />
+			<average value="6.14394" />
+			<bayesaverage value="5.54748" />
 
 			<ranks>
-															<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="6432" bayesaverage="5.58389" />
-																				<rank type="family" id="4666" name="abstracts" friendlyname="Abstract Game Rank" value="355" bayesaverage="5.80885" />
+															<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="10742" bayesaverage="5.54748" />
+																				<rank type="family" id="4666" name="abstracts" friendlyname="Abstract Game Rank" value="521" bayesaverage="5.68965" />
 												</ranks>
 
-			<stddev value="1.37112" />
+			<stddev value="1.42887" />
 			<median value="0" />
-			<owned value="244" />
-			<trading value="9" />
-			<wanting value="16" />
-			<wishing value="47" />
-			<numcomments value="40" />
+			<owned value="306" />
+			<trading value="6" />
+			<wanting value="14" />
+			<wishing value="58" />
+			<numcomments value="47" />
 			<numweights value="9" />
 			<averageweight value="1.8889" />
 			</ratings>

@@ -1,8 +1,10 @@
+import html
 import logging
 
 from ..objects.games import BoardGame
 from ..exceptions import BGGApiError
-from ..utils import xml_subelement_attr_list, xml_subelement_text, xml_subelement_attr, get_board_game_version_from_element, html_unescape
+from ..utils import xml_subelement_attr_list, xml_subelement_text, xml_subelement_attr
+from ..utils import get_board_game_version_from_element
 
 log = logging.getLogger("boardgamegeek.loaders.game")
 
@@ -28,7 +30,7 @@ def create_game_from_xml(xml_root, game_id):
             "designers": xml_subelement_attr_list(xml_root, "link[@type='boardgamedesigner']"),
             "artists": xml_subelement_attr_list(xml_root, "link[@type='boardgameartist']"),
             "publishers": xml_subelement_attr_list(xml_root, "link[@type='boardgamepublisher']"),
-            "description": xml_subelement_text(xml_root, "description", convert=html_unescape, quiet=True)}
+            "description": xml_subelement_text(xml_root, "description", convert=html.unescape, quiet=True)}
 
     expands = []        # list of items this game expands
     expansions = []     # list of expansions this game has
@@ -47,7 +49,7 @@ def create_game_from_xml(xml_root, game_id):
     data["expansions"] = expansions
     data["expands"] = expands
 
-    # These XML elements have a numberic value, attempt to convert them to integers
+    # These XML elements have a numeric value, attempt to convert them to integers
     for i in ["yearpublished", "minplayers", "maxplayers", "playingtime", "minplaytime", "maxplaytime", "minage"]:
         data[i] = xml_subelement_attr(xml_root, i, convert=int, quiet=True)
 
@@ -110,7 +112,7 @@ def create_game_from_xml(xml_root, game_id):
         for rank in ranks:
             try:
                 rank_value = int(rank.attrib.get("value"))
-            except:
+            except (ValueError, TypeError):
                 rank_value = None
             sd["ranks"].append({"id": rank.attrib["id"],
                                 "name": rank.attrib["name"],

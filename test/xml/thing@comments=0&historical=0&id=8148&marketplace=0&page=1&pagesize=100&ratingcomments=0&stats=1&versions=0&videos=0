@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><items termsofuse="http://boardgamegeek.com/xmlapi/termsofuse"><item type="boardgame" id="8148">
-         <thumbnail>https://cf.geekdo-images.com/images/pic33770_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic33770.jpg</image>
+<?xml version="1.0" encoding="utf-8"?><items termsofuse="https://boardgamegeek.com/xmlapi/termsofuse"><item type="boardgame" id="8148">
+         <thumbnail>https://cf.geekdo-images.com/dd2XS_mQk6T9Tis8LteiyQ__thumb/img/KHXSJd0053vesoin4c6rgy3kdhM=/fit-in/200x150/filters:strip_icc()/pic33770.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/dd2XS_mQk6T9Tis8LteiyQ__original/img/8iKF1b5p7hHxNHCLu3TpNh4ajlc=/0x0/filters:format(jpeg)/pic33770.jpg</image>
                                      				
 				<name type="primary" sortindex="1" value="Trio" />
 			
@@ -32,8 +32,7 @@
 					<result value="Recommended" numvotes="0" />
 					<result value="Not Recommended" numvotes="1" />
 				</results>					
-	</poll> 
-			               				<playingtime value="10" />
+	</poll> 			               				<playingtime value="10" />
 						               				<minplaytime value="10" />
 						               				<maxplaytime value="10" />
 						               				<minage value="7" />
@@ -52,8 +51,7 @@
 					<result value="18" numvotes="0" />
 					<result value="21 and up" numvotes="0" />
 				</results>					
-	</poll> 
-			      			<poll name="language_dependence" title="Language Dependence" totalvotes="1">
+	</poll> 			      			<poll name="language_dependence" title="Language Dependence" totalvotes="1">
 			
 		<results>		
 					<result level="1" value="No necessary in-game text" numvotes="1" />
@@ -62,9 +60,7 @@
 					<result level="4" value="Extensive use of text - massive conversion needed to be playable" numvotes="0" />
 					<result level="5" value="Unplayable in another language" numvotes="0" />
 				</results>					
-	</poll> 
-			      			 
-			      				
+	</poll> 			      			 			      				
 		 			
 
 			
@@ -92,7 +88,15 @@
 									
 			
 
-			      			
+			      				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="61979" value="Players: Two Player Only Games" />
+		
+									
+			
 
 			      			
 
@@ -156,8 +160,8 @@
 	
    		<statistics page="1">
 								<ratings >
-			<usersrated value="7" />
-			<average value="5.57143" />
+			<usersrated value="9" />
+			<average value="5.55556" />
 			<bayesaverage value="0" />
 
 			<ranks>
@@ -165,13 +169,13 @@
 																				<rank type="family" id="4666" name="abstracts" friendlyname="Abstract Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
 												</ranks>
 
-			<stddev value="1.17803" />
+			<stddev value="0.831479" />
 			<median value="0" />
-			<owned value="25" />
+			<owned value="40" />
 			<trading value="1" />
 			<wanting value="1" />
-			<wishing value="5" />
-			<numcomments value="6" />
+			<wishing value="4" />
+			<numcomments value="9" />
 			<numweights value="2" />
 			<averageweight value="1" />
 			</ratings>

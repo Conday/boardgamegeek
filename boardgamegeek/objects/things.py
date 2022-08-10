@@ -10,8 +10,6 @@
 .. moduleauthor:: Cosmin Luță <q4break@gmail.com>
 
 """
-from __future__ import unicode_literals
-
 from ..exceptions import BGGError
 from ..utils import DictObject
 
@@ -27,7 +25,7 @@ class Thing(DictObject):
 
         try:
             self._id = int(data["id"])
-        except:
+        except (ValueError, OverflowError, TypeError):
             raise BGGError("id ({}) is not an int when trying to create a Thing".format(data["id"]))
 
         self._name = data["name"]

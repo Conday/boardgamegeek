@@ -8,11 +8,10 @@ import sys
 import re
 import xml.etree.ElementTree as ET
 
-
 from boardgamegeek import BGGClient, BGGClientLegacy, CacheBackendNone
 
-
 # Kinda hard to test without having a "test" user
+
 TEST_VALID_USER = "fagentu007"
 TEST_VALID_USER_ID = 818216
 TEST_USER_WITH_LOTS_OF_FRIENDS = "Solamar"        # user chosen randomly (..after a long search :)) ), just needed
@@ -40,10 +39,7 @@ TEST_GAME_ACCESSORY_ID = 104163 # Descent: Journeys in the Dark (second edition)
 TEST_GEEKLIST_ID = 1
 TEST_GEEKLIST_INVALID_ID = -1
 
-if sys.version_info >= (3,):
-    STR_TYPES_OR_NONE = [str, type(None)]
-else:
-    STR_TYPES_OR_NONE = [str, unicode, type(None)]
+STR_TYPES_OR_NONE = [str, type(None)]
 
 # The top level directory for our XML files
 XML_PATH = os.path.join(os.path.dirname(__file__), "xml")

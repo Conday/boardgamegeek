@@ -10,8 +10,6 @@
 
 .. moduleauthor:: Cosmin Luță <q4break@gmail.com>
 """
-from __future__ import unicode_literals
-
 from copy import copy
 
 from .things import Thing

@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><guild id="1229" name="Geek Tools" created="Sun, 22 Jan 2012 09:53:47 +0000" termsofuse="http://boardgamegeek.com/xmlapi/termsofuse">
+<?xml version="1.0" encoding="utf-8"?><guild id="1229" name="Geek Tools" created="Sun, 22 Jan 2012 09:53:47 +0000" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
 	<category>hobby</category>
 	<website></website>
 	<manager>Jester</manager>
-	<description>This guild is set aside for the developer community building apps or tools for BGG and its sister sites, using the XML API or other data from BGG. It also welcomes developers building tools to augment the BGG community experience. &lt;br/&gt;&lt;br/&gt;Questions about BGG API capabilities or design discussions are welcome here. General discussions of technologies that can be brought to bear on BGG-specific solutions are welcome. General purpose coding questions are probably better suited for other venues on the web.</description>
+	<description>This guild is set aside for the developer community building apps or tools for BGG and its sister sites, using the XML API or other data from BGG. It also welcomes developers building tools to augment the BGG community experience. &lt;br/&gt;&lt;br/&gt;Questions about BGG API capabilities or design discussions are welcome here. General discussions of technologies that can be brought to bear on BGG-specific solutions are welcome. General purpose coding questions are probably better suited for other venues on the web.</description>
 	<location>
 		<addr1></addr1>
 		<addr2></addr2>
@@ -11,31 +11,31 @@
 		<postalcode></postalcode>
 		<country></country>
 	</location>
-		<members count="483" page="5">
-					<member name="dmleach" date="Tue, 31 Jan 2012 20:06:43 +0000" />
-					<member name="doerrhb" date="Tue, 10 Apr 2012 13:55:38 +0000" />
-					<member name="dokmatrix" date="Tue, 01 Dec 2015 06:42:54 +0000" />
-					<member name="Dolus" date="Thu, 06 Aug 2015 16:53:32 +0000" />
-					<member name="Donnin" date="Wed, 11 Jan 2017 14:00:23 +0000" />
-					<member name="dorakeen" date="Mon, 18 Feb 2013 10:57:29 +0000" />
-					<member name="DraedGhawl" date="Tue, 31 Mar 2015 17:36:14 +0000" />
-					<member name="draghetto" date="Mon, 17 Oct 2016 07:55:27 +0000" />
-					<member name="Driesguns" date="Thu, 30 Nov 2017 17:36:36 +0000" />
-					<member name="drifblim" date="Wed, 20 Apr 2016 17:19:49 +0000" />
-					<member name="DrugCrazed" date="Fri, 21 Dec 2012 18:21:13 +0000" />
-					<member name="druvey" date="Sun, 10 May 2015 10:49:30 +0000" />
-					<member name="dsutherland" date="Fri, 20 Jun 2014 15:01:54 +0000" />
-					<member name="edaguilar" date="Fri, 13 Oct 2017 20:53:37 +0000" />
-					<member name="edwalter" date="Sun, 19 Jan 2014 07:44:12 +0000" />
-					<member name="efilips" date="Fri, 18 May 2012 05:24:38 +0000" />
-					<member name="egarcha" date="Sun, 17 Apr 2016 11:12:35 +0000" />
-					<member name="egg_salad" date="Thu, 11 Apr 2013 23:13:04 +0000" />
-					<member name="ekted" date="Sun, 19 Aug 2012 21:06:44 +0000" />
-					<member name="emgiees" date="Mon, 03 Apr 2017 16:11:35 +0000" />
-					<member name="EmilJJ" date="Wed, 11 Feb 2015 12:24:54 +0000" />
-					<member name="enz0" date="Wed, 01 Jun 2016 22:41:49 +0000" />
-					<member name="enzian1" date="Fri, 16 Jan 2015 07:12:02 +0000" />
-					<member name="Eremiell" date="Sun, 26 Jan 2014 02:50:04 +0000" />
-					<member name="errazib" date="Tue, 02 Jan 2018 20:57:00 +0000" />
+		<members count="762" page="5">
+					<member name="CassetteDeck" date="Sat, 25 Jul 2015 15:37:22 +0000" />
+					<member name="cbrhea" date="Mon, 03 Feb 2020 22:18:30 +0000" />
+					<member name="ccjnwl_cork" date="Tue, 24 Nov 2020 10:19:18 +0000" />
+					<member name="ccmonter" date="Tue, 18 Aug 2015 18:46:57 +0000" />
+					<member name="ccomeaux" date="Tue, 24 Jan 2012 16:01:55 +0000" />
+					<member name="celtboy" date="Sat, 23 Jan 2016 22:27:20 +0000" />
+					<member name="cengel60" date="Sun, 22 Jan 2012 16:21:17 +0000" />
+					<member name="cesco" date="Tue, 21 Feb 2012 22:42:18 +0000" />
+					<member name="cgarvie" date="Sun, 27 Feb 2022 15:40:49 +0000" />
+					<member name="chaimw" date="Mon, 02 Sep 2019 06:24:25 +0000" />
+					<member name="chansen2794" date="Tue, 24 Apr 2018 04:01:04 +0000" />
+					<member name="Charlesworth" date="Wed, 14 Sep 2016 09:32:55 +0000" />
+					<member name="chaupt" date="Sat, 20 Jun 2020 23:31:45 +0000" />
+					<member name="chazlander" date="Fri, 12 Dec 2014 18:54:00 +0000" />
+					<member name="chbates" date="Sun, 17 Jan 2021 12:49:42 +0000" />
+					<member name="checcco" date="Tue, 04 Apr 2017 13:31:19 +0000" />
+					<member name="chemberger" date="Mon, 21 Dec 2015 03:27:57 +0000" />
+					<member name="ChipChuck" date="Tue, 19 Jan 2016 14:45:21 +0000" />
+					<member name="christo8989" date="Sat, 08 Feb 2014 20:23:46 +0000" />
+					<member name="ChuckS3" date="Fri, 06 Mar 2015 19:01:43 +0000" />
+					<member name="cif8589" date="Wed, 05 Dec 2018 21:46:21 +0000" />
+					<member name="cjboyett" date="Mon, 25 Apr 2016 17:59:18 +0000" />
+					<member name="cjduncana" date="Tue, 11 Aug 2015 18:18:10 +0000" />
+					<member name="ClimberStephen" date="Fri, 17 Jan 2020 19:32:29 +0000" />
+					<member name="clowntable" date="Fri, 20 Nov 2020 13:06:18 +0000" />
 			</members>
 	</guild>

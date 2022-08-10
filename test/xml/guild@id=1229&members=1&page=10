@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><guild id="1229" name="Geek Tools" created="Sun, 22 Jan 2012 09:53:47 +0000" termsofuse="http://boardgamegeek.com/xmlapi/termsofuse">
+<?xml version="1.0" encoding="utf-8"?><guild id="1229" name="Geek Tools" created="Sun, 22 Jan 2012 09:53:47 +0000" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
 	<category>hobby</category>
 	<website></website>
 	<manager>Jester</manager>
-	<description>This guild is set aside for the developer community building apps or tools for BGG and its sister sites, using the XML API or other data from BGG. It also welcomes developers building tools to augment the BGG community experience. &lt;br/&gt;&lt;br/&gt;Questions about BGG API capabilities or design discussions are welcome here. General discussions of technologies that can be brought to bear on BGG-specific solutions are welcome. General purpose coding questions are probably better suited for other venues on the web.</description>
+	<description>This guild is set aside for the developer community building apps or tools for BGG and its sister sites, using the XML API or other data from BGG. It also welcomes developers building tools to augment the BGG community experience. &lt;br/&gt;&lt;br/&gt;Questions about BGG API capabilities or design discussions are welcome here. General discussions of technologies that can be brought to bear on BGG-specific solutions are welcome. General purpose coding questions are probably better suited for other venues on the web.</description>
 	<location>
 		<addr1></addr1>
 		<addr2></addr2>
@@ -11,31 +11,31 @@
 		<postalcode></postalcode>
 		<country></country>
 	</location>
-		<members count="483" page="10">
-					<member name="khinners" date="Fri, 10 Jun 2016 18:16:38 +0000" />
-					<member name="kifty" date="Tue, 24 Jan 2012 16:58:56 +0000" />
-					<member name="killerTree" date="Mon, 13 Aug 2012 21:08:21 +0000" />
-					<member name="Kiyote" date="Wed, 02 Jan 2013 19:40:59 +0000" />
-					<member name="klark78" date="Sun, 01 Mar 2015 20:47:41 +0000" />
-					<member name="klawton" date="Fri, 23 Jun 2017 00:29:20 +0000" />
-					<member name="kleric42" date="Sun, 22 Jan 2012 17:08:12 +0000" />
-					<member name="kokigami" date="Wed, 30 Aug 2017 04:51:48 +0000" />
-					<member name="Korosu_Itai" date="Mon, 10 Oct 2016 19:05:32 +0000" />
-					<member name="krcko" date="Tue, 26 Apr 2016 18:12:33 +0000" />
-					<member name="kresh" date="Thu, 14 Feb 2013 07:21:07 +0000" />
-					<member name="ksuquix" date="Fri, 06 Jan 2017 16:07:50 +0000" />
-					<member name="kupad" date="Tue, 03 Dec 2013 16:12:58 +0000" />
-					<member name="labrhat22" date="Tue, 01 Oct 2013 11:18:50 +0000" />
-					<member name="Langalore" date="Tue, 06 Jun 2017 15:03:50 +0000" />
-					<member name="ldd23" date="Sat, 11 Feb 2017 18:54:36 +0000" />
-					<member name="Leader Desslok" date="Tue, 24 Jun 2014 19:48:17 +0000" />
-					<member name="leochab" date="Mon, 06 Jul 2015 21:35:55 +0000" />
-					<member name="LetsGetTrivial" date="Mon, 20 Aug 2012 23:36:29 +0000" />
-					<member name="lightforx" date="Sat, 05 Jul 2014 09:22:06 +0000" />
-					<member name="Lindsey" date="Sat, 06 Feb 2016 05:34:06 +0000" />
-					<member name="ljelewis" date="Mon, 09 May 2016 23:23:52 +0000" />
-					<member name="llopis" date="Sat, 10 Nov 2012 04:21:44 +0000" />
-					<member name="logicalgambit" date="Sat, 04 Feb 2012 18:09:38 +0000" />
-					<member name="lolcese" date="Wed, 20 Mar 2013 19:21:36 +0000" />
+		<members count="762" page="10">
+					<member name="Fisico" date="Tue, 25 Jun 2013 08:30:16 +0000" />
+					<member name="flanderb" date="Thu, 11 Mar 2021 17:51:28 +0000" />
+					<member name="Flashhawk" date="Wed, 28 Sep 2016 09:48:28 +0000" />
+					<member name="flashshadow69" date="Tue, 25 Sep 2018 14:26:29 +0000" />
+					<member name="fleefrank22001" date="Wed, 27 Feb 2013 13:34:47 +0000" />
+					<member name="Fleisch40k" date="Tue, 09 Jan 2018 23:21:08 +0000" />
+					<member name="flolo" date="Thu, 26 Oct 2017 13:58:54 +0000" />
+					<member name="fmargueirat" date="Wed, 04 Sep 2019 05:20:20 +0000" />
+					<member name="fnord23" date="Wed, 25 May 2016 17:35:11 +0000" />
+					<member name="fortheloveofdice" date="Mon, 19 Oct 2015 20:59:11 +0000" />
+					<member name="fourmyle21" date="Wed, 18 Jun 2014 21:56:50 +0000" />
+					<member name="fowlerj" date="Thu, 24 May 2012 22:28:42 +0000" />
+					<member name="fractaloon" date="Tue, 17 Mar 2015 18:08:04 +0000" />
+					<member name="Frank1Fischer" date="Fri, 02 May 2014 10:58:36 +0000" />
+					<member name="Friendless" date="Tue, 31 Jan 2012 00:04:40 +0000" />
+					<member name="Fubanga" date="Thu, 24 Oct 2019 11:59:32 +0000" />
+					<member name="futiles" date="Tue, 11 Mar 2014 04:54:01 +0000" />
+					<member name="g10v45" date="Tue, 02 Feb 2021 12:55:01 +0000" />
+					<member name="gaaloechild" date="Mon, 03 Jul 2017 04:57:48 +0000" />
+					<member name="Galapagos" date="Sun, 06 May 2012 09:28:22 +0000" />
+					<member name="gamefool" date="Mon, 02 Nov 2015 03:15:59 +0000" />
+					<member name="game_boy" date="Fri, 18 Oct 2013 08:42:45 +0000" />
+					<member name="Ganlron" date="Fri, 02 Aug 2013 18:00:42 +0000" />
+					<member name="gardolas" date="Sat, 04 Apr 2020 22:08:00 +0000" />
+					<member name="GarytheTinyDestroyer" date="Wed, 23 Jun 2021 17:49:43 +0000" />
 			</members>
 	</guild>

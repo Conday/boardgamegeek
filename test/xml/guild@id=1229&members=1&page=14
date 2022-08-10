@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><guild id="1229" name="Geek Tools" created="Sun, 22 Jan 2012 09:53:47 +0000" termsofuse="http://boardgamegeek.com/xmlapi/termsofuse">
+<?xml version="1.0" encoding="utf-8"?><guild id="1229" name="Geek Tools" created="Sun, 22 Jan 2012 09:53:47 +0000" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
 	<category>hobby</category>
 	<website></website>
 	<manager>Jester</manager>
-	<description>This guild is set aside for the developer community building apps or tools for BGG and its sister sites, using the XML API or other data from BGG. It also welcomes developers building tools to augment the BGG community experience. &lt;br/&gt;&lt;br/&gt;Questions about BGG API capabilities or design discussions are welcome here. General discussions of technologies that can be brought to bear on BGG-specific solutions are welcome. General purpose coding questions are probably better suited for other venues on the web.</description>
+	<description>This guild is set aside for the developer community building apps or tools for BGG and its sister sites, using the XML API or other data from BGG. It also welcomes developers building tools to augment the BGG community experience. &lt;br/&gt;&lt;br/&gt;Questions about BGG API capabilities or design discussions are welcome here. General discussions of technologies that can be brought to bear on BGG-specific solutions are welcome. General purpose coding questions are probably better suited for other venues on the web.</description>
 	<location>
 		<addr1></addr1>
 		<addr2></addr2>
@@ -11,31 +11,31 @@
 		<postalcode></postalcode>
 		<country></country>
 	</location>
-		<members count="483" page="14">
-					<member name="oudknoei" date="Sun, 22 Jan 2012 13:13:28 +0000" />
-					<member name="paigew" date="Wed, 10 Oct 2012 05:03:28 +0000" />
-					<member name="pak21" date="Sat, 24 Aug 2013 21:11:30 +0000" />
-					<member name="parkrrrr" date="Tue, 10 Apr 2012 13:41:45 +0000" />
-					<member name="paschott" date="Sun, 19 Nov 2017 03:39:22 +0000" />
-					<member name="pastej" date="Mon, 10 Feb 2014 19:52:33 +0000" />
-					<member name="peakhope" date="Fri, 24 Jan 2014 05:54:58 +0000" />
-					<member name="Peukon" date="Mon, 21 Aug 2017 08:02:11 +0000" />
-					<member name="Phadrus00" date="Sat, 06 Sep 2014 15:45:07 +0000" />
-					<member name="Phenick" date="Tue, 23 Oct 2012 18:57:06 +0000" />
-					<member name="philsstein" date="Tue, 29 Apr 2014 03:32:31 +0000" />
-					<member name="PhotonStorm" date="Thu, 15 May 2014 19:08:34 +0000" />
-					<member name="pijll" date="Fri, 07 Apr 2017 15:18:56 +0000" />
-					<member name="pilotboy172" date="Wed, 29 Mar 2017 21:36:17 +0000" />
-					<member name="pirate_chef" date="Thu, 21 Aug 2014 19:39:29 +0000" />
-					<member name="PixelNinja" date="Mon, 27 Oct 2014 05:12:50 +0000" />
-					<member name="PlaneGuy" date="Tue, 18 Aug 2015 20:18:55 +0000" />
-					<member name="PocketAtomic" date="Fri, 20 Nov 2015 06:52:30 +0000" />
-					<member name="pogo_" date="Tue, 26 Apr 2016 08:19:50 +0000" />
-					<member name="Polomease" date="Thu, 25 Sep 2014 23:53:56 +0000" />
-					<member name="Prestoneous" date="Sun, 05 Mar 2017 22:51:40 +0000" />
-					<member name="Pumpkinhead76" date="Sat, 14 Mar 2015 18:46:17 +0000" />
-					<member name="Purple" date="Fri, 02 May 2014 07:35:12 +0000" />
-					<member name="pYr0rAGE" date="Sun, 01 May 2016 04:56:36 +0000" />
-					<member name="Qbaza" date="Fri, 03 Feb 2012 04:36:08 +0000" />
+		<members count="762" page="14">
+					<member name="jergarmar" date="Mon, 26 Oct 2015 17:21:37 +0000" />
+					<member name="JesseMax" date="Mon, 09 Mar 2015 21:45:06 +0000" />
+					<member name="Jester" date="Sun, 22 Jan 2012 09:53:47 +0000" />
+					<member name="jgoyes" date="Thu, 20 Jun 2019 18:02:01 +0000" />
+					<member name="jimmyff" date="Wed, 24 Feb 2016 13:19:45 +0000" />
+					<member name="jklap" date="Mon, 10 Dec 2018 19:17:09 +0000" />
+					<member name="jmilum" date="Sun, 22 Jan 2012 18:54:18 +0000" />
+					<member name="joebri" date="Sun, 28 May 2017 18:24:39 +0000" />
+					<member name="joehyuk" date="Mon, 23 Nov 2020 20:30:48 +0000" />
+					<member name="joho" date="Sun, 14 Mar 2021 23:17:09 +0000" />
+					<member name="JoJoGlenStar" date="Fri, 26 Jun 2020 19:19:50 +0000" />
+					<member name="jones00" date="Tue, 05 Jun 2012 20:42:35 +0000" />
+					<member name="jorugu" date="Mon, 12 Nov 2012 00:52:07 +0000" />
+					<member name="jr4417" date="Wed, 07 Dec 2016 19:57:40 +0000" />
+					<member name="Jssippi" date="Sun, 26 Dec 2021 12:35:54 +0000" />
+					<member name="jstanziano" date="Thu, 19 Feb 2015 13:02:03 +0000" />
+					<member name="Juliusan" date="Fri, 19 Jan 2018 09:21:03 +0000" />
+					<member name="Kailric" date="Sat, 05 Feb 2022 17:12:02 +0000" />
+					<member name="kairos" date="Sun, 17 Jan 2016 22:49:10 +0000" />
+					<member name="kamimark" date="Thu, 01 Jun 2017 07:48:39 +0000" />
+					<member name="KaroPanda" date="Wed, 17 Apr 2019 14:00:40 +0000" />
+					<member name="karrde" date="Sun, 22 Jan 2012 13:39:12 +0000" />
+					<member name="kataclysm" date="Thu, 01 May 2014 22:17:47 +0000" />
+					<member name="kayyp" date="Wed, 28 Dec 2016 11:28:44 +0000" />
+					<member name="kazozza" date="Tue, 15 May 2018 23:18:48 +0000" />
 			</members>
 	</guild>

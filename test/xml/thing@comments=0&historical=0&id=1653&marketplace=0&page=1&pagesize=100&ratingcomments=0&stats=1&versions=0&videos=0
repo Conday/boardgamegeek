@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><items termsofuse="http://boardgamegeek.com/xmlapi/termsofuse"><item type="boardgame" id="1653">
-         <thumbnail>https://cf.geekdo-images.com/images/pic160459_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic160459.jpg</image>
+<?xml version="1.0" encoding="utf-8"?><items termsofuse="https://boardgamegeek.com/xmlapi/termsofuse"><item type="boardgame" id="1653">
+         <thumbnail>https://cf.geekdo-images.com/hLJxL1w1nKl8cP4k77hQZQ__thumb/img/9-ZOOA1O_9s1kn0R-uzHm4nO214=/fit-in/200x150/filters:strip_icc()/pic160459.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/hLJxL1w1nKl8cP4k77hQZQ__original/img/ZmdVmpae3enWupXWYzYf-qole8w=/0x0/filters:format(jpeg)/pic160459.jpg</image>
                                      				
 				<name type="primary" sortindex="1" value="Coup" />
 			
@@ -28,14 +28,26 @@
 					<result value="Recommended" numvotes="0" />
 					<result value="Not Recommended" numvotes="0" />
 				</results>					
-	</poll> 
-			               				<playingtime value="60" />
+	</poll> 			               				<playingtime value="60" />
 						               				<minplaytime value="60" />
 						               				<maxplaytime value="60" />
 						               				<minage value="12" />
 						      			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
-	</poll> 
-			      			<poll name="language_dependence" title="Language Dependence" totalvotes="1">
+			<results>		
+					<result value="2" numvotes="0" />
+					<result value="3" numvotes="0" />
+					<result value="4" numvotes="0" />
+					<result value="5" numvotes="0" />
+					<result value="6" numvotes="0" />
+					<result value="8" numvotes="0" />
+					<result value="10" numvotes="0" />
+					<result value="12" numvotes="0" />
+					<result value="14" numvotes="0" />
+					<result value="16" numvotes="0" />
+					<result value="18" numvotes="0" />
+					<result value="21 and up" numvotes="0" />
+				</results>					
+	</poll> 			      			<poll name="language_dependence" title="Language Dependence" totalvotes="1">
 			
 		<results>		
 					<result level="1" value="No necessary in-game text" numvotes="1" />
@@ -44,9 +56,7 @@
 					<result level="4" value="Extensive use of text - massive conversion needed to be playable" numvotes="0" />
 					<result level="5" value="Unplayable in another language" numvotes="0" />
 				</results>					
-	</poll> 
-			      			 
-			      				
+	</poll> 			      			 			      				
 		 			
 
 			
@@ -61,12 +71,20 @@
 
 			
 		
-					<link type="boardgamemechanic" id="2026" value="Hex-and-Counter" />
+					<link type="boardgamemechanic" id="2026" value="Hexagon Grid" />
 		
 									
 			
 
-			      			
+			      				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="61979" value="Players: Two Player Only Games" />
+		
+									
+			
 
 			      			
 
@@ -114,21 +132,21 @@
 	
    		<statistics page="1">
 								<ratings >
-			<usersrated value="78" />
-			<average value="4.96538" />
-			<bayesaverage value="5.45724" />
+			<usersrated value="82" />
+			<average value="5.18049" />
+			<bayesaverage value="5.48234" />
 
 			<ranks>
-															<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="13888" bayesaverage="5.45724" />
-																				<rank type="family" id="4664" name="wargames" friendlyname="War Game Rank" value="2671" bayesaverage="5.32871" />
+															<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="20291" bayesaverage="5.48234" />
+																				<rank type="family" id="4664" name="wargames" friendlyname="War Game Rank" value="3539" bayesaverage="5.40079" />
 												</ranks>
 
-			<stddev value="1.5486" />
+			<stddev value="1.43446" />
 			<median value="0" />
-			<owned value="207" />
-			<trading value="24" />
+			<owned value="231" />
+			<trading value="22" />
 			<wanting value="3" />
-			<wishing value="8" />
+			<wishing value="10" />
 			<numcomments value="36" />
 			<numweights value="14" />
 			<averageweight value="1.8571" />

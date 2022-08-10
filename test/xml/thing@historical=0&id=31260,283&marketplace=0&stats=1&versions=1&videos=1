@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><items termsofuse="http://boardgamegeek.com/xmlapi/termsofuse"><item type="boardgame" id="31260">
-         <thumbnail>https://cf.geekdo-images.com/images/pic259085_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic259085.jpg</image>
+<?xml version="1.0" encoding="utf-8"?><items termsofuse="https://boardgamegeek.com/xmlapi/termsofuse"><item type="boardgame" id="31260">
+         <thumbnail>https://cf.geekdo-images.com/dDDo2Hexl80ucK1IlqTk-g__thumb/img/GHGdnCfeysoP_34gLnofJcNivW8=/fit-in/200x150/filters:strip_icc()/pic831744.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/dDDo2Hexl80ucK1IlqTk-g__original/img/toobKoejPiHpfpHk4SYd1UAJafw=/0x0/filters:format(jpeg)/pic831744.jpg</image>
                                      				
 				<name type="primary" sortindex="1" value="Agricola" />
 			
@@ -15,80 +15,76 @@
 			    				
 				<name type="alternate" sortindex="1" value="아그리콜라" />
 			
-						               													<description>Description from BoardgameNews&amp;#10;&amp;#10;In Agricola, you're a farmer in a wooden shack with your spouse and little else. On a turn, you get to take only two actions, one for you and one for the spouse, from all the possibilities you'll find on a farm: collecting clay, wood, or stone; building fences; and so on. You might think about having kids in order to get more work accomplished, but first you need to expand your house. And what are you going to feed all the little rugrats?&amp;#10;&amp;#10;The game supports many levels of complexity, mainly through the use (or non-use) of two of its main types of cards, Minor Improvements and Occupations. In the beginner's version (called the Family Variant in the U.S. release), these cards are not used at all. For advanced play, the U.S. release includes three levels of both types of cards; Basic (E-deck), Interactive (I-deck), and Complex (K-deck), and the rulebook encourages players to experiment with the various decks and mixtures thereof. Aftermarket decks such as the Z-Deck and the L-Deck also exist.&amp;#10;&amp;#10;Agricola is a turn-based game. There are 14 game rounds occurring in 6 stages, with a Harvest at the end of each stage (after Rounds 4, 7, 9, 11, 13, and 14).&amp;#10;Each player starts with two playing tokens (farmer and spouse) and thus can take two turns, or actions, per round. There are multiple options, and while the game progresses, you'll have more and more: first thing in a round, a new action card is flipped over.&amp;#10;Problem: Each action can be taken by only one player each round, so it's important to do some things with high preference.&amp;#10;Each player also starts with a hand of 7 Occupation cards (of more than 160 total) and 7 Minor Improvement cards (of more than 140 total) that he/she may use during the game if they fit in his/her strategy. Speaking of which, there are countless strategies, some depending on your card hand. Sometimes it's a good choice to stay on course, and sometimes it is better to react to your opponents' actions.&amp;#10;&amp;#10;</description>
+						               													<description>Description from BoardgameNews&amp;#10;&amp;#10;In Agricola, you're a farmer in a wooden shack with your spouse and little else. On a turn, you get to take only two actions, one for you and one for the spouse, from all the possibilities you'll find on a farm: collecting clay, wood, or stone; building fences; and so on. You might think about having kids in order to get more work accomplished, but first you need to expand your house. And what are you going to feed all the little rugrats?&amp;#10;&amp;#10;The game supports many levels of complexity, mainly through the use (or non-use) of two of its main types of cards, Minor Improvements and Occupations. In the beginner's version (called the Family Variant in the U.S. release), these cards are not used at all. For advanced play, the U.S. release includes three levels of both types of cards; Basic (E-deck), Interactive (I-deck), and Complex (K-deck), and the rulebook encourages players to experiment with the various decks and mixtures thereof. Aftermarket decks such as the Z-Deck and the L-Deck also exist.&amp;#10;&amp;#10;Agricola is a turn-based game. There are 14 game rounds occurring in 6 stages, with a Harvest at the end of each stage (after Rounds 4, 7, 9, 11, 13, and 14).&amp;#10;Each player starts with two playing tokens (farmer and spouse) and thus can take two turns, or actions, per round. There are multiple options, and while the game progresses, you'll have more and more: first thing in a round, a new action card is flipped over.&amp;#10;Problem: Each action can be taken by only one player each round, so it's important to do some things with high preference.&amp;#10;Each player also starts with a hand of 7 Occupation cards (of more than 160 total) and 7 Minor Improvement cards (of more than 140 total) that he/she may use during the game if they fit in his/her strategy. Speaking of which, there are countless strategies, some depending on your card hand. Sometimes it's a good choice to stay on course, and sometimes it is better to react to your opponents' actions...&amp;#10;&amp;#10;</description>
 										      	               				<yearpublished value="2007" />
 						               				<minplayers value="1" />
 						               				<maxplayers value="5" />
-						      			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="1657">
+						      			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="1873">
 			
 		<results numplayers="1">		
-					<result value="Best" numvotes="64" />
-					<result value="Recommended" numvotes="707" />
-					<result value="Not Recommended" numvotes="329" />
+					<result value="Best" numvotes="76" />
+					<result value="Recommended" numvotes="785" />
+					<result value="Not Recommended" numvotes="392" />
 				</results>					
 			
 		<results numplayers="2">		
-					<result value="Best" numvotes="304" />
-					<result value="Recommended" numvotes="905" />
-					<result value="Not Recommended" numvotes="149" />
+					<result value="Best" numvotes="344" />
+					<result value="Recommended" numvotes="1031" />
+					<result value="Not Recommended" numvotes="177" />
 				</results>					
 			
 		<results numplayers="3">		
-					<result value="Best" numvotes="824" />
-					<result value="Recommended" numvotes="573" />
-					<result value="Not Recommended" numvotes="25" />
+					<result value="Best" numvotes="948" />
+					<result value="Recommended" numvotes="633" />
+					<result value="Not Recommended" numvotes="31" />
 				</results>					
 			
 		<results numplayers="4">		
-					<result value="Best" numvotes="954" />
-					<result value="Recommended" numvotes="457" />
-					<result value="Not Recommended" numvotes="27" />
+					<result value="Best" numvotes="1063" />
+					<result value="Recommended" numvotes="525" />
+					<result value="Not Recommended" numvotes="36" />
 				</results>					
 			
 		<results numplayers="5">		
-					<result value="Best" numvotes="295" />
-					<result value="Recommended" numvotes="712" />
-					<result value="Not Recommended" numvotes="236" />
+					<result value="Best" numvotes="313" />
+					<result value="Recommended" numvotes="783" />
+					<result value="Not Recommended" numvotes="302" />
 				</results>					
 			
 		<results numplayers="5+">		
 					<result value="Best" numvotes="9" />
-					<result value="Recommended" numvotes="21" />
-					<result value="Not Recommended" numvotes="603" />
+					<result value="Recommended" numvotes="22" />
+					<result value="Not Recommended" numvotes="711" />
 				</results>					
-	</poll> 
-			               				<playingtime value="150" />
+	</poll> 			               				<playingtime value="150" />
 						               				<minplaytime value="30" />
 						               				<maxplaytime value="150" />
 						               				<minage value="12" />
-						      			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="507">
+						      			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="565">
 			<results>		
 					<result value="2" numvotes="2" />
 					<result value="3" numvotes="0" />
 					<result value="4" numvotes="0" />
-					<result value="5" numvotes="3" />
-					<result value="6" numvotes="10" />
-					<result value="8" numvotes="49" />
-					<result value="10" numvotes="119" />
-					<result value="12" numvotes="186" />
-					<result value="14" numvotes="109" />
-					<result value="16" numvotes="23" />
+					<result value="5" numvotes="4" />
+					<result value="6" numvotes="13" />
+					<result value="8" numvotes="57" />
+					<result value="10" numvotes="132" />
+					<result value="12" numvotes="209" />
+					<result value="14" numvotes="117" />
+					<result value="16" numvotes="24" />
 					<result value="18" numvotes="4" />
-					<result value="21 and up" numvotes="2" />
+					<result value="21 and up" numvotes="3" />
 				</results>					
-	</poll> 
-			      			<poll name="language_dependence" title="Language Dependence" totalvotes="667">
+	</poll> 			      			<poll name="language_dependence" title="Language Dependence" totalvotes="677">
 			
 		<results>		
 					<result level="1" value="No necessary in-game text" numvotes="1" />
 					<result level="2" value="Some necessary text - easily memorized or small crib sheet" numvotes="10" />
-					<result level="3" value="Moderate in-game text - needs crib sheet or paste ups" numvotes="56" />
-					<result level="4" value="Extensive use of text - massive conversion needed to be playable" numvotes="504" />
+					<result level="3" value="Moderate in-game text - needs crib sheet or paste ups" numvotes="58" />
+					<result level="4" value="Extensive use of text - massive conversion needed to be playable" numvotes="512" />
 					<result level="5" value="Unplayable in another language" numvotes="96" />
 				</results>					
-	</poll> 
-			      			 
-			      				
+	</poll> 			      			 			      				
 		 			
 
 			
@@ -119,7 +115,7 @@
 
 			
 		
-					<link type="boardgamemechanic" id="2043" value="Area Enclosure" />
+					<link type="boardgamemechanic" id="2847" value="Advantage Token" />
 		
 									
 				
@@ -127,7 +123,23 @@
 
 			
 		
-					<link type="boardgamemechanic" id="2041" value="Card Drafting" />
+					<link type="boardgamemechanic" id="2903" value="Automatic Resource Growth" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2984" value="Closed Drafting" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2043" value="Enclosure" />
 		
 									
 				
@@ -136,6 +148,30 @@
 			
 		
 					<link type="boardgamemechanic" id="2040" value="Hand Management" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2914" value="Increase Value of Unchosen Resources" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2819" value="Solo / Solitaire Game" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2829" value="Turn Order: Claim Action" />
 		
 									
 				
@@ -161,15 +197,7 @@
 
 			
 		
-					<link type="boardgamefamily" id="3865" value="Agricola" />
-		
-									
-				
-		 			
-
-			
-		
-					<link type="boardgamefamily" id="7530" value="Animals: Cattle" />
+					<link type="boardgamefamily" id="7530" value="Animals: Cattle / Cows" />
 		
 									
 				
@@ -201,7 +229,7 @@
 
 			
 		
-					<link type="boardgamefamily" id="3866" value="Harvest Series" />
+					<link type="boardgamefamily" id="64990" value="Components: Meeples (Animal) / Animeeples" />
 		
 									
 				
@@ -209,7 +237,7 @@
 
 			
 		
-					<link type="boardgamefamily" id="5666" value="Solitaire Games" />
+					<link type="boardgamefamily" id="68769" value="Components: Wooden pieces &amp; boards" />
 		
 									
 				
@@ -217,7 +245,55 @@
 
 			
 		
-					<link type="boardgamefamily" id="27646" value="Tableau Building" />
+					<link type="boardgamefamily" id="70361" value="Digital Implementations: Boiteajeux" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="3865" value="Game: Agricola" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="27646" value="Mechanism: Tableau Building" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="69363" value="Occupation: Farmer" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="5666" value="Players: Games with Solitaire Rules" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="3866" value="Series: Harvest (Uwe Rosenberg)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="5841" value="Theme: Food / Cooking" />
 		
 									
 			
@@ -259,6 +335,22 @@
 
 			
 		
+					<link type="boardgameexpansion" id="292850" value="Agricola: Agricola Meets Newdale" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="242392" value="Agricola: Animal trainer" />
+		
+									
+				
+		 			
+
+			
+		
 					<link type="boardgameexpansion" id="131403" value="Agricola: Belgium Deck" />
 		
 									
@@ -283,6 +375,22 @@
 
 			
 		
+					<link type="boardgameexpansion" id="263965" value="Agricola: Changelings" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="242391" value="Agricola: Clay deposit" />
+		
+									
+				
+		 			
+
+			
+		
 					<link type="boardgameexpansion" id="109012" value="Agricola: De Lage Landen" />
 		
 									
@@ -292,6 +400,14 @@
 			
 		
 					<link type="boardgameexpansion" id="43018" value="Agricola: Farmers of the Moor" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="242390" value="Agricola: Feed pellets" />
 		
 									
 				
@@ -323,6 +439,14 @@
 
 			
 		
+					<link type="boardgameexpansion" id="242388" value="Agricola: Guildmaster" />
+		
+									
+				
+		 			
+
+			
+		
 					<link type="boardgameexpansion" id="39090" value="Agricola: L-Deck" />
 		
 									
@@ -347,7 +471,23 @@
 
 			
 		
+					<link type="boardgameexpansion" id="242389" value="Agricola: Pelts" />
+		
+									
+				
+		 			
+
+			
+		
 					<link type="boardgameexpansion" id="130847" value="Agricola: Pi-Deck" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="242350" value="Agricola: Rancher" />
 		
 									
 				
@@ -380,6 +520,14 @@
 			
 		
 					<link type="boardgameexpansion" id="38641" value="Agricola: Through the Seasons" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="279703" value="Agricola: Times they are a-changing" />
 		
 									
 				
@@ -421,7 +569,7 @@
 
 			
 		
-					<link type="boardgameimplementation" id="200680" value="Agricola (revised edition)" />
+					<link type="boardgameimplementation" id="200680" value="Agricola (Revised Edition)" />
 		
 									
 				
@@ -430,6 +578,14 @@
 			
 		
 					<link type="boardgameimplementation" id="119890" value="Agricola: All Creatures Big and Small" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="255262" value="Agricola: All Creatures Big and Small – The Big Box" />
 		
 									
 				
@@ -509,7 +665,7 @@
 
 			
 		
-					<link type="boardgamepublisher" id="14813" value="Compaya.hu - Gamer Café Kft." />
+					<link type="boardgamepublisher" id="14813" value="Compaya.hu: Gamer Café Kft." />
 		
 									
 				
@@ -526,6 +682,22 @@
 			
 		
 					<link type="boardgamepublisher" id="5657" value="Filosofia Éditions" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="8832" value="Funforge" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="51" value="Hasbro" />
 		
 									
 				
@@ -557,7 +729,7 @@
 
 			
 		
-					<link type="boardgamepublisher" id="8291" value="Korea Boardgames co., Ltd." />
+					<link type="boardgamepublisher" id="8291" value="Korea Boardgames Co., Ltd." />
 		
 									
 				
@@ -619,27 +791,27 @@
 			
 
 			
-			<videos total="145">
-						<video id="154627" title="Drafting for Braggart" category="instructional" language="English" link="http://www.youtube.com/watch?v=SPThJiyAFcc" username="donba32" userid="616664" postdate="2017-10-29T13:25:30-05:00" />
-						<video id="149904" title="Обзор правил игры Agricola" category="review" language="English" link="http://www.youtube.com/watch?v=n2wLDOtT5jA" username="EvilOkta" userid="546699" postdate="2017-09-16T10:46:17-05:00" />
-						<video id="149903" title="Распаковка коробки с игрой Agricola" category="review" language="Russian" link="http://www.youtube.com/watch?v=ppr-korpuXc" username="EvilOkta" userid="546699" postdate="2017-09-16T10:44:50-05:00" />
-						<video id="144078" title="The Sentry Box Game Rundowns - Agricola" category="other" language="English" link="http://www.youtube.com/watch?v=4HJ8R2bVguo" username="greglios" userid="47472" postdate="2017-07-28T14:54:57-05:00" />
-						<video id="142905" title="［直播］秘密桌遊基地►►►農家樂 Agricola 303 映辰 Hank 阿忠 艾瑞克" category="session" language="Chinese" link="http://www.youtube.com/watch?v=iZMz69jg-gQ" username="cancleeric" userid="963283" postdate="2017-07-17T20:56:52-05:00" />
-						<video id="142904" title="［直播］秘密桌遊基地►►►農家樂 Agricola 302 映辰 Hank 開心 機器人 醬菜 艾瑞克" category="session" language="Chinese" link="http://www.youtube.com/watch?v=KYFC7-398w4" username="cancleeric" userid="963283" postdate="2017-07-17T20:56:14-05:00" />
-						<video id="142903" title="［直播］秘密桌遊基地►►►農家樂 Agricola 301 映辰 Hank 機器人 醬菜" category="session" language="Chinese" link="http://www.youtube.com/watch?v=iftR5qOmB9E" username="cancleeric" userid="963283" postdate="2017-07-17T20:53:13-05:00" />
-						<video id="142552" title="[NTFG] Eggricola " category="humor" language="English" link="http://www.youtube.com/watch?v=Yhf-KuKzuXE" username="Kitaj" userid="1316860" postdate="2017-07-13T17:37:15-05:00" />
-						<video id="141479" title="Unboxing en un Minuto: Agrícola" category="humor" language="Spanish" link="http://www.youtube.com/watch?v=nEUGrpdV8xg" username="Randall Juegos" userid="1458646" postdate="2017-07-03T05:43:10-05:00" />
-						<video id="140019" title="Agricola - zasady, przykładowa rozgrywka" category="review" language="Polish" link="http://www.youtube.com/watch?v=TYjXjpx49_s" username="Ppiechuu" userid="663200" postdate="2017-06-20T13:42:15-05:00" />
-						<video id="136993" title="How to play Agricola: Teach The Table" category="instructional" language="English" link="http://www.youtube.com/watch?v=HfQ93ySEGkA" username="turtlenate" userid="313755" postdate="2017-05-20T09:58:53-05:00" />
-						<video id="136612" title="Agrícola Edición Clásica vs Edición Revisada - Videoreseña" category="instructional" language="Spanish" link="http://www.youtube.com/watch?v=vQeHRH711N8" username="Frikiguias" userid="719788" postdate="2017-05-16T10:17:51-05:00" />
-						<video id="130734" title="Agricola - Etap VI - ostatni // Podliczenie // Finał (#7)" category="instructional" language="Polish" link="http://www.youtube.com/watch?v=oHTV7QWmlVI" username="VeritasEtLuxus" userid="1056166" postdate="2017-03-19T14:48:38-05:00" />
-						<video id="130733" title="Agricola - Etap V // Let&#039;s play // Gameplay (#6)" category="instructional" language="Polish" link="http://www.youtube.com/watch?v=CN4yiSDA2ao" username="VeritasEtLuxus" userid="1056166" postdate="2017-03-19T14:47:44-05:00" />
-						<video id="130732" title="Agricola - Etap IV // Cała gra // How to play (#5)" category="instructional" language="Polish" link="http://www.youtube.com/watch?v=xMDcLYn3ogs" username="VeritasEtLuxus" userid="1056166" postdate="2017-03-19T14:46:44-05:00" />
+			<videos total="210">
+						<video id="366743" title="Ag - review" category="review" language="English" link="http://www.youtube.com/watch?v=7Ll8ioJgMS4" username="calandale" userid="222883" postdate="2022-02-16T00:05:33-06:00" />
+						<video id="366732" title="Ag - 4 &amp; wrap" category="session" language="English" link="http://www.youtube.com/watch?v=VH_gC8zvxRM" username="calandale" userid="222883" postdate="2022-02-15T21:20:01-06:00" />
+						<video id="366442" title="Ag - 3" category="session" language="English" link="http://www.youtube.com/watch?v=8L3_Cd44L-o" username="calandale" userid="222883" postdate="2022-02-14T22:57:50-06:00" />
+						<video id="366251" title="Ag - 2" category="session" language="English" link="http://www.youtube.com/watch?v=ZMImitFwArQ" username="calandale" userid="222883" postdate="2022-02-14T00:40:23-06:00" />
+						<video id="366128" title="Ag - 1" category="session" language="English" link="http://www.youtube.com/watch?v=JG8wZKP__qc" username="calandale" userid="222883" postdate="2022-02-12T21:46:07-06:00" />
+						<video id="365882" title="Ag - intro" category="instructional" language="English" link="http://www.youtube.com/watch?v=bLxw0aBPPSI" username="calandale" userid="222883" postdate="2022-02-11T03:15:32-06:00" />
+						<video id="356302" title="Peaky Boardgamer Episode #98 - Agricola - Full rules explanation (English)" category="instructional" language="English" link="http://www.youtube.com/watch?v=r2qkK6Q0weQ" username="PeakyBoardgamer" userid="2874308" postdate="2021-12-09T09:36:22-06:00" />
+						<video id="350725" title="Agricola Solo Playthru - Live!" category="session" language="English" link="http://www.youtube.com/watch?v=ZMA19_CyfNQ" username="Untoldent" userid="599403" postdate="2021-11-02T15:46:54-05:00" />
+						<video id="346776" title="Agricola: Uwe Rosenberg&#039;s Crowning Achievement - Review &amp; Retrospective" category="review" language="English" link="http://www.youtube.com/watch?v=ff5Trm4HrSk" username="jeddy lee" userid="460040" postdate="2021-10-08T11:14:19-05:00" />
+						<video id="346027" title="Agricola playthrough by Which Game First - A Board Game Podcast" category="session" language="English" link="http://www.youtube.com/watch?v=blIuvvgx4sg" username="WhichGameFirst" userid="2265981" postdate="2021-10-03T16:56:29-05:00" />
+						<video id="342799" title="Agricola - Playthrough &amp; Review (Uwe Rosenberg Series)" category="review" language="English" link="http://www.youtube.com/watch?v=z9pDmmLfpwQ" username="BeforeYouPlay" userid="2180342" postdate="2021-09-13T08:51:04-05:00" />
+						<video id="340431" title="Agricola - Legends of Nerdvana Review" category="review" language="English" link="http://www.youtube.com/watch?v=OqHdj1iLNyw" username="randrac" userid="28944" postdate="2021-08-27T16:18:44-05:00" />
+						<video id="339236" title="First Time Tactics: 5 Tips to win in Agricola" category="instructional" language="English" link="http://www.youtube.com/watch?v=01giZCuXJjM" username="Peacelord" userid="174351" postdate="2021-08-19T07:14:29-05:00" />
+						<video id="338224" title="AGRICOLA partida(RDJ)" category="session" language="Spanish" link="http://www.youtube.com/watch?v=Qf1ZD-YbeEM" username="Dinare" userid="492355" postdate="2021-08-12T10:40:40-05:00" />
+						<video id="337869" title="Agricola Revised Edition Solo Gameplay &amp; Tutorial Livestream - The Cardboard Herald" category="session" language="English" link="http://www.youtube.com/watch?v=uOid9Xf17Q4" username="jeddy lee" userid="460040" postdate="2021-08-09T18:45:57-05:00" />
 					</videos>
 
 	<versions><item type="boardgameversion" id="20720">
-         <thumbnail>https://cf.geekdo-images.com/images/pic881417_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic881417.jpg</image>
+         <thumbnail>https://cf.geekdo-images.com/Vess4uicbB2JFQEa4NrF6A__thumb/img/W0A6mxYfXDOMJR1OonhKsR6mixY=/fit-in/200x150/filters:strip_icc()/pic881417.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/Vess4uicbB2JFQEa4NrF6A__original/img/1nw-7YWNVro-oAOeAYPWOF7VXD4=/0x0/filters:format(jpeg)/pic881417.jpg</image>
             				
 		 			
 
@@ -774,8 +946,8 @@
           
 </item>
 <item type="boardgameversion" id="76931">
-         <thumbnail>https://cf.geekdo-images.com/images/pic877916_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic877916.jpg</image>
+         <thumbnail>https://cf.geekdo-images.com/sH_wZfr1eHVrNcD8siNgNg__thumb/img/5HF5yiA3w3uxIu6g4mLdvGi32Ok=/fit-in/200x150/filters:strip_icc()/pic877916.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/sH_wZfr1eHVrNcD8siNgNg__original/img/bsd-MQ8abXkcCKlj_hdKfUhd208=/0x0/filters:format(jpeg)/pic877916.jpg</image>
             				
 		 			
 
@@ -787,7 +959,7 @@
 			
 
 			                               				
-				<name type="primary" sortindex="1" value="Brain Games Estonian first edition 2010" />
+				<name type="primary" sortindex="1" value="Brain Games Estonian edition 2010" />
 			
 						                           
 						      				
@@ -839,8 +1011,6 @@
           
 </item>
 <item type="boardgameversion" id="69505">
-         <thumbnail>https://cf.geekdo-images.com/images/pic896892_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic896892.jpg</image>
             				
 		 			
 
@@ -860,7 +1030,7 @@
 
 			
 		
-					<link type="boardgamepublisher" id="14813" value="Compaya.hu - Gamer Café Kft." />
+					<link type="boardgamepublisher" id="14813" value="Compaya.hu: Gamer Café Kft." />
 		
 									
 			
@@ -904,8 +1074,8 @@
           
 </item>
 <item type="boardgameversion" id="279688">
-         <thumbnail>https://cf.geekdo-images.com/images/pic2775635_t.png</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic2775635.png</image>
+         <thumbnail>https://cf.geekdo-images.com/zIEP5Sz5rPkqdD-GlJqAqA__thumb/img/lMNFSlhozkvUMKexZ5Pn-o98D-Q=/fit-in/200x150/filters:strip_icc()/pic2775635.png</thumbnail>
+      <image>https://cf.geekdo-images.com/zIEP5Sz5rPkqdD-GlJqAqA__original/img/IeHG5X30ySg1REnjmf9z8zH9OJI=/0x0/filters:format(png)/pic2775635.png</image>
             				
 		 			
 
@@ -969,8 +1139,8 @@
           
 </item>
 <item type="boardgameversion" id="301263">
-         <thumbnail>https://cf.geekdo-images.com/images/pic2775635_t.png</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic2775635.png</image>
+         <thumbnail>https://cf.geekdo-images.com/zIEP5Sz5rPkqdD-GlJqAqA__thumb/img/lMNFSlhozkvUMKexZ5Pn-o98D-Q=/fit-in/200x150/filters:strip_icc()/pic2775635.png</thumbnail>
+      <image>https://cf.geekdo-images.com/zIEP5Sz5rPkqdD-GlJqAqA__original/img/IeHG5X30ySg1REnjmf9z8zH9OJI=/0x0/filters:format(png)/pic2775635.png</image>
             				
 		 			
 
@@ -1033,74 +1203,9 @@
 	
           
 </item>
-<item type="boardgameversion" id="369161">
-         <thumbnail>https://cf.geekdo-images.com/images/pic3734508_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic3734508.jpg</image>
-            				
-		 			
-
-			
-		
-					<link type="boardgameversion" id="31260" value="Agricola" inbound="true"/>
-		
-									
-			
-
-			                               				
-				<name type="primary" sortindex="1" value="Devir Spanish edition 2016" />
-			
-						                               				
-				<name type="alternate" sortindex="1" value="Spanish revised edition" />
-			
-						      				
-		 			
-
-			
-		
-					<link type="boardgamepublisher" id="2366" value="Devir" />
-		
-									
-			
-
-			      				
-		 			
-
-			
-		
-					<link type="boardgameartist" id="11507" value="Klemens Franz" />
-		
-									
-			
-
-			               				<yearpublished value="2016" />
-						               				<productcode value="A22038782" />
-						               				<width value="8.85827" />
-						               				<length value="12.4016" />
-						               				<depth value="2.75591" />
-						               				<weight value="4.14469" />
-						      				
-		 			
-
-			
-		
-					<link type="language" id="2203" value="Spanish" />
-		
-									
-			
-
-			
-	
-
-	
-
-	
-	
-	
-   
-	
-          
-</item>
 <item type="boardgameversion" id="233951">
+         <thumbnail>https://cf.geekdo-images.com/FRKXaZ5OzLWavcYci28zsA__thumb/img/t-LF9HLkpzgsxjnFnBJxjKZjf6Y=/fit-in/200x150/filters:strip_icc()/pic4893612.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/FRKXaZ5OzLWavcYci28zsA__original/img/KSsKQCdlG81GGpkgyzYyHPCzAHc=/0x0/filters:format(jpeg)/pic4893612.jpg</image>
             				
 		 			
 
@@ -1164,8 +1269,8 @@
           
 </item>
 <item type="boardgameversion" id="90393">
-         <thumbnail>https://cf.geekdo-images.com/images/pic521331_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic521331.jpg</image>
+         <thumbnail>https://cf.geekdo-images.com/8a_9kEsdfoYE4qSKjYwE-Q__thumb/img/PuddJ4uCOln58KdkMnFyzyqtvNg=/fit-in/200x150/filters:strip_icc()/pic521331.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/8a_9kEsdfoYE4qSKjYwE-Q__original/img/XgDVWaTatKN2Ea7p0_CqIKiZubM=/0x0/filters:format(jpeg)/pic521331.jpg</image>
             				
 		 			
 
@@ -1229,8 +1334,8 @@
           
 </item>
 <item type="boardgameversion" id="266028">
-         <thumbnail>https://cf.geekdo-images.com/images/pic2404779_t.png</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic2404779.png</image>
+         <thumbnail>https://cf.geekdo-images.com/2ML1hKCEEbV-mvcWfDLyHQ__thumb/img/42QCvqrH4TJTc5nrEar159oUguU=/fit-in/200x150/filters:strip_icc()/pic2404779.png</thumbnail>
+      <image>https://cf.geekdo-images.com/2ML1hKCEEbV-mvcWfDLyHQ__original/img/XwuGfLjt15vwWKVunRkZqoAAj0g=/0x0/filters:format(png)/pic2404779.png</image>
             				
 		 			
 
@@ -1302,8 +1407,8 @@
           
 </item>
 <item type="boardgameversion" id="154731">
-         <thumbnail>https://cf.geekdo-images.com/images/pic366280_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic366280.jpg</image>
+         <thumbnail>https://cf.geekdo-images.com/yMIotRVTBNgV9Eac-KNe7w__thumb/img/meXHVaUShcpfd8gkNSWeyjmhcUc=/fit-in/200x150/filters:strip_icc()/pic366280.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/yMIotRVTBNgV9Eac-KNe7w__original/img/TBgCcOdeqoeu16Gg9Brr5nsKyjI=/0x0/filters:format(jpeg)/pic366280.jpg</image>
             				
 		 			
 
@@ -1367,8 +1472,8 @@
           
 </item>
 <item type="boardgameversion" id="29502">
-         <thumbnail>https://cf.geekdo-images.com/images/pic366280_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic366280.jpg</image>
+         <thumbnail>https://cf.geekdo-images.com/yMIotRVTBNgV9Eac-KNe7w__thumb/img/meXHVaUShcpfd8gkNSWeyjmhcUc=/fit-in/200x150/filters:strip_icc()/pic366280.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/yMIotRVTBNgV9Eac-KNe7w__original/img/TBgCcOdeqoeu16Gg9Brr5nsKyjI=/0x0/filters:format(jpeg)/pic366280.jpg</image>
             				
 		 			
 
@@ -1432,6 +1537,8 @@
           
 </item>
 <item type="boardgameversion" id="212306">
+         <thumbnail>https://cf.geekdo-images.com/dDDo2Hexl80ucK1IlqTk-g__thumb/img/GHGdnCfeysoP_34gLnofJcNivW8=/fit-in/200x150/filters:strip_icc()/pic831744.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/dDDo2Hexl80ucK1IlqTk-g__original/img/toobKoejPiHpfpHk4SYd1UAJafw=/0x0/filters:format(jpeg)/pic831744.jpg</image>
             				
 		 			
 
@@ -1495,8 +1602,8 @@
           
 </item>
 <item type="boardgameversion" id="70909">
-         <thumbnail>https://cf.geekdo-images.com/images/pic831744_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic831744.jpg</image>
+         <thumbnail>https://cf.geekdo-images.com/dDDo2Hexl80ucK1IlqTk-g__thumb/img/GHGdnCfeysoP_34gLnofJcNivW8=/fit-in/200x150/filters:strip_icc()/pic831744.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/dDDo2Hexl80ucK1IlqTk-g__original/img/toobKoejPiHpfpHk4SYd1UAJafw=/0x0/filters:format(jpeg)/pic831744.jpg</image>
             				
 		 			
 
@@ -1508,7 +1615,7 @@
 			
 
 			                               				
-				<name type="primary" sortindex="1" value="HomoLudicus Spanish Second edition" />
+				<name type="primary" sortindex="1" value="HomoLudicus Spanish second edition" />
 			
 						                           
 						      				
@@ -1560,8 +1667,8 @@
           
 </item>
 <item type="boardgameversion" id="164824">
-         <thumbnail>https://cf.geekdo-images.com/images/pic1303616_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic1303616.jpg</image>
+         <thumbnail>https://cf.geekdo-images.com/pj355c3NMNw1Yi1OPzkVRw__thumb/img/4GeiIG0-6qKV_DSei9EEPZ1jeS4=/fit-in/200x150/filters:strip_icc()/pic1303616.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/pj355c3NMNw1Yi1OPzkVRw__original/img/gOa4JeLsuy5M7pyRusduh_ysSRg=/0x0/filters:format(jpeg)/pic1303616.jpg</image>
             				
 		 			
 
@@ -1625,8 +1732,8 @@
           
 </item>
 <item type="boardgameversion" id="41351">
-         <thumbnail>https://cf.geekdo-images.com/images/pic386206_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic386206.jpg</image>
+         <thumbnail>https://cf.geekdo-images.com/Wp-1Ahqt6N8lvT-xPzk5Gw__thumb/img/9b55rnPY9PaGR71MLmjoLIr--6g=/fit-in/200x150/filters:strip_icc()/pic386206.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/Wp-1Ahqt6N8lvT-xPzk5Gw__original/img/rpOtjML9Fx_un_Rb-eR7-kZV_Pk=/0x0/filters:format(jpeg)/pic386206.jpg</image>
             				
 		 			
 
@@ -1646,7 +1753,7 @@
 
 			
 		
-					<link type="boardgamepublisher" id="8291" value="Korea Boardgames co., Ltd." />
+					<link type="boardgamepublisher" id="8291" value="Korea Boardgames Co., Ltd." />
 		
 									
 			
@@ -1690,8 +1797,8 @@
           
 </item>
 <item type="boardgameversion" id="129767">
-         <thumbnail>https://cf.geekdo-images.com/images/pic1111689_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic1111689.jpg</image>
+         <thumbnail>https://cf.geekdo-images.com/JICnH4IXDSp9K81zn8DF7A__thumb/img/5WEwRhgcU9c4PadzWlesBKDdZnQ=/fit-in/200x150/filters:strip_icc()/pic1111689.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/JICnH4IXDSp9K81zn8DF7A__original/img/tgDMNjQ1LfnPiszcX2Iiv0YDsAk=/0x0/filters:format(jpeg)/pic1111689.jpg</image>
             				
 		 			
 
@@ -1711,7 +1818,7 @@
 
 			
 		
-					<link type="boardgamepublisher" id="8291" value="Korea Boardgames co., Ltd." />
+					<link type="boardgamepublisher" id="8291" value="Korea Boardgames Co., Ltd." />
 		
 									
 			
@@ -1754,74 +1861,9 @@
 	
           
 </item>
-<item type="boardgameversion" id="24739">
-         <thumbnail>https://cf.geekdo-images.com/images/pic1918202_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic1918202.jpg</image>
-            				
-		 			
-
-			
-		
-					<link type="boardgameversion" id="31260" value="Agricola" inbound="true"/>
-		
-									
-			
-
-			                               				
-				<name type="primary" sortindex="1" value="Lacerta Polish first edition 2008" />
-			
-						                           
-						      				
-		 			
-
-			
-		
-					<link type="boardgamepublisher" id="5812" value="Lacerta" />
-		
-									
-			
-
-			      				
-		 			
-
-			
-		
-					<link type="boardgameartist" id="11507" value="Klemens Franz" />
-		
-									
-			
-
-			               				<yearpublished value="2008" />
-						               				<productcode value="" />
-						               				<width value="10.7" />
-						               				<length value="12.4" />
-						               				<depth value="2.2" />
-						               				<weight value="0" />
-						      				
-		 			
-
-			
-		
-					<link type="language" id="2199" value="Polish" />
-		
-									
-			
-
-			
-	
-
-	
-
-	
-	
-	
-   
-	
-          
-</item>
 <item type="boardgameversion" id="22673">
-         <thumbnail>https://cf.geekdo-images.com/images/pic259085_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic259085.jpg</image>
+         <thumbnail>https://cf.geekdo-images.com/GlhhkR3rgNhX3NoHdBe9xg__thumb/img/sjCsq8SVjYxOwEGpVG13yMJ9TSQ=/fit-in/200x150/filters:strip_icc()/pic259085.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/GlhhkR3rgNhX3NoHdBe9xg__original/img/XxH1p3zwIhADV_VZBcutKT4teQ0=/0x0/filters:format(jpeg)/pic259085.jpg</image>
             				
 		 			
 
@@ -1833,7 +1875,7 @@
 			
 
 			                               				
-				<name type="primary" sortindex="1" value="Lookout Games German First edition" />
+				<name type="primary" sortindex="1" value="Lookout Games German first edition" />
 			
 						                           
 						      				
@@ -1885,8 +1927,8 @@
           
 </item>
 <item type="boardgameversion" id="64715">
-         <thumbnail>https://cf.geekdo-images.com/images/pic369755_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic369755.jpg</image>
+         <thumbnail>https://cf.geekdo-images.com/pwrc9Gwt3FfN_rlBP0K2sw__thumb/img/55xBCTzTCqOKh8rG8nIpk2oO5fU=/fit-in/200x150/filters:strip_icc()/pic369755.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/pwrc9Gwt3FfN_rlBP0K2sw__original/img/oJxq714VNxNYv8-DtXESv7H4-uI=/0x0/filters:format(jpeg)/pic369755.jpg</image>
             				
 		 			
 
@@ -1950,8 +1992,8 @@
           
 </item>
 <item type="boardgameversion" id="219203">
-         <thumbnail>https://cf.geekdo-images.com/images/pic1771270_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic1771270.jpg</image>
+         <thumbnail>https://cf.geekdo-images.com/XbOXc_bYHdzIbk2zr-pzhQ__thumb/img/qCR74ZkHxsRsspRCxcdsE5C1pC4=/fit-in/200x150/filters:strip_icc()/pic1771270.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/XbOXc_bYHdzIbk2zr-pzhQ__original/img/4G6PM3IgxmwUmISxXLiYUYexnH8=/0x0/filters:format(jpeg)/pic1771270.jpg</image>
             				
 		 			
 
@@ -2015,8 +2057,8 @@
           
 </item>
 <item type="boardgameversion" id="64718">
-         <thumbnail>https://cf.geekdo-images.com/images/pic902373_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic902373.jpg</image>
+         <thumbnail>https://cf.geekdo-images.com/2Jja9kW_G1CZ8V9ThcZooA__thumb/img/Fvf0VRGo0IBKvE7_qSIbhEAuD0I=/fit-in/200x150/filters:strip_icc()/pic902373.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/2Jja9kW_G1CZ8V9ThcZooA__original/img/ndUPpTMGC_tYzQr9QwdnQe7MC5Q=/0x0/filters:format(jpeg)/pic902373.jpg</image>
             				
 		 			
 
@@ -2080,8 +2122,8 @@
           
 </item>
 <item type="boardgameversion" id="113858">
-         <thumbnail>https://cf.geekdo-images.com/images/pic1048266_t.png</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic1048266.png</image>
+         <thumbnail>https://cf.geekdo-images.com/lajsrK9nvvtkqbC7duVaTg__thumb/img/URjyTPtBRDs5Zv5ikPPv3Hc8-pA=/fit-in/200x150/filters:strip_icc()/pic1048266.png</thumbnail>
+      <image>https://cf.geekdo-images.com/lajsrK9nvvtkqbC7duVaTg__original/img/t8GTut7TsUslozvr_Rbwktwqo7M=/0x0/filters:format(png)/pic1048266.png</image>
             				
 		 			
 
@@ -2153,8 +2195,8 @@
           
 </item>
 <item type="boardgameversion" id="24269">
-         <thumbnail>https://cf.geekdo-images.com/images/pic696660_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic696660.jpg</image>
+         <thumbnail>https://cf.geekdo-images.com/yQ0idkfYcqA4vZOE32QOSA__thumb/img/ePLPSNXAxde5ecfpePjZKEwx28I=/fit-in/200x150/filters:strip_icc()/pic696660.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/yQ0idkfYcqA4vZOE32QOSA__original/img/Yi8l-_uDa7IOxAU5T7CktZOWpUM=/0x0/filters:format(jpeg)/pic696660.jpg</image>
             				
 		 			
 
@@ -2218,8 +2260,8 @@
           
 </item>
 <item type="boardgameversion" id="202718">
-         <thumbnail>https://cf.geekdo-images.com/images/pic1593474_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic1593474.jpg</image>
+         <thumbnail>https://cf.geekdo-images.com/SmGPzzIes3KtgQmg6JoEqw__thumb/img/7DkExnY6z3wu-yGaUANYQLmCjhA=/fit-in/200x150/filters:strip_icc()/pic1593474.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/SmGPzzIes3KtgQmg6JoEqw__original/img/JYCpJaifJApN7zvhyejezDiKIDw=/0x0/filters:format(jpeg)/pic1593474.jpg</image>
             				
 		 			
 
@@ -2283,8 +2325,8 @@
           
 </item>
 <item type="boardgameversion" id="90394">
-         <thumbnail>https://cf.geekdo-images.com/images/pic494642_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic494642.jpg</image>
+         <thumbnail>https://cf.geekdo-images.com/-XUd7onQThOZCEWOJe5fnw__thumb/img/utZoEJ805f3Ieh7bwf-y1nSVsBc=/fit-in/200x150/filters:strip_icc()/pic494642.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/-XUd7onQThOZCEWOJe5fnw__original/img/B1l7E_WpvyGcxmvm8o_AHsZ3e3Q=/0x0/filters:format(jpeg)/pic494642.jpg</image>
             				
 		 			
 
@@ -2347,9 +2389,74 @@
 	
           
 </item>
+<item type="boardgameversion" id="24739">
+         <thumbnail>https://cf.geekdo-images.com/8pslSLH1wCPlO64Qb963wA__thumb/img/Y0Q9eAEfasZwjLFIjnGc5_Wd_9w=/fit-in/200x150/filters:strip_icc()/pic1918202.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/8pslSLH1wCPlO64Qb963wA__original/img/lerwLTW9sEoOOpuE6NxW5ghjyjI=/0x0/filters:format(jpeg)/pic1918202.jpg</image>
+            				
+		 			
+
+			
+		
+					<link type="boardgameversion" id="31260" value="Agricola" inbound="true"/>
+		
+									
+			
+
+			                               				
+				<name type="primary" sortindex="1" value="Polish edition" />
+			
+						                           
+						      				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="5812" value="Lacerta" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="11507" value="Klemens Franz" />
+		
+									
+			
+
+			               				<yearpublished value="2008" />
+						               				<productcode value="" />
+						               				<width value="10.7" />
+						               				<length value="12.4" />
+						               				<depth value="2.2" />
+						               				<weight value="0" />
+						      				
+		 			
+
+			
+		
+					<link type="language" id="2199" value="Polish" />
+		
+									
+			
+
+			
+	
+
+	
+
+	
+	
+	
+   
+	
+          
+</item>
 <item type="boardgameversion" id="27747">
-         <thumbnail>https://cf.geekdo-images.com/images/pic1777300_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic1777300.jpg</image>
+         <thumbnail>https://cf.geekdo-images.com/W8WhiN9I4wDzXOjeuaQaKA__thumb/img/jjCBzRnbQhIElNW4_RCmFP3cNrE=/fit-in/200x150/filters:strip_icc()/pic1777300.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/W8WhiN9I4wDzXOjeuaQaKA__original/img/bvFWxGBnwccxArX_ltMO-Xfo088=/0x0/filters:format(jpeg)/pic1777300.jpg</image>
             				
 		 			
 
@@ -2385,7 +2492,7 @@
 			
 
 			               				<yearpublished value="2009" />
-						               				<productcode value="" />
+						               				<productcode value="SL0029" />
 						               				<width value="10.7" />
 						               				<length value="12.4" />
 						               				<depth value="2.2" />
@@ -2413,8 +2520,8 @@
           
 </item>
 <item type="boardgameversion" id="310376">
-         <thumbnail>https://cf.geekdo-images.com/images/pic3013781_t.png</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic3013781.png</image>
+         <thumbnail>https://cf.geekdo-images.com/lKNNOBuuseN9eGVgvDMGZg__thumb/img/c2N80cfhFTjij3SDqI1XecNjMCE=/fit-in/200x150/filters:strip_icc()/pic3013781.png</thumbnail>
+      <image>https://cf.geekdo-images.com/lKNNOBuuseN9eGVgvDMGZg__original/img/DD2pnHYKeBg31KvgucU9YLBNGz4=/0x0/filters:format(png)/pic3013781.png</image>
             				
 		 			
 
@@ -2478,8 +2585,8 @@
           
 </item>
 <item type="boardgameversion" id="213788">
-         <thumbnail>https://cf.geekdo-images.com/images/pic1712903_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic1712903.jpg</image>
+         <thumbnail>https://cf.geekdo-images.com/1-u0BV_LBZuwxX0xddybJA__thumb/img/72y9VIU1Eb9Kn6pCLeLxQSpGEYQ=/fit-in/200x150/filters:strip_icc()/pic1712903.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/1-u0BV_LBZuwxX0xddybJA__original/img/jG2NHPeStEYQDr39s_X7b8h4Ctk=/0x0/filters:format(jpeg)/pic1712903.jpg</image>
             				
 		 			
 
@@ -2543,8 +2650,8 @@
           
 </item>
 <item type="boardgameversion" id="81718">
-         <thumbnail>https://cf.geekdo-images.com/images/pic902833_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic902833.jpg</image>
+         <thumbnail>https://cf.geekdo-images.com/iizwkx5MRZGPpjt4ZsqPZg__thumb/img/9PuH40FVMzSHfnW81jVblnmLS-E=/fit-in/200x150/filters:strip_icc()/pic902833.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/iizwkx5MRZGPpjt4ZsqPZg__original/img/sulU-JAT1IakASdzcn7UH1YthpE=/0x0/filters:format(jpeg)/pic902833.jpg</image>
             				
 		 			
 
@@ -2608,8 +2715,8 @@
           
 </item>
 <item type="boardgameversion" id="27305">
-         <thumbnail>https://cf.geekdo-images.com/images/pic363468_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic363468.jpg</image>
+         <thumbnail>https://cf.geekdo-images.com/O9fG679e900C8qFqmSCzhg__thumb/img/cEGjWow4rpuhsv6cbcXaEOVVBc4=/fit-in/200x150/filters:strip_icc()/pic363468.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/O9fG679e900C8qFqmSCzhg__original/img/0Mehl0G5bSeKsFKa6uxpQ3Gm76I=/0x0/filters:format(jpeg)/pic363468.jpg</image>
             				
 		 			
 
@@ -2672,9 +2779,267 @@
 	
           
 </item>
+<item type="boardgameversion" id="588548">
+         <thumbnail>https://cf.geekdo-images.com/lEHwc5bP3HQdw8v6WZJ4zQ__thumb/img/cwOWksSp_28gNcIH_qX39Mplyx8=/fit-in/200x150/filters:strip_icc()/pic6526510.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/lEHwc5bP3HQdw8v6WZJ4zQ__original/img/lAp1PstFmoJxABoWcRJArG31HG8=/0x0/filters:format(jpeg)/pic6526510.jpg</image>
+            				
+		 			
+
+			
+		
+					<link type="boardgameversion" id="31260" value="Agricola" inbound="true"/>
+		
+									
+			
+
+			                               				
+				<name type="primary" sortindex="1" value="Ystari French edition 2012" />
+			
+						                           
+						      				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="234" value="Lookout Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="2861" value="Ystari Games" />
+		
+									
+			
+
+			      			
+
+			               				<yearpublished value="2012" />
+						               				<productcode value="" />
+						               				<width value="8.9" />
+						               				<length value="12.4" />
+						               				<depth value="2.2" />
+						               				<weight value="5.51156" />
+						      				
+		 			
+
+			
+		
+					<link type="language" id="2187" value="French" />
+		
+									
+			
+
+			
+	
+
+	
+
+	
+	
+	
+   
+	
+          
+</item>
+<item type="boardgameversion" id="189116">
+         <thumbnail>https://cf.geekdo-images.com/3L6ZtOll9W5O6-3-EwSMyw__thumb/img/TpNF65wCIb1n3EGW18eJJ3MlRMo=/fit-in/200x150/filters:strip_icc()/pic1899157.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/3L6ZtOll9W5O6-3-EwSMyw__original/img/V37KuMJlCzpxAilzN39BzeLvc9Q=/0x0/filters:format(jpeg)/pic1899157.jpg</image>
+            				
+		 			
+
+			
+		
+					<link type="boardgameversion" id="31260" value="Agricola" inbound="true"/>
+		
+									
+			
+
+			                               				
+				<name type="primary" sortindex="1" value="Z-Man English fourth edition" />
+			
+						                           
+						      				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="538" value="Z-Man Games" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="11507" value="Klemens Franz" />
+		
+									
+			
+
+			               				<yearpublished value="2012" />
+						               				<productcode value="ZMG 7026" />
+						               				<width value="9" />
+						               				<length value="12.5984" />
+						               				<depth value="2.87402" />
+						               				<weight value="4.4" />
+						      				
+		 			
+
+			
+		
+					<link type="language" id="2184" value="English" />
+		
+									
+			
+
+			
+	
+
+	
+
+	
+	
+	
+   
+	
+          
+</item>
+<item type="boardgameversion" id="191327">
+            				
+		 			
+
+			
+		
+					<link type="boardgameversion" id="31260" value="Agricola" inbound="true"/>
+		
+									
+			
+
+			                               				
+				<name type="primary" sortindex="1" value="Z-Man English third edition" />
+			
+						                           
+						      				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="538" value="Z-Man Games" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="11507" value="Klemens Franz" />
+		
+									
+			
+
+			               				<yearpublished value="2011" />
+						               				<productcode value="ZMG 7026" />
+						               				<width value="8.94" />
+						               				<length value="12.5" />
+						               				<depth value="2.81" />
+						               				<weight value="0" />
+						      				
+		 			
+
+			
+		
+					<link type="language" id="2184" value="English" />
+		
+									
+			
+
+			
+	
+
+	
+
+	
+	
+	
+   
+	
+          
+</item>
+<item type="boardgameversion" id="21333">
+         <thumbnail>https://cf.geekdo-images.com/tjrgH_wk_5dJmzchL9q7pg__thumb/img/eqKUlyXutwySYnvZiIHAhyheZHs=/fit-in/200x150/filters:strip_icc()/pic352480.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/tjrgH_wk_5dJmzchL9q7pg__original/img/Y0lXwXC965KlxDsF9tFLsJENYYA=/0x0/filters:format(jpeg)/pic352480.jpg</image>
+            				
+		 			
+
+			
+		
+					<link type="boardgameversion" id="31260" value="Agricola" inbound="true"/>
+		
+									
+			
+
+			                               				
+				<name type="primary" sortindex="1" value="Z-Man first edition" />
+			
+						                           
+						      				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="538" value="Z-Man Games" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="11507" value="Klemens Franz" />
+		
+									
+			
+
+			               				<yearpublished value="2008" />
+						               				<productcode value="ZMG7026" />
+						               				<width value="10.7" />
+						               				<length value="12.4" />
+						               				<depth value="2.75" />
+						               				<weight value="4.85" />
+						      				
+		 			
+
+			
+		
+					<link type="language" id="2184" value="English" />
+		
+									
+			
+
+			
+	
+
+	
+
+	
+	
+	
+   
+	
+          
+</item>
 <item type="boardgameversion" id="25707">
-         <thumbnail>https://cf.geekdo-images.com/images/pic352480_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic352480.jpg</image>
+         <thumbnail>https://cf.geekdo-images.com/tjrgH_wk_5dJmzchL9q7pg__thumb/img/eqKUlyXutwySYnvZiIHAhyheZHs=/fit-in/200x150/filters:strip_icc()/pic352480.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/tjrgH_wk_5dJmzchL9q7pg__original/img/Y0lXwXC965KlxDsF9tFLsJENYYA=/0x0/filters:format(jpeg)/pic352480.jpg</image>
             				
 		 			
 
@@ -2738,8 +3103,8 @@
           
 </item>
 <item type="boardgameversion" id="297589">
-         <thumbnail>https://cf.geekdo-images.com/images/pic1899157_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic1899157.jpg</image>
+         <thumbnail>https://cf.geekdo-images.com/3L6ZtOll9W5O6-3-EwSMyw__thumb/img/TpNF65wCIb1n3EGW18eJJ3MlRMo=/fit-in/200x150/filters:strip_icc()/pic1899157.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/3L6ZtOll9W5O6-3-EwSMyw__original/img/V37KuMJlCzpxAilzN39BzeLvc9Q=/0x0/filters:format(jpeg)/pic1899157.jpg</image>
             				
 		 			
 
@@ -2751,7 +3116,7 @@
 			
 
 			                               				
-				<name type="primary" sortindex="1" value="Z-Man Games English fifth edition 2013" />
+				<name type="primary" sortindex="1" value="Z-Man Games English fifth edition" />
 			
 						                           
 						      				
@@ -2818,9 +3183,9 @@
 	
           
 </item>
-<item type="boardgameversion" id="189116">
-         <thumbnail>https://cf.geekdo-images.com/images/pic1899157_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic1899157.jpg</image>
+<item type="boardgameversion" id="174151">
+         <thumbnail>https://cf.geekdo-images.com/tjrgH_wk_5dJmzchL9q7pg__thumb/img/eqKUlyXutwySYnvZiIHAhyheZHs=/fit-in/200x150/filters:strip_icc()/pic352480.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/tjrgH_wk_5dJmzchL9q7pg__original/img/Y0lXwXC965KlxDsF9tFLsJENYYA=/0x0/filters:format(jpeg)/pic352480.jpg</image>
             				
 		 			
 
@@ -2832,72 +3197,7 @@
 			
 
 			                               				
-				<name type="primary" sortindex="1" value="Z-Man Games English fourth edition 2012" />
-			
-						                           
-						      				
-		 			
-
-			
-		
-					<link type="boardgamepublisher" id="538" value="Z-Man Games" />
-		
-									
-			
-
-			      				
-		 			
-
-			
-		
-					<link type="boardgameartist" id="11507" value="Klemens Franz" />
-		
-									
-			
-
-			               				<yearpublished value="2012" />
-						               				<productcode value="ZMG 7026" />
-						               				<width value="8.75" />
-						               				<length value="12.5" />
-						               				<depth value="2.75" />
-						               				<weight value="4.4" />
-						      				
-		 			
-
-			
-		
-					<link type="language" id="2184" value="English" />
-		
-									
-			
-
-			
-	
-
-	
-
-	
-	
-	
-   
-	
-          
-</item>
-<item type="boardgameversion" id="21333">
-         <thumbnail>https://cf.geekdo-images.com/images/pic352480_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic352480.jpg</image>
-            				
-		 			
-
-			
-		
-					<link type="boardgameversion" id="31260" value="Agricola" inbound="true"/>
-		
-									
-			
-
-			                               				
-				<name type="primary" sortindex="1" value="Z-Man Games first edition 2008" />
+				<name type="primary" sortindex="1" value="Z-Man second edition" />
 			
 						                           
 						      				
@@ -2925,134 +3225,6 @@
 						               				<width value="10.7" />
 						               				<length value="12.4" />
 						               				<depth value="2.2" />
-						               				<weight value="4.85" />
-						      				
-		 			
-
-			
-		
-					<link type="language" id="2184" value="English" />
-		
-									
-			
-
-			
-	
-
-	
-
-	
-	
-	
-   
-	
-          
-</item>
-<item type="boardgameversion" id="174151">
-         <thumbnail>https://cf.geekdo-images.com/images/pic352480_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic352480.jpg</image>
-            				
-		 			
-
-			
-		
-					<link type="boardgameversion" id="31260" value="Agricola" inbound="true"/>
-		
-									
-			
-
-			                               				
-				<name type="primary" sortindex="1" value="Z-Man Games second edition" />
-			
-						                           
-						      				
-		 			
-
-			
-		
-					<link type="boardgamepublisher" id="538" value="Z-Man Games" />
-		
-									
-			
-
-			      				
-		 			
-
-			
-		
-					<link type="boardgameartist" id="11507" value="Klemens Franz" />
-		
-									
-			
-
-			               				<yearpublished value="0" />
-						               				<productcode value="" />
-						               				<width value="10.7" />
-						               				<length value="12.4" />
-						               				<depth value="2.2" />
-						               				<weight value="0" />
-						      				
-		 			
-
-			
-		
-					<link type="language" id="2184" value="English" />
-		
-									
-			
-
-			
-	
-
-	
-
-	
-	
-	
-   
-	
-          
-</item>
-<item type="boardgameversion" id="191327">
-            				
-		 			
-
-			
-		
-					<link type="boardgameversion" id="31260" value="Agricola" inbound="true"/>
-		
-									
-			
-
-			                               				
-				<name type="primary" sortindex="1" value="Z-Man Games third edition 2011" />
-			
-						                           
-						      				
-		 			
-
-			
-		
-					<link type="boardgamepublisher" id="538" value="Z-Man Games" />
-		
-									
-			
-
-			      				
-		 			
-
-			
-		
-					<link type="boardgameartist" id="11507" value="Klemens Franz" />
-		
-									
-			
-
-			               				<yearpublished value="2011" />
-						               				<productcode value="ZMG 7026" />
-						               				<width value="8.94" />
-						               				<length value="12.5" />
-						               				<depth value="2.81" />
 						               				<weight value="0" />
 						      				
 		 			
@@ -3083,24 +3255,24 @@
 	
    		<statistics page="1">
 								<ratings >
-			<usersrated value="51439" />
-			<average value="8.0345" />
-			<bayesaverage value="7.93694" />
+			<usersrated value="66820" />
+			<average value="7.92008" />
+			<bayesaverage value="7.80245" />
 
 			<ranks>
-															<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="15" bayesaverage="7.93694" />
-																				<rank type="family" id="5497" name="strategygames" friendlyname="Strategy Game Rank" value="15" bayesaverage="7.91852" />
+															<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="39" bayesaverage="7.80245" />
+																				<rank type="family" id="5497" name="strategygames" friendlyname="Strategy Game Rank" value="43" bayesaverage="7.787" />
 												</ranks>
 
-			<stddev value="1.56465" />
+			<stddev value="1.553" />
 			<median value="0" />
-			<owned value="62141" />
-			<trading value="1121" />
-			<wanting value="1120" />
-			<wishing value="8407" />
-			<numcomments value="11034" />
-			<numweights value="5540" />
-			<averageweight value="3.6319" />
+			<owned value="79306" />
+			<trading value="1307" />
+			<wanting value="1145" />
+			<wishing value="11253" />
+			<numcomments value="13062" />
+			<numweights value="6122" />
+			<averageweight value="3.6395" />
 			</ratings>
 								</statistics>
      
@@ -3108,32 +3280,32 @@
           
 </item>
 <item type="boardgame" id="283">
-         <thumbnail>https://cf.geekdo-images.com/images/pic194375_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic194375.jpg</image>
+         <thumbnail>https://cf.geekdo-images.com/o_9Fdqs4Xiyi6nvyTJT0QQ__thumb/img/o7WCUWTqNsTnH-YMo9K8aXv84Gc=/fit-in/200x150/filters:strip_icc()/pic5417225.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/o_9Fdqs4Xiyi6nvyTJT0QQ__original/img/iWDSqLwV2ptlqNVG0wf0IS4xdUs=/0x0/filters:format(jpeg)/pic5417225.jpg</image>
                                      				
 				<name type="primary" sortindex="1" value="Advanced Third Reich" />
 			
 						                           
-						               													<description>Advanced Third Reich is a board wargame published originally by The Avalon Hill Game Co. The game is a rewrite of Rise and Decline of the Third Reich,  and is a simulation of the European and African theaters of World War II. In 2003 GMT Games published A World at War, a substantially revamped and streamlined version of Advanced Third Reich, designed by Bruce Harper.  Designed to reflect the corps scale, a turn represents three months of movement and fighting.&amp;#10;&amp;#10;</description>
+						               													<description>Advanced Third Reich is a board wargame published originally by The Avalon Hill Game Co. The game is a rewrite of Third Reich,  and is a simulation of the European and African theaters of World War II. In 2003 GMT Games published A World at War, a substantially revamped and streamlined version of Advanced Third Reich, designed by Bruce Harper.  Designed to reflect the corps scale, a turn represents three months of movement and fighting.&amp;#10;&amp;#10;</description>
 										      	               				<yearpublished value="1992" />
 						               				<minplayers value="2" />
 						               				<maxplayers value="6" />
-						      			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="23">
+						      			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="24">
 			
 		<results numplayers="1">		
 					<result value="Best" numvotes="0" />
-					<result value="Recommended" numvotes="3" />
+					<result value="Recommended" numvotes="4" />
 					<result value="Not Recommended" numvotes="9" />
 				</results>					
 			
 		<results numplayers="2">		
 					<result value="Best" numvotes="13" />
-					<result value="Recommended" numvotes="8" />
+					<result value="Recommended" numvotes="9" />
 					<result value="Not Recommended" numvotes="0" />
 				</results>					
 			
 		<results numplayers="3">		
-					<result value="Best" numvotes="6" />
+					<result value="Best" numvotes="7" />
 					<result value="Recommended" numvotes="11" />
 					<result value="Not Recommended" numvotes="1" />
 				</results>					
@@ -3141,32 +3313,31 @@
 		<results numplayers="4">		
 					<result value="Best" numvotes="3" />
 					<result value="Recommended" numvotes="8" />
-					<result value="Not Recommended" numvotes="1" />
+					<result value="Not Recommended" numvotes="2" />
 				</results>					
 			
 		<results numplayers="5">		
 					<result value="Best" numvotes="0" />
 					<result value="Recommended" numvotes="3" />
-					<result value="Not Recommended" numvotes="12" />
+					<result value="Not Recommended" numvotes="13" />
 				</results>					
 			
 		<results numplayers="6">		
 					<result value="Best" numvotes="0" />
 					<result value="Recommended" numvotes="2" />
-					<result value="Not Recommended" numvotes="12" />
+					<result value="Not Recommended" numvotes="13" />
 				</results>					
 			
 		<results numplayers="6+">		
 					<result value="Best" numvotes="0" />
 					<result value="Recommended" numvotes="0" />
-					<result value="Not Recommended" numvotes="9" />
+					<result value="Not Recommended" numvotes="10" />
 				</results>					
-	</poll> 
-			               				<playingtime value="2480" />
+	</poll> 			               				<playingtime value="2480" />
 						               				<minplaytime value="2480" />
 						               				<maxplaytime value="2480" />
 						               				<minage value="12" />
-						      			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="8">
+						      			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="9">
 			<results>		
 					<result value="2" numvotes="0" />
 					<result value="3" numvotes="0" />
@@ -3176,24 +3347,21 @@
 					<result value="8" numvotes="0" />
 					<result value="10" numvotes="0" />
 					<result value="12" numvotes="1" />
-					<result value="14" numvotes="1" />
+					<result value="14" numvotes="2" />
 					<result value="16" numvotes="5" />
 					<result value="18" numvotes="1" />
 					<result value="21 and up" numvotes="0" />
 				</results>					
-	</poll> 
-			      			<poll name="language_dependence" title="Language Dependence" totalvotes="10">
+	</poll> 			      			<poll name="language_dependence" title="Language Dependence" totalvotes="10">
 			
 		<results>		
-					<result level="1" value="No necessary in-game text" numvotes="1" />
-					<result level="2" value="Some necessary text - easily memorized or small crib sheet" numvotes="0" />
-					<result level="3" value="Moderate in-game text - needs crib sheet or paste ups" numvotes="6" />
-					<result level="4" value="Extensive use of text - massive conversion needed to be playable" numvotes="2" />
-					<result level="5" value="Unplayable in another language" numvotes="1" />
+					<result level="6" value="No necessary in-game text" numvotes="1" />
+					<result level="7" value="Some necessary text - easily memorized or small crib sheet" numvotes="0" />
+					<result level="8" value="Moderate in-game text - needs crib sheet or paste ups" numvotes="6" />
+					<result level="9" value="Extensive use of text - massive conversion needed to be playable" numvotes="2" />
+					<result level="10" value="Unplayable in another language" numvotes="1" />
 				</results>					
-	</poll> 
-			      			 
-			      				
+	</poll> 			      			 			      				
 		 			
 
 			
@@ -3224,7 +3392,23 @@
 
 			
 		
-					<link type="boardgamemechanic" id="2026" value="Hex-and-Counter" />
+					<link type="boardgamemechanic" id="2676" value="Grid Movement" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2026" value="Hexagon Grid" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2822" value="Scenario / Mission / Campaign Game" />
 		
 									
 				
@@ -3235,15 +3419,55 @@
 					<link type="boardgamemechanic" id="2070" value="Simulation" />
 		
 									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2849" value="Tech Trees / Tech Tracks" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="64960" value="Components: Map (Continental / National scale)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="50153" value="Continents: Europe" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="64754" value="Series: Third Reich (Avalon Hill and others)" />
+		
+									
 			
 
 			      			
 
 			      			
 
-			      			
+			      				
+		 			
 
-			      			
+			
+		
+					<link type="boardgameintegration" id="5034" value="Empire of the Rising Sun" />
+		
+									
+			
 
 			      			
 
@@ -3304,8 +3528,8 @@
 					</videos>
 
 	<versions><item type="boardgameversion" id="24250">
-         <thumbnail>https://cf.geekdo-images.com/images/pic194375_t.jpg</thumbnail>
-      <image>https://cf.geekdo-images.com/images/pic194375.jpg</image>
+         <thumbnail>https://cf.geekdo-images.com/o_9Fdqs4Xiyi6nvyTJT0QQ__thumb/img/o7WCUWTqNsTnH-YMo9K8aXv84Gc=/fit-in/200x150/filters:strip_icc()/pic5417225.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/o_9Fdqs4Xiyi6nvyTJT0QQ__original/img/iWDSqLwV2ptlqNVG0wf0IS4xdUs=/0x0/filters:format(jpeg)/pic5417225.jpg</image>
             				
 		 			
 
@@ -3317,7 +3541,7 @@
 			
 
 			                               				
-				<name type="primary" sortindex="1" value="Avalon Hill First Edition" />
+				<name type="primary" sortindex="1" value="English edition" />
 			
 						                           
 						      				
@@ -3367,24 +3591,24 @@
 	
    		<statistics page="1">
 								<ratings >
-			<usersrated value="655" />
-			<average value="6.7602" />
-			<bayesaverage value="5.93935" />
+			<usersrated value="746" />
+			<average value="6.9129" />
+			<bayesaverage value="5.8599" />
 
 			<ranks>
-															<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="2288" bayesaverage="5.93935" />
-																				<rank type="family" id="4664" name="wargames" friendlyname="War Game Rank" value="458" bayesaverage="6.45505" />
+															<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="3394" bayesaverage="5.8599" />
+																				<rank type="family" id="4664" name="wargames" friendlyname="War Game Rank" value="498" bayesaverage="6.4583" />
 												</ranks>
 
-			<stddev value="1.75192" />
+			<stddev value="1.77314" />
 			<median value="0" />
-			<owned value="1395" />
-			<trading value="94" />
-			<wanting value="32" />
-			<wishing value="68" />
-			<numcomments value="325" />
-			<numweights value="113" />
-			<averageweight value="4.5221" />
+			<owned value="1618" />
+			<trading value="99" />
+			<wanting value="29" />
+			<wishing value="98" />
+			<numcomments value="374" />
+			<numweights value="122" />
+			<averageweight value="4.5328" />
 			</ratings>
 								</statistics>
      

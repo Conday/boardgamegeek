@@ -1,17 +1,231 @@
-<?xml version="1.0" encoding="utf-8"?><plays total="104" page="1" termsofuse="http://boardgamegeek.com/xmlapi/termsofuse">
-<play id="26836446" userid="1128673" date="2018-01-04" quantity="2" length="0" incomplete="0" nowinstats="0" location="">
+<?xml version="1.0" encoding="utf-8"?><plays total="128" page="1" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
+<play id="58744219" userid="728093" date="2022-02-26" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
 			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
-	<play id="24624951" userid="523013" date="2017-08-13" quantity="3" length="0" incomplete="0" nowinstats="0" location="">
+	<play id="58396992" userid="8179" date="2022-02-13" quantity="1" length="300" incomplete="0" nowinstats="0" location="Basement">
 			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>1940 scenario solo; German tactical victory</comments>
+									<players>
+									<player username="SnowWarrior" userid="8179" name="Jonathan Snowden" startposition="" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="58397024" userid="8179" date="2022-02-12" quantity="1" length="120" incomplete="1" nowinstats="0" location="Basement">
+			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>1940 scenario solitaire; big German loss - took too long to take France</comments>
+									<players>
+									<player username="SnowWarrior" userid="8179" name="Jonathan Snowden" startposition="" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="53825470" userid="2894970" date="2021-08-26" quantity="4" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="53308646" userid="1050" date="2021-08-02" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="52595132" userid="2096441" date="2021-07-04" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="50527742" userid="735542" date="2021-04-07" quantity="5" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="47908984" userid="266999" date="2020-12-28" quantity="1" length="120" incomplete="0" nowinstats="0" location="">
+			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>Solo 1940 scenario. Allied decisive victory.</comments>
+								</play>
+	<play id="46609834" userid="228673" date="2020-10-30" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="45218583" userid="505965" date="2020-08-24" quantity="1" length="1500" incomplete="0" nowinstats="0" location="">
+			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>With a &quot;peace strategy&quot; from the German, the Allied won in summer 1945. I was the German, and Russia was about to surrender two times ( 0 pt on the surrender list !  )
+But when Italy fall, all my south exploded and the allied raced to Berlin.
+A Great game !</comments>
+								</play>
+	<play id="42750794" userid="2522749" date="2020-04-30" quantity="6" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="42698231" userid="131908" date="2020-04-27" quantity="15" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="41897106" userid="171971" date="2020-03-24" quantity="2" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="42026791" userid="8179" date="2020-03-01" quantity="1" length="840" incomplete="0" nowinstats="0" location="Temple, TX">
+			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>‘41 scenario. I was Western Allies.</comments>
+								</play>
+	<play id="40038695" userid="304209" date="2019-12-29" quantity="1" length="360" incomplete="1" nowinstats="0" location="Craig&apos;s">
+			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="pete6982" userid="304209" name="Peter Hansen" startposition="" color="" score="" new="0" rating="0" win="0" />
+						<player username="Craig Ceja" userid="185271" name="Craig Ceja" startposition="" color="" score="" new="0" rating="0" win="0" />
+						<player username="Seabass93" userid="1302479" name="Michael Bass" startposition="" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="39839544" userid="304209" date="2019-12-26" quantity="1" length="180" incomplete="1" nowinstats="0" location="Meta-Games Unlimited">
+			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="38440900" userid="439755" date="2019-10-24" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="33941271" userid="506595" date="2019-02-17" quantity="1" length="360" incomplete="1" nowinstats="1" location="De Bello Ludico (Cerveteri - RM)">
+			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="Riccardo Rigillo" userid="506595" name="Riccardo Rigillo" startposition="" color="URSS/France" score="" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Maurizio Catacchini" startposition="" color="Germany/Italy" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Marco Lombardi" startposition="" color="Britain/USA" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="30768892" userid="1936745" date="2018-08-27" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="27812863" userid="8179" date="2018-02-24" quantity="1" length="1080" incomplete="0" nowinstats="0" location="Temple, TX">
+			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="26836446" userid="1128673" date="2018-01-04" quantity="2" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="33532682" userid="28459" date="2018-01-01" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="24624951" userid="523013" date="2017-08-13" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -20,14 +234,7 @@
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
-									</subtypes>
-			</item>
-								</play>
-	<play id="23572737" userid="1580623" date="2017-06-01" quantity="53" length="0" incomplete="0" nowinstats="0" location="">
-			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
-				<subtypes>
-										<subtype value="boardgame" />
-										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -36,6 +243,16 @@
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="23572737" userid="1580623" date="2017-06-01" quantity="53" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -44,6 +261,7 @@
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -52,6 +270,7 @@
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -60,6 +279,7 @@
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -68,6 +288,7 @@
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -76,6 +297,7 @@
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -84,6 +306,7 @@
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -92,6 +315,7 @@
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -100,6 +324,7 @@
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -108,6 +333,7 @@
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -116,6 +342,7 @@
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -124,6 +351,7 @@
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -132,6 +360,7 @@
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -140,6 +369,7 @@
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -148,6 +378,7 @@
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -156,6 +387,7 @@
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -164,6 +396,7 @@
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 						<comments>Played pre-BGG</comments>
@@ -173,6 +406,7 @@
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -181,6 +415,7 @@
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -189,6 +424,7 @@
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -197,6 +433,7 @@
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -205,6 +442,7 @@
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 						<comments>Axis ekes out marginal victory with 28 objective hexes at end of winter 1944.</comments>
@@ -214,6 +452,7 @@
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -222,6 +461,7 @@
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -230,6 +470,7 @@
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 						<comments>So much plays, as of this date. Still running games with friends, alternating sides from game to game.</comments>
@@ -239,6 +480,7 @@
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 						<comments>8th play
@@ -264,6 +506,7 @@ North germany not defended enough: invasion by wilhelmshaven and berlin, essen a
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -272,14 +515,16 @@ North germany not defended enough: invasion by wilhelmshaven and berlin, essen a
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
-	<play id="10360852" userid="159357" date="2013-10-21" quantity="1" length="180" incomplete="1" nowinstats="0" location="Warren&#039;s Place">
+	<play id="10360852" userid="159357" date="2013-10-21" quantity="1" length="180" incomplete="1" nowinstats="0" location="Warren&apos;s Place">
 			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 						<comments>This was really just a tutorial to introduce Vinny and Warren to the game, in preparation of playing AWAW.</comments>
@@ -294,6 +539,7 @@ North germany not defended enough: invasion by wilhelmshaven and berlin, essen a
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 						<comments>Played with Darryl despite having just one evening to play and Darryl new to the game, wow. We played until winter 41 with a low winter roll (a two) and Papa Hoth one hex from Moscow and Gorki. German airborne had taken Malta and Mussallini had just driven tanks in behind Alexandria, almost closing the canal. I love getting games like this in. </comments>
@@ -307,6 +553,7 @@ North germany not defended enough: invasion by wilhelmshaven and berlin, essen a
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -315,6 +562,7 @@ North germany not defended enough: invasion by wilhelmshaven and berlin, essen a
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 						<comments>Played a solo just for the heck of it. Went with a fairly normal strategy. It worked very well, the Germans were a bit ahead in Fall 43. Posted a cool shot from this game.</comments>
@@ -327,6 +575,7 @@ North germany not defended enough: invasion by wilhelmshaven and berlin, essen a
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 						<comments>Ended Autumn 1942
@@ -340,6 +589,7 @@ Axis control of Mediterranean-North African-Eastern theater (from Gibraltar, Spa
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 						<comments>Ended Summer 1941
@@ -351,6 +601,7 @@ Allied-USSR (Pere T, Pere M and Teri) surrendered after decisive Axis (Alex and 
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 						<comments>Introductory game</comments>
@@ -367,6 +618,7 @@ Allied-USSR (Pere T, Pere M and Teri) surrendered after decisive Axis (Alex and 
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 						<comments>7th Play
@@ -384,6 +636,7 @@ USSR surrender summer 43/I
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -392,6 +645,7 @@ USSR surrender summer 43/I
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -400,6 +654,7 @@ USSR surrender summer 43/I
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 						<comments>6th play
@@ -419,6 +674,7 @@ Italy surrender spring 43/I
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -427,6 +683,7 @@ Italy surrender spring 43/I
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -435,6 +692,7 @@ Italy surrender spring 43/I
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -443,6 +701,7 @@ Italy surrender spring 43/I
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 						<comments>5th Play
@@ -450,7 +709,7 @@ Fr surrender Fall 40/II
 USSR Surrender Fall 42/II !!!
 Germany surrender Winter 42/II !!!!
 (invasion north germany: Hamburg)
-Published in forum session: Churchill&#039;s dream
+Published in forum session: Churchill&apos;s dream
 https://boardgamegeek.com/thread/1172258/churchills-dream
 
 
@@ -466,6 +725,7 @@ https://boardgamegeek.com/thread/1172258/churchills-dream
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 						<comments>4th play
@@ -480,11 +740,21 @@ we decide to nullify that game and start another one</comments>
 						<player username="jlelrd" userid="146547" name="Jean" startposition="Campaign" color="" score="" new="0" rating="0" win="0" />
 						</players>
 					</play>
+	<play id="44954925" userid="505965" date="2012-05-08" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
 	<play id="7313956" userid="266999" date="2012-04-06" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
 			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -493,6 +763,7 @@ we decide to nullify that game and start another one</comments>
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -501,6 +772,7 @@ we decide to nullify that game and start another one</comments>
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 						<comments>3rd play
@@ -520,6 +792,7 @@ USSR surrender Winter 42, US/GB Give up
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -528,6 +801,7 @@ USSR surrender Winter 42, US/GB Give up
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 						<comments>2nd play
@@ -544,17 +818,19 @@ axis surrender: Summer 44
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
-	<play id="4800703" userid="159357" date="2010-09-20" quantity="1" length="1800" incomplete="0" nowinstats="1" location="George&#039;s Place">
+	<play id="4800703" userid="159357" date="2010-09-20" quantity="1" length="1800" incomplete="0" nowinstats="1" location="George&apos;s Place">
 			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
-						<comments>Played solo, couldn&#039;t resist. Worked fantastic, went with a Med stratagy, never hurt Russia enough. Germany fell hard in Summer/45 after they had BRP collapse (hadn&#039;t increased the base by but 6 brp&#039;s), could have had a one-to-one on Berlin in spring.</comments>
+						<comments>Played solo, couldn&apos;t resist. Worked fantastic, went with a Med stratagy, never hurt Russia enough. Germany fell hard in Summer/45 after they had BRP collapse (hadn&apos;t increased the base by but 6 brp&apos;s), could have had a one-to-one on Berlin in spring.</comments>
 									<players>
 									<player username="Gwfalcon" userid="159357" name="George" startposition="" color="" score="" new="1" rating="0" win="0" />
 						</players>
@@ -564,6 +840,7 @@ axis surrender: Summer 44
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -572,6 +849,7 @@ axis surrender: Summer 44
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -580,6 +858,7 @@ axis surrender: Summer 44
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -588,6 +867,7 @@ axis surrender: Summer 44
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 						<comments>Cumulative to date.</comments>
@@ -597,6 +877,7 @@ axis surrender: Summer 44
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -605,6 +886,7 @@ axis surrender: Summer 44
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -613,6 +895,7 @@ axis surrender: Summer 44
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -621,6 +904,7 @@ axis surrender: Summer 44
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -629,6 +913,7 @@ axis surrender: Summer 44
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -637,6 +922,7 @@ axis surrender: Summer 44
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -645,6 +931,7 @@ axis surrender: Summer 44
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -653,6 +940,7 @@ axis surrender: Summer 44
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -661,6 +949,16 @@ axis surrender: Summer 44
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="27653009" userid="178187" date="2008-02-17" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -669,6 +967,7 @@ axis surrender: Summer 44
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -677,14 +976,7 @@ axis surrender: Summer 44
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
-									</subtypes>
-			</item>
-								</play>
-	<play id="1330497" userid="40899" date="2007-10-06" quantity="2" length="0" incomplete="0" nowinstats="0" location="">
-			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
-				<subtypes>
-										<subtype value="boardgame" />
-										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -693,6 +985,7 @@ axis surrender: Summer 44
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -701,6 +994,7 @@ axis surrender: Summer 44
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -709,6 +1003,7 @@ axis surrender: Summer 44
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -717,6 +1012,7 @@ axis surrender: Summer 44
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -725,6 +1021,7 @@ axis surrender: Summer 44
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -733,6 +1030,7 @@ axis surrender: Summer 44
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>
@@ -741,195 +1039,7 @@ axis surrender: Summer 44
 				<subtypes>
 										<subtype value="boardgame" />
 										<subtype value="boardgameimplementation" />
-									</subtypes>
-			</item>
-								</play>
-	<play id="574697" userid="97346" date="2006-06-19" quantity="3" length="0" incomplete="0" nowinstats="0" location="">
-			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
-				<subtypes>
-										<subtype value="boardgame" />
-										<subtype value="boardgameimplementation" />
-									</subtypes>
-			</item>
-								</play>
-	<play id="10956492" userid="118153" date="2006-01-01" quantity="3" length="0" incomplete="0" nowinstats="0" location="">
-			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
-				<subtypes>
-										<subtype value="boardgame" />
-										<subtype value="boardgameimplementation" />
-									</subtypes>
-			</item>
-								</play>
-	<play id="16387405" userid="968997" date="2004-08-14" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
-			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
-				<subtypes>
-										<subtype value="boardgame" />
-										<subtype value="boardgameimplementation" />
-									</subtypes>
-			</item>
-								</play>
-	<play id="1946078" userid="64522" date="2004-07-09" quantity="10" length="0" incomplete="0" nowinstats="0" location="">
-			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
-				<subtypes>
-										<subtype value="boardgame" />
-										<subtype value="boardgameimplementation" />
-									</subtypes>
-			</item>
-								</play>
-	<play id="580682" userid="20097" date="2004-06-25" quantity="2" length="0" incomplete="0" nowinstats="0" location="">
-			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
-				<subtypes>
-										<subtype value="boardgame" />
-										<subtype value="boardgameimplementation" />
-									</subtypes>
-			</item>
-								</play>
-	<play id="6311" userid="4178" date="2003-08-20" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
-			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
-				<subtypes>
-										<subtype value="boardgame" />
-										<subtype value="boardgameimplementation" />
-									</subtypes>
-			</item>
-								</play>
-	<play id="616861" userid="6586" date="2003-07-16" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
-			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
-				<subtypes>
-										<subtype value="boardgame" />
-										<subtype value="boardgameimplementation" />
-									</subtypes>
-			</item>
-								</play>
-	<play id="1216257" userid="150968" date="2002-08-04" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
-			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
-				<subtypes>
-										<subtype value="boardgame" />
-										<subtype value="boardgameimplementation" />
-									</subtypes>
-			</item>
-								</play>
-	<play id="14006581" userid="222883" date="2000-02-17" quantity="12" length="0" incomplete="0" nowinstats="0" location="">
-			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
-				<subtypes>
-										<subtype value="boardgame" />
-										<subtype value="boardgameimplementation" />
-									</subtypes>
-			</item>
-								</play>
-	<play id="17866343" userid="139707" date="2000-02-12" quantity="1" length="240" incomplete="0" nowinstats="0" location="Home">
-			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
-				<subtypes>
-										<subtype value="boardgame" />
-										<subtype value="boardgameimplementation" />
-									</subtypes>
-			</item>
-									<players>
-									<player username="CoyoteD1" userid="139707" name="John" startposition="" color="" score="" new="0" rating="0" win="0" />
-						<player username="" userid="0" name="Tim" startposition="" color="" score="" new="0" rating="0" win="0" />
-						<player username="" userid="0" name="Chris" startposition="" color="" score="" new="0" rating="0" win="0" />
-						<player username="" userid="0" name="Jeremy" startposition="" color="" score="" new="0" rating="0" win="0" />
-						</players>
-					</play>
-	<play id="825244" userid="12267" date="1998-09-07" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
-			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
-				<subtypes>
-										<subtype value="boardgame" />
-										<subtype value="boardgameimplementation" />
-									</subtypes>
-			</item>
-								</play>
-	<play id="997131" userid="131699" date="1998-06-10" quantity="2" length="0" incomplete="0" nowinstats="0" location="">
-			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
-				<subtypes>
-										<subtype value="boardgame" />
-										<subtype value="boardgameimplementation" />
-									</subtypes>
-			</item>
-								</play>
-	<play id="5041237" userid="178187" date="1995-11-25" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
-			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
-				<subtypes>
-										<subtype value="boardgame" />
-										<subtype value="boardgameimplementation" />
-									</subtypes>
-			</item>
-								</play>
-	<play id="4384893" userid="199031" date="1995-06-02" quantity="2" length="0" incomplete="0" nowinstats="0" location="Dragón">
-			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
-				<subtypes>
-										<subtype value="boardgame" />
-										<subtype value="boardgameimplementation" />
-									</subtypes>
-			</item>
-						<comments>4 jugadores</comments>
-								</play>
-	<play id="4302669" userid="263444" date="1995-05-11" quantity="14" length="0" incomplete="0" nowinstats="0" location="">
-			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
-				<subtypes>
-										<subtype value="boardgame" />
-										<subtype value="boardgameimplementation" />
-									</subtypes>
-			</item>
-								</play>
-	<play id="3562325" userid="34222" date="1994-09-11" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
-			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
-				<subtypes>
-										<subtype value="boardgame" />
-										<subtype value="boardgameimplementation" />
-									</subtypes>
-			</item>
-								</play>
-	<play id="19323419" userid="241178" date="1994-08-25" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
-			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
-				<subtypes>
-										<subtype value="boardgame" />
-										<subtype value="boardgameimplementation" />
-									</subtypes>
-			</item>
-								</play>
-	<play id="7757039" userid="438985" date="1994-02-01" quantity="1" length="0" incomplete="1" nowinstats="0" location="Paris">
-			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
-				<subtypes>
-										<subtype value="boardgame" />
-										<subtype value="boardgameimplementation" />
-									</subtypes>
-			</item>
-						<comments>1st play....we discovered the rules changes from 3R4</comments>
-									<players>
-									<player username="A3R4" userid="438985" name="Armand" startposition="" color="Axis" score="" new="0" rating="0" win="0" />
-						<player username="" userid="0" name="Henri" startposition="" color="FR/USSR" score="" new="0" rating="0" win="1" />
-						<player username="jlelrd" userid="146547" name="Jean" startposition="" color="GB/US" score="" new="0" rating="0" win="1" />
-						</players>
-					</play>
-	<play id="3417326" userid="143160" date="1992-10-30" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
-			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
-				<subtypes>
-										<subtype value="boardgame" />
-										<subtype value="boardgameimplementation" />
-									</subtypes>
-			</item>
-								</play>
-	<play id="4884917" userid="78108" date="1992-10-16" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
-			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
-				<subtypes>
-										<subtype value="boardgame" />
-										<subtype value="boardgameimplementation" />
-									</subtypes>
-			</item>
-								</play>
-	<play id="4218776" userid="44869" date="1992-09-12" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
-			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
-				<subtypes>
-										<subtype value="boardgame" />
-										<subtype value="boardgameimplementation" />
-									</subtypes>
-			</item>
-								</play>
-	<play id="26788308" userid="20181" date="1982-12-31" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
-			<item name="Advanced Third Reich" objecttype="thing" objectid="283">
-				<subtypes>
-										<subtype value="boardgame" />
-										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
 									</subtypes>
 			</item>
 								</play>

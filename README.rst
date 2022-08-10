@@ -19,6 +19,7 @@ Development status: **unmaintained**
 API.
 
 It's an almost completely rewritten fork of libBGG_.
+Fork of https://github.com/lcosmin/boardgamegeek Several Features dont work correctly so they are being updated to be used with our Discord bot.
 
 
 Documentation

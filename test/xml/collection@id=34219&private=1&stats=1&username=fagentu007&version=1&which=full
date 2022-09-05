@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<items totalitems="40" termsofuse="http://boardgamegeek.com/xmlapi/termsofuse" pubdate="Thu, 28 Dec 2017 19:40:28 +0000">
+	<item objecttype="thing" objectid="34219" subtype="boardgame" collid="24203808">
+		<name sortindex="1">Biblios</name>
+		<yearpublished>2007</yearpublished>
+		<image>https://cf.geekdo-images.com/images/pic759154.jpg</image>
+		<thumbnail>https://cf.geekdo-images.com/images/pic759154_t.jpg</thumbnail>
+		<stats minplayers="2" maxplayers="4" minplaytime="30" maxplaytime="30" playingtime="30" numowned="14232" >
+			<rating value="6">			<usersrated value="11105" />
+			<average value="7.23929" />
+			<bayesaverage value="7.07608" />
+			<stddev value="1.16002" />
+			<median value="0" />
+			<ranks>
+				<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="279" bayesaverage="7.07608" />
+				<rank type="family" id="5497" name="strategygames" friendlyname="Strategy Game Rank" value="207" bayesaverage="7.09696" />
+				<rank type="family" id="5499" name="familygames" friendlyname="Family Game Rank" value="43" bayesaverage="7.11755" />
+			</ranks>
+			</rating>
+		</stats>
+		<privateinfo pp_currency="USD" pricepaid="15" cv_currency="CAD" currvalue="18" quantity="1" acquisitiondate="2014-01-01" acquiredfrom="garage sale" inventorylocation="home">
+			<privatecomment>Private comment.</privatecomment>
+		</privateinfo>
+		<comment>Public comment.</comment>
+		<status own="0" prevowned="0" fortrade="0" want="0" wanttoplay="0" wanttobuy="0" wishlist="1" wishlistpriority="3" preordered="0" lastmodified="2014-07-31 07:58:19" />
+		<numplays>5</numplays>
+	</item>
+</items>

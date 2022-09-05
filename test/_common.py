@@ -1,13 +1,13 @@
 # coding: utf-8
 
+import glob
+import io
 import logging
 import os
-import io
 import pytest
-import sys
 import re
+import sys
 import xml.etree.ElementTree as ET
-
 
 from boardgamegeek import BGGClient, BGGClientLegacy, CacheBackendNone
 
@@ -49,6 +49,7 @@ else:
 XML_PATH = os.path.join(os.path.dirname(__file__), "xml")
 STATUS_PATH = os.path.join(os.path.dirname(__file__), "status")
 
+
 @pytest.fixture
 def xml():
     xml_code = """
@@ -64,6 +65,88 @@ def xml():
     </root>
     """
     return ET.fromstring(xml_code)
+
+
+def glob_xml_name(filepath, allow_any=False):
+    """
+    Get the name (or raise an exception) of an XML sample in ``XML_PATH`` matching a glob pattern.
+    :param str filepath: glob pattern to use for search
+    :param bool allow_any: If multiple files match the pattern, controls whether an exception is thrown (if ``False``) or one of the multiple files is picked & used (if ``True``).
+    :retval str: the pathname of a matching file
+    :raises FileNotFoundError: if no file matches the given pattern
+    :raises FileExistsError: if multiple files match the given pattern and ``allowAny`` is ``False``
+    ::
+    """
+    filenames = glob.glob(os.path.join(XML_PATH, os.path.basename(filepath)))
+    if 1 == len(filenames) or (filenames and allow_any):
+        return filenames[0]
+    elif filenames:
+        raise FileExistsError(f"Found multiple XML samples matching '{filepath}'")
+    else:
+        raise FileNotFoundError(f"No XML samples matching: '{filepath}'")
+
+
+def glob_xml_contents(filepath, allow_any=False):
+    """
+    Get the content (or raise an exception) of an XML sample in ``XML_PATH`` matching a glob pattern.
+    :param str filepath: glob pattern to use for search
+    :param bool allow_any: If multiple files match the pattern, controls whether an exception is thrown (if ``False``) or one of the multiple files is picked & used (if ``True``).
+    :retval str: the contents of a matching file
+    :raises FileNotFoundError: if no file matches the given pattern
+    :raises FileExistsError: if multiple files match the given pattern and ``allowAny`` is ``False``
+    ::
+    """
+    filename = glob_xml_name(filepath, allow_any=allow_any)
+    with open(filename) as xml_file:
+        xml = xml_file.read()
+    return xml
+
+
+def open_and_parse_xml(which_xml, params=None, allow_any=False):
+    """
+    Get an XML sample and return the parsed result.
+    :param str which_xml: partial URL endpoint or glob pattern for the XML sample
+    :param dict params: query parameters (only if which_xml is an endpoint)
+    :param bool allow_any: If multiple files match the pattern, controls whether an exception is thrown (if ``False``) or one of the multiple files is picked & used (if ``True``).
+    :retval xml.etree.ElementTree.Element: the contents of a matching file, parsed as XML
+    :raises FileNotFoundError: if no file matches the given pattern
+    :raises FileExistsError: if multiple files match the given pattern and ``allowAny`` is ``False``
+    """
+    if params is not None:
+        response = simulate_bgg("/" + which_xml, params, timeout=-1)
+        xml = response.text
+    else:
+        xml = glob_xml_contents(which_xml, allow_any=allow_any)
+
+    if sys.version_info >= (3,):
+        return ET.fromstring(xml)
+    else:
+        return ET.fromstring(xml.encode("utf-8"))
+
+
+@pytest.fixture
+def xml_collection_minimal():
+    return open_and_parse_xml("collection@*&which=minimal")
+
+
+@pytest.fixture
+def xml_collection_brief():
+    return open_and_parse_xml("collection@*&which=brief")
+
+
+@pytest.fixture
+def xml_collection_error():
+    return open_and_parse_xml("collection", {"username": TEST_INVALID_USER, "subtype": "boardgame", "stats": 1})
+
+
+@pytest.fixture
+def xml_collection_full():
+    return open_and_parse_xml("collection@*&which=full")
+
+
+@pytest.fixture
+def xml_collection_without_stats():
+    return open_and_parse_xml("collection@*&which=nostats", allow_any=True)
 
 
 @pytest.fixture
